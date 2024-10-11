@@ -1,9 +1,8 @@
-# Hi there, I'm Yaroslav 👋
+# ✌️Hi there, I'm UX/UI Designer
 
-**UX/UI Designer**
-
+---
 **📄[LinkedIn](https://www.linkedin.com/in/yaroslavkorotkikh)  |  🤙[Telegram](https://t.me/yourawsluv)  |  💌[Email](mailto:yaroslawkorotkih@yandex.ru)**
-
+---
 
 ## 📜 О себе
 
@@ -15,16 +14,15 @@
 
 ### **Kanoe Wallet**
 - #Blockchain #dApp #Fintech
-- ![Static Badge](https://img.shields.io/badge/Figma?logo=figma)
-(https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1)
+![Static Badge](https://img.shields.io/badge/Figma-Link-blue?style=for-the-badge&logo=figma&logoColor=white&labelColor=black&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlarczXzN5oQlcRHiUXW2LZ%2FKanoe-Wallet-SRS-App%3Fnode-id%3D59-40224%26t%3DfQiC5Y1CPyVBDLbx-1)
 
 ### **MirrorDAO**
 - #DAO #dApp #Software #Blockchain
-- [Figma](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=0-1&t=04iPDPk98aHil4FF-1)
+![Static Badge](https://img.shields.io/badge/Figma-Link-blue?style=for-the-badge&logo=figma&logoColor=white&labelColor=black&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlarczXzN5oQlcRHiUXW2LZ%2FKanoe-Wallet-SRS-App%3Fnode-id%3D59-40224%26t%3DfQiC5Y1CPyVBDLbx-1)
 
 ### **Claimy**
 - #Blockchain #dApp #Fintech
-- [Figma](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=qO8PttIdBtvL3U7C-1) 
+![Static Badge](https://img.shields.io/badge/Figma-Link-blue?style=for-the-badge&logo=figma&logoColor=white&labelColor=black&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlarczXzN5oQlcRHiUXW2LZ%2FKanoe-Wallet-SRS-App%3Fnode-id%3D59-40224%26t%3DfQiC5Y1CPyVBDLbx-1)
 
 ---
 
