@@ -1,29 +1,42 @@
 # ✌️Hi there, I'm UX/UI Designer
 
----
 **📄[LinkedIn](https://www.linkedin.com/in/yaroslavkorotkikh)  |  🤙[Telegram](https://t.me/yourawsluv)  |  💌[Email](mailto:yaroslawkorotkih@yandex.ru)**
 ---
 
 ## 📜 О себе
-
-Я **T-shaped** специалист, и постоянно масштабирую свою экспертизу в цифровых продуктах — от выявления **UserStory**, до изучения **инструментов DevEx** и **DesignOps**. Люблю выстраивать процессы и менторить. Разговариваю на одном языке с **Аналитиками**, **Продактами** и **BDM**, **Frontend-разработчиками** и **QA,** и конечно же с **пользователями**:)
-
+>Я **T-shaped** специалист, и постоянно масштабирую свою экспертизу в цифровых продуктах — от выявления **UserStory**, до изучения **инструментов DevEx** и **DesignOps**. Люблю выстраивать процессы и менторить. Разговариваю на одном языке с **Аналитиками**, **Продактами** и **BDM**, **Frontend-разработчиками** и **QA,** и конечно же с **пользователями**:)
 ---
 
 ## 📂 Портфолио
 
 ### **Kanoe Wallet**
-- #Blockchain #dApp #Fintech
+#Blockchain
+#dApp
+#Fintech
+
 ![Static Badge](https://img.shields.io/badge/Figma-Link-blue?style=for-the-badge&logo=figma&logoColor=white&labelColor=black&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlarczXzN5oQlcRHiUXW2LZ%2FKanoe-Wallet-SRS-App%3Fnode-id%3D59-40224%26t%3DfQiC5Y1CPyVBDLbx-1)
 
 ### **MirrorDAO**
-- #DAO #dApp #Software #Blockchain
+#DAO
+#dApp
+#Software
+#Blockchain
+
 ![Static Badge](https://img.shields.io/badge/Figma-Link-blue?style=for-the-badge&logo=figma&logoColor=white&labelColor=black&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlarczXzN5oQlcRHiUXW2LZ%2FKanoe-Wallet-SRS-App%3Fnode-id%3D59-40224%26t%3DfQiC5Y1CPyVBDLbx-1)
 
 ### **Claimy**
-- #Blockchain #dApp #Fintech
-![Static Badge](https://img.shields.io/badge/Figma-Link-blue?style=for-the-badge&logo=figma&logoColor=white&labelColor=black&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlarczXzN5oQlcRHiUXW2LZ%2FKanoe-Wallet-SRS-App%3Fnode-id%3D59-40224%26t%3DfQiC5Y1CPyVBDLbx-1)
+#Telegram
+#Game
+#Blockchain
 
+- ![Static Badge](https://img.shields.io/badge/Figma-Link-blue?style=for-the-badge&logo=figma&logoColor=white&labelColor=black&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FlarczXzN5oQlcRHiUXW2LZ%2FKanoe-Wallet-SRS-App%3Fnode-id%3D59-40224%26t%3DfQiC5Y1CPyVBDLbx-1)
+
+# Мой проект
+
+[![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square)](https://www.figma.com/file/your-figma-document-link)
+
+## Описание проекта
+Это проект, который демонстрирует использование Figma для дизайна.
 ---
 
 ## 💼 Опыт работы
