@@ -4,7 +4,6 @@
 
 **📄[LinkedIn](https://www.linkedin.com/in/yaroslavkorotkikh)  |  🤙[Telegram](https://t.me/yourawsluv)  |  💌[Email](mailto:yaroslawkorotkih@yandex.ru)**
 
----
 
 ## 📜 О себе
 
@@ -15,16 +14,17 @@
 ## 📂 Портфолио
 
 ### **Kanoe Wallet**
-#Blockchain #dApp #Fintech
-[:LiFigma:](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1)
+- #Blockchain #dApp #Fintech
+- ![Static Badge](https://img.shields.io/badge/Figma?logo=figma)
+(https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1)
 
 ### **MirrorDAO**
-#DAO #dApp #Software #Blockchain
-[:LiFigma:](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=0-1&t=04iPDPk98aHil4FF-1)
+- #DAO #dApp #Software #Blockchain
+- [Figma](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=0-1&t=04iPDPk98aHil4FF-1)
 
 ### **Claimy**
-#Blockchain #dApp #Fintech
-[:LiFigma:](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=qO8PttIdBtvL3U7C-1) 
+- #Blockchain #dApp #Fintech
+- [Figma](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=qO8PttIdBtvL3U7C-1) 
 
 ---
 
