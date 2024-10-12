@@ -29,7 +29,7 @@
 
 <img src="![image](https://github.com/user-attachments/assets/35bff8e1-d99d-40ce-bdce-cf13203ba377)" width="200" height="100">
 
-### **Claimy**
+### [**Claimy**](https://github.com/yourawsluv/yourawsluv/blob/main/Claimy.md)
 #Telegram
 #Game
 #Blockchain
