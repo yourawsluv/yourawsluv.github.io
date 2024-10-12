@@ -1,15 +1,15 @@
 # ✌️Hi there, I'm UX/UI Designer
 
 **📄[LinkedIn](https://www.linkedin.com/in/yaroslavkorotkikh)  |  🤙[Telegram](https://t.me/yourawsluv)  |  💌[Email](mailto:yaroslawkorotkih@yandex.ru)**
----
+
 
 ## 📜 О себе
 >Я **T-shaped** специалист, и постоянно масштабирую свою экспертизу в цифровых продуктах — от выявления **UserStory**, до изучения **инструментов DevEx** и **DesignOps**. Люблю выстраивать процессы и менторить. Разговариваю на одном языке с **Аналитиками**, **Продактами** и **BDM**, **Frontend-разработчиками** и **QA,** и конечно же с **пользователями**:)
----
+
 
 ## 📂 Портфолио
 <img src="https://github.com/user-attachments/assets/b7c9c626-c2ac-4e93-a602-ddd95946f28c" width="200" height="100">
-![image](https://github.com/user-attachments/assets/b7c9c626-c2ac-4e93-a602-ddd95946f28c)
+
 ### **Kanoe Wallet**
 #Blockchain
 #dApp
@@ -17,7 +17,8 @@
 
 [![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
 
-![image](https://github.com/user-attachments/assets/50ccde63-60c6-42a5-bcc9-8ec789cf4f47)
+<img src="https://github.com/user-attachments/assets/4d6e9ae8-4849-4e18-99de-81ce65a1a9e8" width="200" height="100">
+
 ### **MirrorDAO**
 #DAO
 #dApp
@@ -26,7 +27,8 @@
 
 [![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
 
-![image](https://github.com/user-attachments/assets/c88be7c4-4e66-49e1-ad47-d61b72b72092)
+<img src="![image](https://github.com/user-attachments/assets/35bff8e1-d99d-40ce-bdce-cf13203ba377)" width="200" height="100">
+
 ### **Claimy**
 #Telegram
 #Game
@@ -34,7 +36,8 @@
 
 [![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square)](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=kgjBkEgKKlwvPgl5-1)
 
-![image](https://github.com/user-attachments/assets/15c80633-c225-4000-95a1-659e881d1221)
+<img src="![image](https://github.com/user-attachments/assets/2416ec55-0f1c-49b1-a5c4-fb70b3845d4a)" width="200" height="100">
+
 ### **Varbusters**
 #Telegram
 #Game
