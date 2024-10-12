@@ -19,7 +19,7 @@
 
 <img src="https://github.com/user-attachments/assets/4d6e9ae8-4849-4e18-99de-81ce65a1a9e8" width="200" height="100">
 
-### **MirrorDAO**
+### [**MirrorDAO**](https://github.com/yourawsluv/yourawsluv/blob/main/MirrorDAO.md)
 #DAO
 #dApp
 #Software
