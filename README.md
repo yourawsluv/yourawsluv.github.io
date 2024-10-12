@@ -8,7 +8,8 @@
 ---
 
 ## 📂 Портфолио
-
+<img src="https://github.com/user-attachments/assets/b7c9c626-c2ac-4e93-a602-ddd95946f28c" width="200" height="100">
+![image](https://github.com/user-attachments/assets/b7c9c626-c2ac-4e93-a602-ddd95946f28c)
 ### **Kanoe Wallet**
 #Blockchain
 #dApp
@@ -16,6 +17,7 @@
 
 [![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
 
+![image](https://github.com/user-attachments/assets/50ccde63-60c6-42a5-bcc9-8ec789cf4f47)
 ### **MirrorDAO**
 #DAO
 #dApp
@@ -24,6 +26,7 @@
 
 [![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
 
+![image](https://github.com/user-attachments/assets/c88be7c4-4e66-49e1-ad47-d61b72b72092)
 ### **Claimy**
 #Telegram
 #Game
@@ -31,6 +34,7 @@
 
 [![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square)](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=kgjBkEgKKlwvPgl5-1)
 
+![image](https://github.com/user-attachments/assets/15c80633-c225-4000-95a1-659e881d1221)
 ### **Varbusters**
 #Telegram
 #Game
