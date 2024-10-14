@@ -12,6 +12,7 @@ tags:
 ---
 
 
+![image](https://github.com/user-attachments/assets/ce2406eb-e4c1-4cea-97ff-6e1c8d47d254)
 
 
 # User Journey 
