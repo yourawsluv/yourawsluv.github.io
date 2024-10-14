@@ -63,16 +63,6 @@ Telegram Mini Apps
 ## UI
 
 
-![[Group 103.png]]
-
-![[Group 104.png]]
-
-![[Group 105.png]]
-
-![[Group 106.png]]
-
-![[Group 107.png]]
-
 
 ---
 ## User Journey 
