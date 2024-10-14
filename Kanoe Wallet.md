@@ -52,12 +52,8 @@ tags:
 
 ## Инструменты
 
-- **Figma
-- **Webflow
-- **Adobe Photoshop
-- **HTML / CSS / JS
+- **Figma**
+- **Miro**
+- **Webflow** (HTML / CSS / JS)
 
 ---
-
-> [!important]  
-> Показать и рассказать про проект смогу на собеседовании
