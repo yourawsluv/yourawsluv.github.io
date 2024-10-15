@@ -1,6 +1,8 @@
-# ✌️Hi there, I'm UX/UI Designer
+# ✌️Hi there, I'm Product Designer
 
-**📄[LinkedIn](https://www.linkedin.com/in/yaroslavkorotkikh)  |  🤙[Telegram](https://t.me/yourawsluv)  |  💌[Email](mailto:yaroslawkorotkih@yandex.ru)**
+📄[LinkedIn](https://www.linkedin.com/in/yaroslavkorotkikh)
+🤙[Telegram](https://t.me/yourawsluv)
+💌[Email](mailto:yaroslawkorotkih@yandex.ru)
 
 
 ## 📜 О себе
@@ -15,7 +17,7 @@
 #dApp
 #Fintech
 
-[![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square&logo=figma)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
 
 <img src="https://github.com/user-attachments/assets/4d6e9ae8-4849-4e18-99de-81ce65a1a9e8" width="200" height="100">
 
@@ -25,7 +27,7 @@
 #Software
 #Blockchain
 
-[![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
 
 <img src="![image](https://github.com/user-attachments/assets/35bff8e1-d99d-40ce-bdce-cf13203ba377)" width="200" height="100">
 
@@ -34,7 +36,7 @@
 #Game
 #Blockchain
 
-[![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square&logo=figma)](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=kgjBkEgKKlwvPgl5-1)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=kgjBkEgKKlwvPgl5-1)
 
 <img src="![image](https://github.com/user-attachments/assets/2416ec55-0f1c-49b1-a5c4-fb70b3845d4a)" width="200" height="100">
 
@@ -43,9 +45,8 @@
 #Game
 #Blockchain
 
-[![Figma](https://img.shields.io/badge/Figma-Open-blue?style=flat-square&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
 
----
 
 ## 💼 Опыт работы
 
