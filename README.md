@@ -10,7 +10,7 @@
 
 <img src="https://github.com/user-attachments/assets/b7c9c626-c2ac-4e93-a602-ddd95946f28c" width="200" height="100">
 
-### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/blob/main/Kanoe%20Wallet.md)
+### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/projects/KanoeWallet.md)
 #Blockchain
 #dApp
 #Fintech
