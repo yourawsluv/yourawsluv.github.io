@@ -8,7 +8,7 @@
 
 ## 📂 Портфолио
 
-<img src="![image](https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f)" width="200" height="100">
+<img src="https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f" width="200" height="100">
 
 ### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/KanoeWallet.md)
 #Blockchain
