@@ -8,18 +8,18 @@
 
 ## 📂 Портфолио
 
-<img src="https://github.com/user-attachments/assets/b7c9c626-c2ac-4e93-a602-ddd95946f28c" width="200" height="100">
+<img src="![image](https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f)" width="200" height="100">
 
-### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/projects/KanoeWallet.md)
+### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/KanoeWallet.md)
 #Blockchain
 #dApp
 #Fintech
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
 
-<img src="https://github.com/user-attachments/assets/4d6e9ae8-4849-4e18-99de-81ce65a1a9e8" width="200" height="100">
+<img src="![image](https://github.com/user-attachments/assets/98a41ba9-6073-40b5-9625-11e2ccaca837)" width="200" height="100">
 
-### [**MirrorDAO**](https://github.com/yourawsluv/yourawsluv/blob/main/MirrorDAO.md)
+### [**MirrorDAO**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorDAO.md)
 #DAO
 #dApp
 #Software
@@ -27,18 +27,26 @@
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
 
-<img src="![image](https://github.com/user-attachments/assets/35bff8e1-d99d-40ce-bdce-cf13203ba377)" width="200" height="100">
+<img src="![image](https://github.com/user-attachments/assets/99c0adb2-b9f7-44be-b144-b0f8e663d563)" width="200" height="100">
 
-### [**Claimy**](https://github.com/yourawsluv/yourawsluv/blob/main/Claimy.md)
+### [**App_for_Medical_Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MedClinicApp.md)
+#Software
+#MedicalServices
+
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
+
+<img src="![image](https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1)" width="200" height="100">
+
+### [**Claimy**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Claimy.md)
 #Telegram
 #Game
 #Blockchain
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=kgjBkEgKKlwvPgl5-1)
 
-<img src="![image](https://github.com/user-attachments/assets/2416ec55-0f1c-49b1-a5c4-fb70b3845d4a)" width="200" height="100">
+<img src="![image](https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288)" width="200" height="100">
 
-### [**Varbusters**](https://github.com/yourawsluv/yourawsluv/blob/main/Varbusters.md)
+### [**Varbusters**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
 #Telegram
 #Game
 #Blockchain
