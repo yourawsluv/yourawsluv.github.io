@@ -29,11 +29,11 @@
 
 <img src="![image](https://github.com/user-attachments/assets/99c0adb2-b9f7-44be-b144-b0f8e663d563)" width="200" height="100">
 
-### [**App_for_Medical_Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MedClinicApp.md)
+### [**App for Medical Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MedClinicApp.md)
 #Software
 #MedicalServices
 
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=2322-20737&t=9Jhe04vXaOhTKI1J-1)
 
 <img src="![image](https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1)" width="200" height="100">
 
