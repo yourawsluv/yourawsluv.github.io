@@ -1,15 +1,13 @@
-# ✌️Hi there, I'm Product Designer
-
-📄[LinkedIn](https://www.linkedin.com/in/yaroslavkorotkikh)
-🤙[Telegram](https://t.me/yourawsluv)
-💌[Email](mailto:yaroslawkorotkih@yandex.ru)
+# ✌️Hi there, I'm Product Designer [![LinkedIn](https://img.shields.io/badge/LinkedIn-2B7FF0?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yaroslavkorotkikh) [![Telegram](https://img.shields.io/badge/Telegram-29A7E1?style=flat&logo=telegram&logoColor=white)](https://t.me/yourawsluv) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yaroslawkorotkih@yandex.ru)
 
 
 ## 📜 О себе
+
 >Я **T-shaped** специалист, и постоянно масштабирую свою экспертизу в цифровых продуктах — от выявления **UserStory**, до изучения **инструментов DevEx** и **DesignOps**. Люблю выстраивать процессы и менторить. Разговариваю на одном языке с **Аналитиками**, **Продактами** и **BDM**, **Frontend-разработчиками** и **QA,** и конечно же с **пользователями**:)
 
 
 ## 📂 Портфолио
+
 <img src="https://github.com/user-attachments/assets/b7c9c626-c2ac-4e93-a602-ddd95946f28c" width="200" height="100">
 
 ### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/blob/main/Kanoe%20Wallet.md)
