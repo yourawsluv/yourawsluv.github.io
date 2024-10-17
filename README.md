@@ -8,17 +8,14 @@
 
 ## 📂 Портфолио
 
-
 ### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/KanoeWallet.md)
 #Blockchain
 #dApp
 #Fintech
 
-<img src="https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f" width="200" height="100">
+<img src="https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f" width="600" height="300">
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
-
-<img src="https://github.com/user-attachments/assets/98a41ba9-6073-40b5-9625-11e2ccaca837" width="200" height="100">
 
 ### [**MirrorDAO**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorDAO.md)
 #DAO
@@ -28,7 +25,9 @@
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
 
-<img src="https://github.com/user-attachments/assets/99c0adb2-b9f7-44be-b144-b0f8e663d563" width="200" height="100">
+<img src="https://github.com/user-attachments/assets/98a41ba9-6073-40b5-9625-11e2ccaca837" width="600" height="300">
+
+<img src="https://github.com/user-attachments/assets/99c0adb2-b9f7-44be-b144-b0f8e663d563" width="600" height="300">
 
 ### [**App for Medical Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MedClinicApp.md)
 #Software
@@ -36,7 +35,7 @@
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=2322-20737&t=9Jhe04vXaOhTKI1J-1)
 
-<img src="https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1" width="200" height="100">
+<img src="https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1" width="600" height="300">
 
 ### [**Claimy**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Claimy.md)
 #Telegram
@@ -45,7 +44,7 @@
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=kgjBkEgKKlwvPgl5-1)
 
-<img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="200" height="100">
+<img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="300">
 
 ### [**Varbusters**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
 #Telegram
