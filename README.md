@@ -8,13 +8,12 @@
 
 ## 📂 Портфолио
 
-<img src="https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f" width="200" height="100">
 
 ### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/KanoeWallet.md)
 #Blockchain
 #dApp
 #Fintech
-
+<img src="https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f" width="200" height="100">
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
 
 <img src="https://github.com/user-attachments/assets/98a41ba9-6073-40b5-9625-11e2ccaca837" width="200" height="100">
