@@ -12,6 +12,8 @@ tags:
 Ссылка: https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=0-1&t=04iPDPk98aHil4FF-1
 ---
 
+Product Release: https://mirrordao.com/
+
 ![image](https://github.com/user-attachments/assets/e323c394-3d30-440f-8d5d-65aa814c8d8d)
 
 
