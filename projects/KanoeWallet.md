@@ -13,6 +13,8 @@ tags:
 
 # Kanoe Wallet dApp
 
+Релиз: https://kanoewallet.com/
+
 ![image](https://github.com/user-attachments/assets/16b308e1-d517-4b82-80e7-84607a701d3f)
 
 ## Описание
