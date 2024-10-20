@@ -1,17 +1,15 @@
 ---
 tags:
-  - #Blockchain
-  - #Fintech
-  - #dApp
-  - #Desktop
-  - #Mobile
+- #Blockchain
+- #Fintech
+- #dApp
+- #Desktop
+- #Mobile
 Год: 2024
 Релиз: true
 Описание: Платформа для защиты и управления наследованием цифровых активов
 Ссылка: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
 ---
-
-![How it works](https://github.com/user-attachments/assets/573092e9-9137-43c7-a614-82a5f0f71bb3)
 
 # Kanoe Wallet dApp
 Релиз: https://kanoewallet.com/
@@ -21,6 +19,12 @@ tags:
  
 **Kanoe Wallet** — это платформа для управления и наследования цифровых активов, созданная нашей аутсорс командой в **Эмбер**. Приложение предоставляет пользователям возможность защищать свои цифровые активы, планировать их наследование и управлять ими в одной экосистеме. Главная цель продукта — запустить на рынок интуитивно понятный и безопасный инструмент для управления токенами криптовалют и NFT.
 
+
+![image](https://github.com/user-attachments/assets/51f6b37a-e8e5-42f8-9f3e-f7313e27eae4) 
+
+---
+
+![image](https://github.com/user-attachments/assets/5656c921-4755-4408-853c-8eb2b4496df3)
 
 ## Задачи
 
