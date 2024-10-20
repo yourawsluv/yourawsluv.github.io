@@ -11,6 +11,8 @@ tags:
 Ссылка: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
 ---
 
+![How it works](https://github.com/user-attachments/assets/573092e9-9137-43c7-a614-82a5f0f71bb3)
+
 # Kanoe Wallet dApp
 Релиз: https://kanoewallet.com/
 
