@@ -69,7 +69,7 @@ Telegram Mini Apps
 
 ## User Journey 
 
-### Gameplay
+### Gameplay & Mechanics
 
 ```mermaid
 flowchart TD
@@ -106,6 +106,5 @@ flowchart TD
     
     S --> U[Конец игры]
     T --> U
-```
 
 ---
