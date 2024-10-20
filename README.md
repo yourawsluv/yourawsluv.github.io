@@ -31,16 +31,6 @@
 
 ---
 
-### [**App for Medical Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MedClinicApp.md)
-#Software
-#MedicalServices
-
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=2322-20737&t=9Jhe04vXaOhTKI1J-1)
-
-<img src="https://github.com/user-attachments/assets/99c0adb2-b9f7-44be-b144-b0f8e663d563" width="600" height="300">
-
----
-
 ### [**Claimy**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Claimy.md)
 #Telegram
 #Game
@@ -60,6 +50,27 @@
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
 
 <img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="300">
+
+---
+
+### [**NoirRoulette**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/NoirRoulette.md)
+#Telegram
+#Game
+#Blockchain
+
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
+
+<img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="300">
+
+---
+
+### [**App for Medical Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MedClinicApp.md)
+#Software
+#MedicalServices
+
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=2322-20737&t=9Jhe04vXaOhTKI1J-1)
+
+<img src="https://github.com/user-attachments/assets/99c0adb2-b9f7-44be-b144-b0f8e663d563" width="600" height="300">
 
 ---
 
