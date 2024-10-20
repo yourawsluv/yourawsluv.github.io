@@ -51,6 +51,9 @@ tags:
 ![image](https://github.com/user-attachments/assets/d3ecb590-b033-4b3e-b54a-cc0d97c7c875)
 ![image](https://github.com/user-attachments/assets/74f38645-e073-4ff5-a3e6-76a5e727a685)
 
+![image](https://github.com/user-attachments/assets/536e0ad8-c160-4ec2-99eb-e1640f25d66f)
+![image](https://github.com/user-attachments/assets/644ddff9-b67d-4a4f-8391-546f4b57f783)
+
 
 ## Релиз
 
