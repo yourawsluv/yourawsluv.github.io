@@ -1,11 +1,5 @@
 ---
-tags:
-  - DAO
-  - dApp
-  - Software
-  - Blockchain
-  - Desktop
-  - Mobile
+tags: #DAO, #dApp, #Software, #Blockchain, #Desktop, #Mobile
 Год: 2024
 Релиз: true
 Описание: Платформа создания и управление DAO
