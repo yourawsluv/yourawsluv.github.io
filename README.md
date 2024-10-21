@@ -60,7 +60,7 @@
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
 
-<img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="300">
+<img src="![image](https://github.com/user-attachments/assets/7a7dfeb2-24c9-4577-999b-9fee473df015)" width="600" height="300">
 
 ---
 
