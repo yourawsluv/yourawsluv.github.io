@@ -17,7 +17,7 @@
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
 
-<img src="https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f" width="600" height="300">
+<img src="https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f" width="600" height="auto">
 
 ---
 
