@@ -11,9 +11,9 @@ tags:
 Подробнее: https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/TON-Tigers?node-id=18-24946&t=IY18WkJRgIhIybLf-1
 ---
 
-# Claimy
-
 ![IMG_20241031_121728_500.jpg](https://github.com/user-attachments/assets/3a42ef28-49b9-4af1-9b23-fa03b47d3552)
+
+# Claimy
 
 [Страница проекта](https://tontiger.io) |
 [Сообщество](https://t.me/tontiger_tg) |
