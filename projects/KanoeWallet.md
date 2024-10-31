@@ -114,26 +114,34 @@ flowchart TD
 
 ## UI
 
+### WalletConnect 
+
 ```mermaid
 flowchart TD
-    User[User Access]
-    Dashboard[Dashboard Access]
-    HeirSelection[Select Heirs]
-    AddHeir[Add New Heir]
-    DefinePercentage[Define Asset Percentage]
-    ConfirmSelection[Confirm Selection]
-    Confirmation[Receive Confirmation]
-    ViewHeirs[View Heirs List]
-    
-    User --> Dashboard --> HeirSelection
-    HeirSelection --> AddHeir
-    AddHeir --> |Set Percentage| DefinePercentage
-    DefinePercentage --> ConfirmSelection
-    ConfirmSelection --> |Save to Blockchain| Confirmation
-    Confirmation --> |Back to Dashboard| ViewHeirs
-    ViewHeirs --> Dashboard
+    A[Open dApp] --> B[Initiate Wallet Connect]
+    B --> C[Select Wallet Provider]
+    C --> D{Is Wallet App Installed?}
+
+    D -->|Yes| E[Open Wallet App]
+    D -->|No| F[Redirect to Install Wallet]
+
+    E --> G[Scan QR Code / Approve Connection]
+    G --> H[Establish Connection]
+
+    H --> I{Connection Successful?}
+    I -->|Yes| J[Access dApp Features]
+    I -->|No| K[Retry or Cancel Connection]
+
+    J --> L[Perform Transactions]
+    L --> M[Sign Transactions in Wallet]
+    M --> N[Return to dApp with Signed Transaction]
+    N --> O[Confirm Transaction on Blockchain]
+    O --> P[Complete dApp Interaction]
 ```
+
 ![image](https://github.com/user-attachments/assets/a2e09fee-9f11-4289-b497-69aa2966dd53)
+
+### Select Heir
 
 ```mermaid
 flowchart TD
@@ -230,6 +238,26 @@ flowchart TD
 ![image](https://github.com/user-attachments/assets/b09c4f5c-0f2f-4583-a2ca-beae45e1884d)
 ![image](https://github.com/user-attachments/assets/d3ecb590-b033-4b3e-b54a-cc0d97c7c875)
 ![image](https://github.com/user-attachments/assets/74f38645-e073-4ff5-a3e6-76a5e727a685)
+
+```mermaid
+flowchart TD
+    User[User Access]
+    Dashboard[Dashboard Access]
+    HeirSelection[Select Heirs]
+    AddHeir[Add New Heir]
+    DefinePercentage[Define Asset Percentage]
+    ConfirmSelection[Confirm Selection]
+    Confirmation[Receive Confirmation]
+    ViewHeirs[View Heirs List]
+    
+    User --> Dashboard --> HeirSelection
+    HeirSelection --> AddHeir
+    AddHeir --> |Set Percentage| DefinePercentage
+    DefinePercentage --> ConfirmSelection
+    ConfirmSelection --> |Save to Blockchain| Confirmation
+    Confirmation --> |Back to Dashboard| ViewHeirs
+    ViewHeirs --> Dashboard
+```
 
 ![image](https://github.com/user-attachments/assets/536e0ad8-c160-4ec2-99eb-e1640f25d66f)
 ![image](https://github.com/user-attachments/assets/644ddff9-b67d-4a4f-8391-546f4b57f783)
