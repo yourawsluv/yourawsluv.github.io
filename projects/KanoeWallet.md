@@ -50,6 +50,26 @@ tags:
 
 ## UI
 
+```
+flowchart TD
+    User[User Access]
+    Dashboard[Dashboard Access]
+    HeirSelection[Select Heirs]
+    AddHeir[Add New Heir]
+    DefinePercentage[Define Asset Percentage]
+    ConfirmSelection[Confirm Selection]
+    Confirmation[Receive Confirmation]
+    ViewHeirs[View Heirs List]
+    
+    User --> Dashboard --> HeirSelection
+    HeirSelection --> AddHeir
+    AddHeir --> |Set Percentage| DefinePercentage
+    DefinePercentage --> ConfirmSelection
+    ConfirmSelection --> |Save to Blockchain| Confirmation
+    Confirmation --> |Back to Dashboard| ViewHeirs
+    ViewHeirs --> Dashboard
+```
+
 ![image](https://github.com/user-attachments/assets/a2e09fee-9f11-4289-b497-69aa2966dd53)
 ![image](https://github.com/user-attachments/assets/9ecddbea-edd8-4d00-b9ab-4fc79bfddd6c)
 ![image](https://github.com/user-attachments/assets/5cb5083d-e97b-44e1-87ac-67f7e493963d)
