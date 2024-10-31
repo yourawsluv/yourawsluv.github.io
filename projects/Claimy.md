@@ -14,8 +14,8 @@ tags:
 # Claimy
 
 ## Ссылки проекта
-[Страница проекта](https://tontiger.io)|
-[Сообщество](https://t.me/tontiger_tg)|
+[Страница проекта](https://tontiger.io) |
+[Сообщество](https://t.me/tontiger_tg) |
 [Приложение](https://t.me/Claimybot)
 
 ## Краткое описание
