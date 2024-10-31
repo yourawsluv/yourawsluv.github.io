@@ -9,7 +9,7 @@ tags:
 Год: 2024
 Релиз: true
 Описание: Платформа для защиты и управления наследованием цифровых активов
-Ссылка: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
+Ссылка: [Figma](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1)
 ---
 
 # Kanoe Wallet dApp
