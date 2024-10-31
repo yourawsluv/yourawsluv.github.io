@@ -143,18 +143,7 @@ flowchart TD
     Governance --> Stake
 ```
 
-## UI
-
-### Wireframes
-
-![image](https://github.com/user-attachments/assets/b2230559-e940-4bc4-b044-608257c9ca56)
-
-### UI
-
-1. **Login/Connect Wallet** – Users authenticate and connect their TON wallet.
-2. **Browse & Claim NFTs** – Users browse available Tigers and initiate the claim.
-3. **View Claimed Assets** – Claimed Tigers display in the asset view.
-4. **Transaction History** – Users access past transactions to track claims.
+### UserStory
 
 ```mermaid
 flowchart TD
@@ -164,9 +153,21 @@ flowchart TD
     D --> E[Access Transaction History]
 ```
 
+1. **Login/Connect Wallet** – Users authenticate and connect their TON wallet.
+2. **Browse & Claim NFTs** – Users browse available Tigers and initiate the claim.
+3. **View Claimed Assets** – Claimed Tigers display in the asset view.
+4. **Transaction History** – Users access past transactions to track claims.
+
+
+## UI
+
+### Wireframes
+![image](https://github.com/user-attachments/assets/b2230559-e940-4bc4-b044-608257c9ca56)
+
+### Screens
 ![image](https://github.com/user-attachments/assets/187f4f12-f4f9-4a8b-982b-08c4c498c7d7)
 
-### Project page
+## Project page
 
 ![image](https://github.com/user-attachments/assets/043c873c-4e58-4e1b-99b6-f08e23061469)
 
