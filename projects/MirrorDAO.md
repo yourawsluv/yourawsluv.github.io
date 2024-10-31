@@ -12,6 +12,9 @@ tags:
 Ссылка: https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=0-1&t=04iPDPk98aHil4FF-1
 ---
 
+
+![image](https://github.com/user-attachments/assets/e323c394-3d30-440f-8d5d-65aa814c8d8d)
+
 # MirrorDAO
 
 [Product Page](https://mirrordao.com) |
@@ -19,35 +22,10 @@ tags:
 
 ## Описание
 
-MirrorDAO is a decentralized autonomous organization (DAO) designed to facilitate collaborative decision-making and governance within decentralized networks. Built on the Ethereum blockchain, MirrorDAO enables users to propose, vote on, and manage various initiatives and projects collectively. It emphasizes transparency and community involvement, allowing participants to engage in a governance process that shapes the direction of the organization.
-
-Key Features of MirrorDAO:
-
-1. Proposal Creation: Users can create proposals on various topics, including funding requests, governance changes, and community initiatives. This feature fosters active participation from community members in shaping the DAO's future.
-
-
-2. Voting Mechanism: MirrorDAO employs a transparent voting system, allowing members to vote on proposals securely. Votes are tracked on-chain, ensuring accountability and integrity in the decision-making process.
-
-
-3. Asset Management: Members can manage their digital assets, including governance tokens and NFTs, directly within the platform. This feature supports various asset types, enabling users to engage with the DAO efficiently.
-
-
-4. Community Engagement: MirrorDAO emphasizes building a strong community by encouraging discussions, feedback, and collaboration among its members. This approach helps in aligning the community's interests and goals.
-
-
-5. Integration with Web3: As a DAO, MirrorDAO seamlessly integrates with Web3 technologies, allowing users to interact with decentralized applications (dApps) and participate in broader blockchain ecosystems.
-
-
-
-Conclusion
-
-Overall, MirrorDAO represents a modern approach to governance in the digital space, combining the principles of decentralization, community engagement, and transparency. For more detailed insights, you can visit the official MirrorDAO website or check other sources discussing its features and community impact .
-
-
+**MirrorDAO** is a decentralized autonomous organization (DAO) designed to facilitate collaborative decision-making and governance within decentralized networks. Built on the Ethereum blockchain, MirrorDAO enables users to propose, vote on, and manage various initiatives and projects collectively. It emphasizes transparency and community involvement, allowing participants to engage in a governance process that shapes the direction of the organization.
 
 ## Product Pitch
 
-![image](https://github.com/user-attachments/assets/e323c394-3d30-440f-8d5d-65aa814c8d8d)
 ![mirror-pitch-01](https://github.com/user-attachments/assets/7b86eac4-78c8-44f1-a2f0-0414a3bfbb29)
 ![mirror-pitch-02](https://github.com/user-attachments/assets/b9942eea-2292-4f1f-bc82-5769cbb50b40)
 ![mirror-pitch-03](https://github.com/user-attachments/assets/d545c3d2-9087-462a-b10e-7f9b23618d21)
@@ -60,7 +38,74 @@ Overall, MirrorDAO represents a modern approach to governance in the digital spa
 ![mirror-pitch-10](https://github.com/user-attachments/assets/c96c0e7a-0298-4dde-bb83-2b62ac85a94b)
 ![mirror-pitch-11](https://github.com/user-attachments/assets/4575e762-2c62-4c77-9f25-b6b6abac4545)
 
-## Key Features Flow
+## Процесс
+
+```mermaid
+graph TD;
+    A[Исследование и Анализ] --> B[UserStories]
+    B --> C[Создание Прототипа]
+    C --> D[Тестирование Прототипа]
+    D --> E[Получение Обратной Связи]
+    E --> F[Итерация проектирования]
+    F --> G[Разработка Финальной Версии]
+    G --> H[Запуск]
+    H --> I[Онбординг]
+    I --> J[Поддержка и Обновление]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style H fill:#bbf,stroke:#333,stroke-width:2px;
+    style J fill:#bbf,stroke:#333,stroke-width:2px;
+```
+
+1. **Исследование и Анализ:** Изучение рынка и потребностей пользователей для понимания контекста и определения направлений для DAO.
+
+2. **Определение Целей и Задач:** Установление четких целей, которые DAO будет стремиться достичь, и задач, необходимых для их выполнения.
+
+3. **Создание Прототипа:** Разработка первоначального прототипа интерфейса и функционала DAO для визуализации идей.
+
+4. **Тестирование Прототипа:** Проведение тестирования прототипа для оценки его работы и пользовательского опыта.
+
+5. **Получение Обратной Связи:** Сбор мнений и отзывов от пользователей для выявления проблем и улучшений.
+
+6. **Итерация Дизайна:** Внесение изменений в дизайн и функционал на основе полученной обратной связи.
+
+7. **Разработка Финальной Версии:** Завершение разработки DAO, включая окончательную настройку и интеграцию всех функций.
+
+8. **Запуск DAO:** Официальный запуск DAO, позволяющий пользователям взаимодействовать с платформой.
+
+9. **Обучение Пользователей:** Обучение пользователей о том, как использовать DAO и его возможности.
+
+10. **Поддержка и Обновление:** Обеспечение постоянной поддержки пользователей и обновление платформы на основе новых потребностей и технологий.
+
+
+
+Заключение
+
+Этот дизайн-процесс помогает в создании эффективных и удобных для пользователей DAO, таких как Aragon. Он подчеркивает важность итеративного подхода и вовлечения пользователей на каждом этапе разработки, что способствует созданию более адаптированных и успешных децентрализованных организаций.
+
+
+## UX
+
+### User Persona
+
+```mermaid
+graph TD;
+    A[User Persona: Анна Петрова] --> B[Возраст: 32 года]
+    A --> C[Пол: Женский]
+    A --> D[Образование: Высшее в области управления]
+    A --> E[Профессия: Маркетолог]
+    A --> F[Местоположение: Санкт-Петербург, Россия]
+    
+    G[Технический уровень: Средний] --> A
+    H[Интересы: Блокчейн, технологии, децентрализованные финансы] --> A
+    I[Цели: Участвовать в принятии решений, управлять активами, сотрудничать с единомышленниками] --> A
+    J[Боли: Сложность в понимании DAO, недостаток информации о процессах голосования] --> A
+    K[Мотивация: Желание быть частью инновационных проектов, улучшение финансового благосостояния] --> A
+    L[Игровой опыт: Участие в нескольких DAO, активное использование DeFi-приложений] --> A
+    M[Потребности: Интуитивно понятный интерфейс, наличие обучающих материалов, поддержка сообщества] --> A
+```
+
+### Key Features Flow
 
 ```mermaid
 graph TD;
