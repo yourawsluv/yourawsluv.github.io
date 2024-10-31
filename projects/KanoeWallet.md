@@ -1,10 +1,11 @@
 ---
 tags:
-- #Blockchain
-- #Fintech
-- #dApp
-- #Desktop
-- #Mobile
+- Fintech
+- dApp
+- Software
+- Blockchain
+- Desktop
+- Mobile
 Год: 2024
 Релиз: true
 Описание: Платформа для защиты и управления наследованием цифровых активов
