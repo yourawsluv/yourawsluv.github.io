@@ -13,6 +13,8 @@ tags:
 
 # Claimy
 
+![IMG_20241031_121728_500.jpg](https://github.com/user-attachments/assets/3a42ef28-49b9-4af1-9b23-fa03b47d3552)
+
 [Страница проекта](https://tontiger.io) |
 [Сообщество](https://t.me/tontiger_tg) |
 [Приложение](https://t.me/Claimybot)
