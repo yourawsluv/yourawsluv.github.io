@@ -9,12 +9,12 @@ tags:
 Год: 2024
 Релиз: true
 Описание: Платформа для защиты и управления наследованием цифровых активов
-Ссылка: Figma(https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1)
+Ссылка: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
 ---
 
 # Kanoe Wallet dApp
-Релиз: https://kanoewallet.com/
 
+Релиз: https://kanoewallet.com/
 
 ## Описание
  
@@ -27,7 +27,7 @@ tags:
 
 ![image](https://github.com/user-attachments/assets/5656c921-4755-4408-853c-8eb2b4496df3)
 
-## Задачи
+## Процесс
 
 1. **Анализ**
    - Конкурентный анализ, Персона, CustDev, Брейншторм.
@@ -72,6 +72,45 @@ tags:
 | **Потребности**          | - Надежный план наследования<br>- Минимизация рисков потери доступа к активам |
 | **Предпочтения**         | - Интеграция с существующим криптокошельком<br>- Поддержка различных валют (BTC, ETH и stablecoins) |
 | **Ценности**             | - Конфиденциальность<br>- Уверенность в будущем семьи<br>- Простота и безопасность процесса наследования |
+
+### Механика
+
+dApp Crypto Inheritance 
+
+```mermaid
+flowchart TD
+    A[Start Inheritance Process] --> B[Setup Crypto Inheritance Plan]
+    B --> C[Define Private Key and Seed Storage]
+    C --> D[Select Beneficiaries]
+
+    subgraph "Inheritance Creation and Setup"
+        B
+        C
+        D
+    end
+
+    D --> E[Create Smart Contract for Inheritance Rules]
+    E --> F[Define Conditions for Asset Access]
+    F --> G[Enable Secure Storage (Cold Wallets, Digital Vaults)]
+
+    subgraph "Beneficiary Selection and Asset Management"
+        E
+        F
+        G
+    end
+
+    G --> H[Assign Executor with Crypto Expertise]
+    H --> I[Initiate Inheritance Execution Process Upon Trigger (e.g., Death)]
+    I --> J{Is Trigger Verified?}
+
+    J -->|Yes| K[Execute Smart Contract for Asset Transfer]
+    J -->|No| L[Hold Assets Until Verified]
+
+    K --> M[Transfer Assets to Beneficiaries]
+    M --> N[End Process]
+    
+    L --> J
+```
 
 ## UI
 
