@@ -78,7 +78,7 @@
 #Software
 #MedicalServices
 
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=2322-20737&t=9Jhe04vXaOhTKI1J-1)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=34-5255&t=oPPrG0CGYrswUZ3g-1)
 
 <img src="https://github.com/user-attachments/assets/99c0adb2-b9f7-44be-b144-b0f8e663d563" width="600" height="auto">
 
