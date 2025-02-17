@@ -100,7 +100,7 @@ flowchart TD
     end
 
     G --> H[Assign Executor with Crypto Expertise]
-    H --> I[Initiate Inheritance Execution Process Upon Trigger (e.g., Death)]
+    H --> I["Initiate Inheritance Execution Process Upon Trigger (e.g., Death)"]
     I --> J{Is Trigger Verified?}
 
     J -->|Yes| K[Execute Smart Contract for Asset Transfer]
