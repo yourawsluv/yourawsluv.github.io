@@ -91,7 +91,7 @@ flowchart TD
 
     D --> E[Create Smart Contract for Inheritance Rules]
     E --> F[Define Conditions for Asset Access]
-    F --> G[Enable Secure Storage (Cold Wallets, Digital Vaults)]
+    F --> G["Enable Secure Storage (Cold Wallets, Digital Vaults)"]
 
     subgraph "Beneficiary Selection and Asset Management"
         E
