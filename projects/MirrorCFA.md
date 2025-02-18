@@ -1,5 +1,6 @@
 ---
 tags:
+- CFA
 - DAO
 - dApp
 - Software
