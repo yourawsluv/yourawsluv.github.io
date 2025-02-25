@@ -8,20 +8,9 @@
 
 ---
 
-## 🔭 Ключевые навыки
-
-- UX/UI: Дизайн системы, прототипирование.
-- Продукт: Backlog, CJM, User Stories, приоритизация задач.
-- Аналитика: Сбор данных, A/B тесты, Tableau, сводные таблицы.
-- Технические навыки: SQL, HTML, CSS, интеграция API.
-- Командная работа: Agile/Scrum, взаимодействие с BDM, аналитиками, разработчиками, QA.
-- Автоматизация: Внедрение AI-сервисов.
-
----
-
 ## 📂 Портфолио
 
-### [**Kanoe Wallet**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/KanoeWallet.md)
+### [**Crypto Asset Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/KanoeWallet.md)
 #Blockchain
 #dApp
 #Fintech
@@ -32,7 +21,7 @@
 
 ---
 
-### [**MirrorDAO**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorDAO.md)
+### [**DAO Creation&Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorDAO.md)
 #DAO
 #dApp
 #Software
@@ -44,7 +33,7 @@
 
 ---
 
-### [**Claimy**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Claimy.md)
+### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Claimy.md)
 #Telegram
 #Game
 #Blockchain
@@ -55,7 +44,7 @@
 
 ---
 
-### [**Varbusters**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
+### [**Telegram Mini App (Blockchain**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
 #Telegram
 #Game
 #Blockchain
@@ -66,7 +55,7 @@
 
 ---
 
-### [**NoirRoulette**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/NoirRoulette.md)
+### [**Telegram Mini App (Blockchain**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/NoirRoulette.md)
 #Telegram
 #Game
 #Blockchain
