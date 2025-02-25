@@ -21,7 +21,7 @@
 
 ---
 
-### [**DAO Creation&Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorDAO.md)
+### [**DAO Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorDAO.md)
 #DAO
 #dApp
 #Software
