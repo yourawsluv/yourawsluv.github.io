@@ -10,7 +10,7 @@
 
 ## 📂 Портфолио
 
-### [**Crypto Asset Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/KanoeWallet.md)
+### [**Crypto Asset Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Kanoe.md)
 #Blockchain
 #dApp
 #Fintech
@@ -21,7 +21,7 @@
 
 ---
 
-### [**DAO Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorDAO.md)
+### [**DAO Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorCFA.md)
 #DAO
 #dApp
 #Software
