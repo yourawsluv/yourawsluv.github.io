@@ -10,6 +10,17 @@
 
 ## 📂 Портфолио
 
+### [**ERP**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/FLORA.md)
+#ERP
+#B2B
+#Enterprise
+
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/)
+
+<img src="https://github.com/user-attachments/assets/c26599c3-519e-4ceb-b65b-de9b2b7aaf53" width="600" height="auto">
+
+---
+
 ### [**Crypto Asset Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Kanoe.md)
 #Blockchain
 #dApp
