@@ -55,7 +55,7 @@
 
 ---
 
-### [**Telegram Mini App (Blockchain**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
+### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
 #Telegram
 #Game
 #Blockchain
@@ -66,7 +66,7 @@
 
 ---
 
-### [**Telegram Mini App (Blockchain**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/NoirRoulette.md)
+### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/NoirRoulette.md)
 #Telegram
 #Game
 #Blockchain
