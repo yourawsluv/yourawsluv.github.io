@@ -101,8 +101,11 @@
 
 ## 💼 Опыт работы
 
-### Product Designer
-**[ROLF.](https://www.rolftech.ru/) | Moscow, Russia | (2024 — 2025)**
+### Senior Product Designer
+**[DDX](https://www.ddxfitness.ru/) | Moscow, Russia | (2025 — present)**
+
+### Senior Product Designer
+**[ROLF](https://www.rolftech.ru/) | Moscow, Russia | (2024 — 2025)**
 
 - **FLORA — ERP-система** дилерских центров в **продуктовой команде** РольфТех 
 - разработка **UserFlow** нового модуля
@@ -111,7 +114,7 @@
 - планирование и приоритезация **спринтов** с командой продукта (PO, BA, SA и Frontend)
 - **ревью** и **планирование** с командой продуктовых дизайнеров и тимлидом
 
-### Principal Designer
+### Product Designer
 **[Ambercore Software Ltd.](https://ambercore.llc/) | Dubai, UAE | (2024 — 2024)**
 
 - Разработка SaaS и Fintech продуктов для B2B.  
