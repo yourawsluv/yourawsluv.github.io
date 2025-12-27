@@ -10,7 +10,7 @@
 
 ## 📂 Портфолио
 
-### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/FLORA.md)
+### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/CRM.md)
 #CRM
 #B2B
 #Enterprise
