@@ -10,6 +10,18 @@
 
 ## 📂 Портфолио
 
+### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/FLORA.md)
+#CRM
+#B2B
+#Enterprise
+
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/)
+
+<img width="600" height="auto" alt="Desktop - 1" src="https://github.com/user-attachments/assets/9a9eb2e2-896d-4fa3-9b8f-7d29ec28e65f" />
+
+
+---
+
 ### [**ERP**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/FLORA.md)
 #ERP
 #B2B
