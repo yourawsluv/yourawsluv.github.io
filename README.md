@@ -1,14 +1,14 @@
-# ✌️Hi, Product [![LinkedIn](https://img.shields.io/badge/LinkedIn-2B7FF0?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yaroslavkorotkikh) [![Telegram](https://img.shields.io/badge/Telegram-29A7E1?style=flat&logo=telegram&logoColor=white)](https://t.me/yourawsluv) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yaroslawkorotkih@yandex.ru)
+# ✌️Привет, я Ярослав [![LinkedIn](https://img.shields.io/badge/LinkedIn-2B7FF0?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yaroslavkorotkikh) [![Telegram](https://img.shields.io/badge/Telegram-29A7E1?style=flat&logo=telegram&logoColor=white)](https://t.me/yourawsluv) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yaroslawkorotkih@yandex.ru)
 
 ---
 
-## 📜 О себе
+## Обо мне
 
 >5+ лет в продуктах B2B, SaaS, Fintech. T-shaped экспертиза — от проведения CustDev в MVP, до оптимизации процессов в успешном бизнесе. Работаю на одном языке с UX, A/B, ML, BizDev, Frontend, QA, и конечно же с юзерами:)
 
 ---
 
-## 📂 Портфолио
+## Кейсы
 
 ### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/CRM.md)
 #CRM
@@ -33,7 +33,7 @@
 
 ---
 
-### [**Crypto Asset Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Kanoe.md)
+### [**Платформа для управления цифровыми активами бизнеса**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Kanoe.md)
 #Blockchain
 #dApp
 #Fintech
@@ -44,7 +44,7 @@
 
 ---
 
-### [**DAO Management Platform**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorCFA.md)
+### [**Платформа для управления бизнес-процессами**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/MirrorCFA.md)
 #DAO
 #dApp
 #Software
@@ -53,39 +53,6 @@
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
 
 <img src="https://github.com/user-attachments/assets/98a41ba9-6073-40b5-9625-11e2ccaca837" width="600" height="auto">
-
----
-
-### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Claimy.md)
-#Telegram
-#Game
-#Blockchain
-
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=kgjBkEgKKlwvPgl5-1)
-
-<img src="https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1" width="600" height="auto">
-
----
-
-### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
-#Telegram
-#Game
-#Blockchain
-
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
-
-<img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="auto">
-
----
-
-### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/NoirRoulette.md)
-#Telegram
-#Game
-#Blockchain
-
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
-
-<img src="https://github.com/user-attachments/assets/7a7dfeb2-24c9-4577-999b-9fee473df015" width="600" height="auto">
 
 ---
 
@@ -99,7 +66,7 @@
 
 ---
 
-## 💼 Опыт работы
+## Опыт работы
 
 ### Senior Product Designer
 **[DDX](https://www.ddxfitness.ru/) | Moscow, Russia | (2025 — present)**
@@ -144,14 +111,14 @@
 
 ---
 
-## 🎓 Образование
+## Образование
 
 ### ВГАСУ (2023)
 Архитектор-дизайнер
 
 ---
 
-## 🛠️ Навыки
+## Навыки
 
 ### Hard Skills
 
@@ -186,7 +153,7 @@
 
 ---
 
-## 📢 Рекомендации
+## Рекомендации
 
 > *"Ярослав имеет впечатляющий мультидисциплинарный опыт в дизайне. За время работы показал высокую степень самостоятельности и широкий спектр технических скиллов. Кроме того, проявлял инициативу при внедрении новых инструментов в процесс."*
 > — **Artem Bolotov, CPO, Ambersoft**
