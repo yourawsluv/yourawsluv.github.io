@@ -11,7 +11,7 @@
 
 ## Кейсы
 
-### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/CRM.md)
+### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/CRM.html)
 #CRM
 #B2B
 #Enterprise
@@ -22,7 +22,7 @@
 
 ---
 
-### [**ERP**](https://github.com/yourawsluv/yourawsluv/blob/main/FLORA.md)
+### [**ERP**](https://github.com/yourawsluv/yourawsluv/blob/main/FLORA.html)
 #ERP
 #B2B
 #Enterprise
@@ -33,7 +33,7 @@
 
 ---
 
-### [**Платформа для управления цифровыми активами бизнеса**](https://github.com/yourawsluv/yourawsluv/blob/main/Kanoe.md)
+### [**Платформа для управления цифровыми активами бизнеса**](https://github.com/yourawsluv/yourawsluv/blob/main/Kanoe.html)
 #Blockchain
 #dApp
 #B2B
@@ -45,7 +45,7 @@
 
 ---
 
-### [**Платформа для управления бизнес-процессами**](https://github.com/yourawsluv/yourawsluv/blob/main/MirrorCFA.md)
+### [**Платформа для управления бизнес-процессами**](https://github.com/yourawsluv/yourawsluv/blob/main/MirrorCFA.html)
 #DAO
 #dApp
 #B2B
@@ -56,7 +56,7 @@
 
 ---
 
-### [**App for Medical Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/MedClinicApp.md)
+### [**App for Medical Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/MedClinicApp.html)
 #B2C
 #MedTech
 
