@@ -17,7 +17,8 @@
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/)
 
-<img width="600" height="auto" alt="Desktop - 1" src="https://github.com/user-attachments/assets/9a9eb2e2-896d-4fa3-9b8f-7d29ec28e65f" />
+<img width="600" height="auto" alt="Desktop - 1 1" src="https://github.com/user-attachments/assets/7659d5e0-e89c-4bf4-abe6-58fb28a2e9d7" />
+
 
 
 ---
