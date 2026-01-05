@@ -11,7 +11,7 @@
 
 ## Кейсы
 
-### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/CRM.md)
+### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/CRM/README.md)
 #CRM
 #B2B
 #Enterprise
@@ -19,8 +19,6 @@
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/)
 
 <img width="600" height="auto" alt="Desktop - 1 1" src="https://github.com/user-attachments/assets/7659d5e0-e89c-4bf4-abe6-58fb28a2e9d7" />
-
-
 
 ---
 
