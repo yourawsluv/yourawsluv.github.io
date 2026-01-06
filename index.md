@@ -13,7 +13,7 @@ layout: default
 
 ## Кейсы
 
-### [**CRM**](https://github.com/yourawsluv/yourawsluv/blob/main/CRM.html)
+### [**CRM**](https://yourawsluv.github.io/CRM.html)
 #CRM
 #B2B
 #Enterprise
@@ -24,7 +24,7 @@ layout: default
 
 ---
 
-### [**ERP**](https://github.com/yourawsluv/yourawsluv/blob/main/FLORA.html)
+### [**ERP**](https://yourawsluv.github.io/FLORA.html)
 #ERP
 #B2B
 #Enterprise
@@ -35,7 +35,7 @@ layout: default
 
 ---
 
-### [**Платформа для управления цифровыми активами бизнеса**](https://github.com/yourawsluv/yourawsluv/blob/main/Kanoe.html)
+### [**Платформа для управления цифровыми активами бизнеса**](https://yourawsluv.github.io/Kanoe.html)
 #Blockchain
 #dApp
 #B2B
@@ -47,7 +47,7 @@ layout: default
 
 ---
 
-### [**Платформа для управления бизнес-процессами**](https://github.com/yourawsluv/yourawsluv/blob/main/MirrorCFA.html)
+### [**Платформа для управления бизнес-процессами**](https://yourawsluv.github.io/MirrorCFA.html)
 #DAO
 #dApp
 #B2B
@@ -58,7 +58,7 @@ layout: default
 
 ---
 
-### [**App for Medical Clinic**](https://github.com/yourawsluv/yourawsluv/blob/main/MedClinicApp.html)
+### [**App for Medical Clinic**](https://yourawsluv.github.io/MedClinicApp.html)
 #B2C
 #MedTech
 
