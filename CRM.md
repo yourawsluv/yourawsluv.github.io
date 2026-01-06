@@ -4,15 +4,15 @@ layout: default
 
 [back](./)
 
+# **Цифровая трансформация клиентского опыта для федеральной сети DDX Fitness**
+
 Платформа обрабатывает миллионы взаимодействий с клиентами и решает ключевые задачи.
 event-driven, очереди задач, SLA система, работающими в реальном времени.
 
-# **Цифровая трансформация клиентского опыта для федеральной сети DDX Fitness**
-
 ## **Продукт**
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a269eb49-a822-428e-864d-425679128977" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e58bbd39-ac53-4d62-a3d5-29dcb5bb6007" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/a269eb49-a822-428e-864d-425679128977" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/e58bbd39-ac53-4d62-a3d5-29dcb5bb6007" />
 
 
 **Контактный центр CRM DDX Fitness комплексная система управления клиентским опытом для сети фитнес-клубов**
