@@ -96,7 +96,7 @@ layout: default
 
 
 ### Product Designer
-**[NeuroCity™](https://www.neuro-city.ru/) | Moscow, Russia | (2022 – 2024)**
+**[NeuroCity™](https://www.neuro-city.ru/) | Voronezh, Russia | (2022 – 2024)**
 
 **B2B продукт NeuroAdmin для управления IaaS сетью устройств навигации и самообслуживания для [Москва-Сити](https://vimeo.com/378351798/b2604eb15c), [ВДНХ](https://vimeo.com/943970322/ec0e09b707), [Шереметьево](https://vimeo.com/844888420/8d661d04fd), [ДЕПО](https://vimeo.com/575738187/691569bb52), [ЦУМ](https://vimeo.com/553351861/36f351f7f5)**
 - разрабатывал интерфейс веб-приложения для администрирования, аналитики и мониторинга инфраструктуры заказчика.
@@ -109,7 +109,7 @@ layout: default
 
 
 ### Communication Designer
-**[Expedition](https://explip.ru/) | Moscow, Russia | (2021 — 2022)**
+**[Expedition](https://explip.ru/) | Voronezh, Russia | (2021 — 2022)**
 
 - Вёрстка продукции компании для публикации в цифровом и печатном виде.
 - Разработка и поддержка дизайна веб-сайта компании.
@@ -119,7 +119,7 @@ layout: default
 - Менторинг младших сотрудников.
 
 ### Web Designer/Developer
-**[Expedition](https://explip.ru/) | Moscow, Russia | (2019 — 2021)**
+**Freelance | Voronezh, Russia | (2019 — 2021)**
 
 - Разработка макетов, прототипирование интерфейсов (web, mobile).
 - Разработка сайтов с помощью low-code инструментов (Webflow, Tilda).
