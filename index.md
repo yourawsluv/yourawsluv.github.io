@@ -20,7 +20,7 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-CallCenter-Sales?node-id=0-1&t=bLbmOHoYSl3m8Jh4-1)
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/1e456593-045f-403b-9007-703b9dc7bb1d" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/1e456593-045f-403b-9007-703b9dc7bb1d" />
 
 ---
 
@@ -31,7 +31,7 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-%D0%9A%D0%A6-%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8?node-id=0-1&t=bLbmOHoYSl3m8Jh4-1)
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
 
 ---
 
@@ -43,7 +43,7 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/9a41a2a3-6e24-4765-9f88-5696f0a8706b" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9a41a2a3-6e24-4765-9f88-5696f0a8706b" />
 
 ---
 
@@ -54,7 +54,7 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/2668c88d-e31d-486a-9961-0d0a111a57b4" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2668c88d-e31d-486a-9961-0d0a111a57b4" />
 
 ---
 
@@ -64,7 +64,7 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=34-5255&t=oPPrG0CGYrswUZ3g-1)
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/bb16952b-c40b-44ad-acfa-76f3b6fb03d5" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/bb16952b-c40b-44ad-acfa-76f3b6fb03d5" />
 
 ---
 
