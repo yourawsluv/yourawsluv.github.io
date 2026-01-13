@@ -68,7 +68,7 @@ layout: default
 
 ---
 
-### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Claimy.md)
+### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/Claimy.html)
 #Telegram
 #Game
 #Blockchain
@@ -79,7 +79,7 @@ layout: default
 
 ---
 
-### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
+### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/Varbusters.html)
 #Telegram
 #Game
 #Blockchain
@@ -90,7 +90,7 @@ layout: default
 
 ---
 
-### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/NoirRoulette.md)
+### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/NoirRoulette.html)
 #Telegram
 #Game
 #Blockchain
