@@ -18,9 +18,9 @@ layout: default
 #B2B
 #Enterprise
 
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-CallCenter-Sales?node-id=0-1&t=bLbmOHoYSl3m8Jh4-1)
 
-<img width="600" height="auto" alt="Desktop - 1 1" src="https://github.com/user-attachments/assets/7659d5e0-e89c-4bf4-abe6-58fb28a2e9d7" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/1e456593-045f-403b-9007-703b9dc7bb1d" />
 
 ---
 
@@ -29,9 +29,9 @@ layout: default
 #B2B
 #Enterprise
 
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-%D0%9A%D0%A6-%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8?node-id=0-1&t=bLbmOHoYSl3m8Jh4-1)
 
-<img src="https://github.com/user-attachments/assets/c26599c3-519e-4ceb-b65b-de9b2b7aaf53" width="600" height="auto">
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
 
 ---
 
@@ -43,7 +43,7 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-Wallet-SRS-App?node-id=59-40224&t=fQiC5Y1CPyVBDLbx-1)
 
-<img src="https://github.com/user-attachments/assets/950edffc-a628-406d-ab13-bb63f9a0387f" width="600" height="auto">
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/9a41a2a3-6e24-4765-9f88-5696f0a8706b" />
 
 ---
 
@@ -54,7 +54,7 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/R9ceAELlyO5wcHKliHjsJi/MirrorDAO?node-id=27-13020&t=ABdDyV4J8sNSSgJn-1)
 
-<img src="https://github.com/user-attachments/assets/98a41ba9-6073-40b5-9625-11e2ccaca837" width="600" height="auto">
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/2668c88d-e31d-486a-9961-0d0a111a57b4" />
 
 ---
 
@@ -64,7 +64,40 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=34-5255&t=oPPrG0CGYrswUZ3g-1)
 
-<img src="https://github.com/user-attachments/assets/99c0adb2-b9f7-44be-b144-b0f8e663d563" width="600" height="auto">
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/bb16952b-c40b-44ad-acfa-76f3b6fb03d5" />
+
+---
+
+### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Claimy.md)
+#Telegram
+#Game
+#Blockchain
+
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy-TON-Tigers?node-id=1666-18109&t=kgjBkEgKKlwvPgl5-1)
+
+<img src="https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1" width="600" height="auto">
+
+---
+
+### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/Varbusters.md)
+#Telegram
+#Game
+#Blockchain
+
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
+
+<img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="auto">
+
+---
+
+### [**Telegram Mini App (Blockchain)**](https://github.com/yourawsluv/yourawsluv/blob/main/projects/NoirRoulette.md)
+#Telegram
+#Game
+#Blockchain
+
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
+
+<img src="https://github.com/user-attachments/assets/7a7dfeb2-24c9-4577-999b-9fee473df015" width="600" height="auto">
 
 ---
 
@@ -136,7 +169,7 @@ layout: default
 - **Проектирование:** Проектирование (UI), Прототипирование (UX), Визуальный и Коммуникационный дизайн, Дизайн-системы
 - **Исследования:** Интервью/опросы, Юзабилити-тестирование, Конкурентный анализ, User Flow, CJM, A/B-тестирование, Empathy Map, Heatmap
 
-#### Тулзы
+### Тулзы
 - **Проектирование:** Figma, Sketch, Miro
 - **Веб-разработка:** Webflow, Framer, Tilda
 - **Frontend Tools:** HTML/CSS, JavaScript, Git, SQL
@@ -146,14 +179,7 @@ layout: default
 - **AI Tools:** Figma Make, GPT, Dall-E, Relume
 
 ### Софты
-
-- **Презентация решения**
-- **Работа в команде**
-- **Понимание бизнеса**
-- **Адаптивность**
-- **Самообучение**
-- **Организация и приоритеты**
-- **Agile/Scrum**
+Agile/Scrum, Презентация решения, Работа в команде, Понимание бизнес-логики, Адаптивность, Самообучение, Организация и приоритеты**
 
 <!--
 **yourawsluv/yourawsluv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
