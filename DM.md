@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/fb40afff-7198-4ef1-92dd-f56bf4a696a6" />
+
 ## Кейс
 
 **Driving Retention and Monetization Through Gamification, Live-Ops and Player Segmentation**
