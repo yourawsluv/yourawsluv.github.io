@@ -174,7 +174,7 @@ layout: default
 - **Веб-разработка:** Webflow, Framer, Tilda
 - **Frontend Tools:** HTML/CSS, JavaScript, Git, SQL
 - **Guidelines:** HIG, MD3
-- **Аналитика:** Tableau, Google Analytics, Яндекс Метрика
+- **Аналитика:** AppsFlyer, UxCam, Amplitude, NPS
 - **3D/Motion:** Blender, Spline, Adobe After Effect
 - **AI Tools:** Figma Make, GPT, Dall-E, Relume
 
