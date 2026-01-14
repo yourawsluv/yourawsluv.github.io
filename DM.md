@@ -5,6 +5,7 @@ layout: default
 ## Кейс
 
 **Driving Retention and Monetization Through Gamification, Live-Ops and Player Segmentation**
+https://www.figma.com/design/375VqZRulCNipLXFd8Ey2g/DM---Trading-List--?node-id=0-1&t=PBLZvi2Get3yWZUW-1
 
 ### Контекст
 
@@ -55,9 +56,13 @@ layout: default
 
 Одинаковый бонус для всех → снижает ценность для каждого.
 
-* Сегменты формируются динамически (не статично).
+* онбординг
+* Сегменты формируются динамически.
 * UI и промо-механики адаптируются под паттерны поведения.
 * Один и тот же продукт → разные точки входа.
+
+<img width="1434" height="332" alt="Снимок экрана 2026-01-14 в 17 28 38" src="https://github.com/user-attachments/assets/068c102e-b335-414e-87af-cb3bf00a6df7" />
+
 
 ---
 
@@ -75,6 +80,8 @@ layout: default
 * Прогресс всегда видим.
 * Награды объяснимы.
 * Нет наказаний за паузы.
+
+<img width="3908" height="3640" alt="image" src="https://github.com/user-attachments/assets/f83b36dd-8717-43fe-b8d6-0cfff7542d2e" />
 
 ---
 
@@ -99,6 +106,10 @@ layout: default
 * Bonus preview before opt-in.
 * Transparent wagering visualization.
 * Conversion of bonuses into progression currency.
+
+<img width="1417" height="613" alt="Снимок экрана 2026-01-14 в 17 25 59" src="https://github.com/user-attachments/assets/e5d896f9-680f-4aaf-aef5-4c8c4cf69467" />
+
+<img width="1407" height="596" alt="Снимок экрана 2026-01-14 в 17 27 17" src="https://github.com/user-attachments/assets/e26008fe-0bf3-47ae-9738-3131a924fabb" />
 
 ---
 
