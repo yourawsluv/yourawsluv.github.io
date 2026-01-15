@@ -7,7 +7,6 @@ layout: default
 ## Кейс
 
 **Driving Retention and Monetization Through Gamification, Live-Ops and Player Segmentation**
-https://www.figma.com/design/375VqZRulCNipLXFd8Ey2g/DM---Trading-List--?node-id=0-1&t=PBLZvi2Get3yWZUW-1
 
 ### Контекст
 
