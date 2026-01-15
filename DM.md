@@ -82,7 +82,7 @@ layout: default
 * Награды объяснимы.
 * Нет наказаний за паузы.
 
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/f83b36dd-8717-43fe-b8d6-0cfff7542d2e" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/936bbb76-efc5-41dd-8933-275509911b10" />
 
 ---
 
