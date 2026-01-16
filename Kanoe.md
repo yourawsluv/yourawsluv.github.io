@@ -4,13 +4,13 @@ layout: mermaid
 
 # Kanoe Wallet dApp
 
-- Релиз: https://kanoewallet.com/ 
-- Figma: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
+[Project link](https://kanoewallet.com/) 
+[Figma link](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe?node-id=0-1&t=an5moLHc5JynOE5D-1)
+
 
 ## Описание
  
 **Kanoe** — это платформа для управления и наследования цифровых активов. Приложение предоставляет пользователям возможность защищать свои цифровые активы, планировать их наследование и управлять ими в одной экосистеме. Главная цель продукта — запустить на рынок интуитивно понятный и безопасный инструмент для управления токенами криптовалют и NFT.
-
 
 ![image](https://github.com/user-attachments/assets/51f6b37a-e8e5-42f8-9f3e-f7313e27eae4) 
 
@@ -100,34 +100,30 @@ flowchart TD
 
 ### WalletConnect 
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     A[Open dApp] --> B[Initiate Wallet Connect]
     B --> C[Select Wallet Provider]
     C --> D{Is Wallet App Installed?}
-
     D -->|Yes| E[Open Wallet App]
     D -->|No| F[Redirect to Install Wallet]
-
     E --> G[Scan QR Code / Approve Connection]
     G --> H[Establish Connection]
-
     H --> I{Connection Successful?}
     I -->|Yes| J[Access dApp Features]
     I -->|No| K[Retry or Cancel Connection]
-
     J --> L[Perform Transactions]
     L --> M[Sign Transactions in Wallet]
     M --> N[Return to dApp with Signed Transaction]
     N --> O[Confirm Transaction on Blockchain]
     O --> P[Complete dApp Interaction]
-```
+</div>
 
 ![image](https://github.com/user-attachments/assets/a2e09fee-9f11-4289-b497-69aa2966dd53)
 
 ### Select Heir
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     User[User Access]
     Dashboard[Dashboard Access]
@@ -138,7 +134,6 @@ flowchart TD
     ConfirmSelection[Confirm Heir Assignment]
     Confirmation[Receive Confirmation]
     ViewHeirs[View Heirs List]
-    
     User --> Dashboard --> NFTAssets
     NFTAssets --> SelectNFT
     SelectNFT --> HeirSelection
@@ -147,10 +142,12 @@ flowchart TD
     ConfirmSelection --> |Save to Blockchain| Confirmation
     Confirmation --> |Back to Dashboard| ViewHeirs
     ViewHeirs --> Dashboard
-```
+</div>
+
 ![image](https://github.com/user-attachments/assets/9ecddbea-edd8-4d00-b9ab-4fc79bfddd6c)
 
-```mermaid
+
+<div class="mermaid">
 flowchart TD
     User[User Access]
     Register[Register Assets]
@@ -163,23 +160,22 @@ flowchart TD
     NotifyHeirs[Notify Heirs]
     TransferAssets[Transfer Assets to Heirs]
     Confirmation[Receive Confirmation]
-    
     User --> Register --> SetHeirs
     SetHeirs --> DefinePercentage
     DefinePercentage --> SetConditions
     SetConditions --> Timer
     SetConditions --> AbsenceCheck
-    
     Timer --> InheritanceTriggered
     AbsenceCheck --> InheritanceTriggered
     InheritanceTriggered --> NotifyHeirs
     NotifyHeirs --> TransferAssets
     TransferAssets --> Confirmation
-```
+</div>
 
 ![image](https://github.com/user-attachments/assets/5cb5083d-e97b-44e1-87ac-67f7e493963d)
 
-```mermaid
+
+<div class="mermaid">
 flowchart TD
     User[User Access]
     Dashboard[Access Dashboard]
@@ -193,37 +189,33 @@ flowchart TD
     NotifyHeirs[Notify Heirs]
     TransferAssets[Transfer Assets to Heirs]
     Confirmation[Receive Confirmation]
-    
     ModifySettings[Modify Inheritance Settings]
     ViewHeirs[View Assigned Heirs]
     LegalCompliance[Ensure Legal Compliance]
     ReviewConditions[Review Activation Conditions]
-
     User --> Dashboard --> Register
     Register --> SetHeirs
     SetHeirs --> DefinePercentage
     DefinePercentage --> SetConditions
     SetConditions --> Timer
     SetConditions --> AbsenceCheck
-
     Timer --> InheritanceTriggered
     AbsenceCheck --> InheritanceTriggered
     InheritanceTriggered --> NotifyHeirs
     NotifyHeirs --> TransferAssets
     TransferAssets --> Confirmation
-    
     Dashboard --> ViewHeirs
     ViewHeirs --> ModifySettings
     ModifySettings --> DefinePercentage
     ModifySettings --> ReviewConditions
     ModifySettings --> LegalCompliance
-```
+</div>
 
 ![image](https://github.com/user-attachments/assets/b09c4f5c-0f2f-4583-a2ca-beae45e1884d)
 ![image](https://github.com/user-attachments/assets/d3ecb590-b033-4b3e-b54a-cc0d97c7c875)
 ![image](https://github.com/user-attachments/assets/74f38645-e073-4ff5-a3e6-76a5e727a685)
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     User[User Access]
     Dashboard[Dashboard Access]
@@ -233,7 +225,6 @@ flowchart TD
     ConfirmSelection[Confirm Selection]
     Confirmation[Receive Confirmation]
     ViewHeirs[View Heirs List]
-    
     User --> Dashboard --> HeirSelection
     HeirSelection --> AddHeir
     AddHeir --> |Set Percentage| DefinePercentage
@@ -241,7 +232,7 @@ flowchart TD
     ConfirmSelection --> |Save to Blockchain| Confirmation
     Confirmation --> |Back to Dashboard| ViewHeirs
     ViewHeirs --> Dashboard
-```
+</div>
 
 ![image](https://github.com/user-attachments/assets/536e0ad8-c160-4ec2-99eb-e1640f25d66f)
 ![image](https://github.com/user-attachments/assets/644ddff9-b67d-4a4f-8391-546f4b57f783)
