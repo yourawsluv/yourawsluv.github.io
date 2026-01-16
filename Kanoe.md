@@ -1,20 +1,11 @@
 ---
-tags:
-- Fintech
-- dApp
-- Software
-- Blockchain
-- Desktop
-- Mobile
-Год: 2024
-Релиз: true
-Описание: Платформа для защиты и управления наследованием цифровых активов
-Ссылка: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
+layout: mermaid
 ---
 
 # Kanoe Wallet dApp
 
-Релиз: https://kanoewallet.com/
+Релиз: https://kanoewallet.com/ 
+Figma: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
 
 ## Описание
  
