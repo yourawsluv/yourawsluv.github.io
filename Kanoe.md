@@ -4,8 +4,8 @@ layout: mermaid
 
 # Kanoe Wallet dApp
 
-Релиз: https://kanoewallet.com/ 
-Figma: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
+- Релиз: https://kanoewallet.com/ 
+- Figma: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1&t=ZzOPfjwijHCqvjCK-1
 
 ## Описание
  
@@ -68,40 +68,33 @@ Figma: https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe-SRS?node-id=0-1
 
 dApp Crypto Inheritance 
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     A[Start Inheritance Process] --> B[Setup Crypto Inheritance Plan]
     B --> C[Define Private Key and Seed Storage]
     C --> D[Select Beneficiaries]
-
     subgraph "Inheritance Creation and Setup"
         B
         C
         D
     end
-
     D --> E[Create Smart Contract for Inheritance Rules]
     E --> F[Define Conditions for Asset Access]
     F --> G["Enable Secure Storage (Cold Wallets, Digital Vaults)"]
-
     subgraph "Beneficiary Selection and Asset Management"
         E
         F
         G
     end
-
     G --> H[Assign Executor with Crypto Expertise]
     H --> I["Initiate Inheritance Execution Process Upon Trigger (e.g., Death)"]
     I --> J{Is Trigger Verified?}
-
     J -->|Yes| K[Execute Smart Contract for Asset Transfer]
     J -->|No| L[Hold Assets Until Verified]
-
     K --> M[Transfer Assets to Beneficiaries]
     M --> N[End Process]
-    
     L --> J
-```
+</div>
 
 ## UI
 
