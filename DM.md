@@ -8,13 +8,8 @@ layout: default
 
 **Driving Retention and Monetization Through Gamification, Live-Ops and Player Segmentation**
 
-### Контекст
-
-**Product:** iGaming platform (Casino-first, Live + Slots)
-**Platform:** Mobile-first Web
-**Role:** Product Designer (Product Discovery, UX Strategy, Live-Ops Design)
-**Focus:** Retention, ARPU, Player Lifecycle
-**Team:** Product, CRM, BI, Game Providers, Compliance
+**Product:** Casino-first, Live + Slots
+**Platform:** TMA
 
 ---
 
