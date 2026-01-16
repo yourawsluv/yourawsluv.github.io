@@ -13,9 +13,10 @@ layout: default
 
 ## Кейсы
 
-### [**CRM**](https://yourawsluv.github.io/CRM.html)
+### [**CRM-система для операторов контактного центра**](https://yourawsluv.github.io/CRM.html)
 #CRM
 #B2B
+#SaaS
 #Enterprise
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-CallCenter-Sales?node-id=0-1&t=bLbmOHoYSl3m8Jh4-1)
@@ -24,7 +25,7 @@ layout: default
 
 ---
 
-### [**ERP**](https://yourawsluv.github.io/FLORA.html)
+### [**ERP-система для управления оптовой торговлей**](https://yourawsluv.github.io/FLORA.html)
 #ERP
 #B2B
 #Enterprise
@@ -58,7 +59,7 @@ layout: default
 
 ---
 
-### [**App for Medical Clinic**](https://yourawsluv.github.io/MedClinicApp.html)
+### [**CRM-система для персонала медицинского центра**](https://yourawsluv.github.io/MedClinicApp.html)
 #B2C
 #MedTech
 
