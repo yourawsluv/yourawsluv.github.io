@@ -2,14 +2,9 @@
 layout: default
 ---
 
-# ✌️Привет, я Ярослав 
+# Привет, я Ярослав 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-2B7FF0?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yaroslavkorotkikh) [![Telegram](https://img.shields.io/badge/Telegram-29A7E1?style=flat&logo=telegram&logoColor=white)](https://t.me/yourawsluv) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yaroslawkorotkih@yandex.ru)
 
-## Обо мне
-
->5+ лет в продуктах B2B, SaaS, Fintech. T-shaped экспертиза — от проведения CustDev в MVP, до оптимизации процессов в успешном бизнесе. Работаю на одном языке с UX, A/B, ML, BizDev, Frontend, QA, и конечно же с юзерами:)
-
----
 
 ## Кейсы
 
@@ -129,6 +124,8 @@ layout: default
 - Ускорил TTD, через рефакторинг дизайн-системы (300+ компонентов) и перенос библиотеки в Storybook для тестового стенда
 - Проводил демо перед бизнесом и бенчмарк сценариев на фокус-группе пользователей
 
+---
+
 ### Senior Product Designer
 **[ROLF](https://www.rolftech.ru/) | Moscow, Russia | (2024 — 2025)**
 
@@ -140,6 +137,7 @@ layout: default
 - коммуницировал с командой продукта (PO, BA, SA и Frontend) и приоритезировал бэклог для пилота
 - проводил кросс-ревью и планирование с командой продуктовых дизайнеров
 
+---
 
 ### Product Designer
 **[NeuroCity™](https://www.neuro-city.ru/) | Voronezh, Russia | (2022 – 2024)**
@@ -153,6 +151,7 @@ layout: default
 - создавал и поддерживал дизайн-систему
 - проводил ревью, тестировал сборки и координировал работу других дизайнеров.
 
+---
 
 ### Communication Designer
 **[Expedition](https://explip.ru/) | Voronezh, Russia | (2021 — 2022)**
@@ -163,6 +162,8 @@ layout: default
 - Создание иллюстраций в Photoshop и Illustrator.
 - Брендирование и копирайтинг.
 - Менторинг младших сотрудников.
+
+---
 
 ### Web Designer/Developer
 **Freelance | Voronezh, Russia | (2019 — 2021)**
@@ -175,6 +176,7 @@ layout: default
 - Создание векторной и 3D графики (моделирование, создание текстур, настройка сцен и света, настройка вывода рендера), ретушь фото, анимация(3D, 2D).
 
 ---
+
 
 ## Навыки
 
