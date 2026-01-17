@@ -105,6 +105,9 @@ layout: default
 
 ## 7. UX‑решения и экраны
 
+https://www.figma.com/design/21R86MVZweDzlv8BJHWbRJ/FDSGN-654-Created-Order?node-id=104-128907&t=tHsP2PDZ7rIm2l87-1
+https://www.figma.com/design/z80HmcWsxWKwcXZmTofyfH/Flora-_-%D0%94%D0%9A%D0%9F%D0%97?node-id=1-3&t=juIH9c8mxAeaPA6m-1
+
 ### 7.1 Список заказов покупателей
 
 * фильтрация по статусам и датам;
