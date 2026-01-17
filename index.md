@@ -19,7 +19,7 @@ layout: default
 
 [![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-CallCenter-Sales?node-id=0-1&t=bLbmOHoYSl3m8Jh4-1)
 
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/1e456593-045f-403b-9007-703b9dc7bb1d" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9914075c-3594-4186-a029-cdd46d263647" />
 
 ---
 
