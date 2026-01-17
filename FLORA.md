@@ -4,15 +4,11 @@ layout: default
 
 [back](./)
 
-## Описание
-
-![image](https://github.com/user-attachments/assets/58e7a3d4-693e-4abb-9157-1ba3cfede69b)
-
-## [Flora ERP](https://www.rolftech.ru/flora) — Модуль продажи запчастей (ДКПЗ)
+# [Flora ERP](https://www.rolftech.ru/flora) — Модуль оптовой торговли (ДКПЗ)
 
 **Роль:** Senior Product Designer
 **Компания:** Рольф (автодилерский холдинг)
-**Продукт:** Корпоративная ERP-система Flora
+**Продукт:** ERP-система Flora
 **Платформа:** Web (desktop + tablet)
 
 ---
