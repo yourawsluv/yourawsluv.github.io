@@ -1,0 +1,9 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if page.favicon %}
+<link rel="icon" href="{{ page.favicon | relative_url }}">
+{% endif %}
