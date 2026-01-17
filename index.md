@@ -5,8 +5,11 @@ layout: default
 # Привет, я Ярослав 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-2B7FF0?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yaroslavkorotkikh) [![Telegram](https://img.shields.io/badge/Telegram-29A7E1?style=flat&logo=telegram&logoColor=white)](https://t.me/yourawsluv) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yaroslawkorotkih@yandex.ru)
 
+---
 
 ## Кейсы
+
+---
 
 ### [**CRM-система для операторов контактного центра**](https://yourawsluv.github.io/CRM.html)
 #CRM
@@ -111,6 +114,8 @@ layout: default
 
 ## Опыт работы
 
+---
+
 ### Senior Product Designer
 **[DDX](https://www.ddxfitness.ru/) | Moscow, Russia | (2025 — present)**
 
@@ -180,6 +185,8 @@ layout: default
 
 ## Навыки
 
+---
+
 ### Харды
 - **Проектирование:** Проектирование (UI), Прототипирование (UX), Визуальный и Коммуникационный дизайн, Дизайн-системы
 - **Исследования:** Интервью/опросы, Юзабилити-тестирование, Конкурентный анализ, User Flow, CJM, A/B-тестирование, Empathy Map, Heatmap
@@ -196,6 +203,7 @@ layout: default
 ### Софты
 Agile/Scrum, Презентация решения, Работа в команде, Понимание бизнес-логики, Адаптивность, Самообучение, Организация и приоритеты**
 
+---
 <!--
 **yourawsluv/yourawsluv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
