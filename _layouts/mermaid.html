@@ -5,10 +5,15 @@ layout: default
 {{ content }}
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
 <script>
+  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
   mermaid.initialize({
     startOnLoad: true,
-    securityLevel: "loose",
-    theme: "default"
+    theme: isDark ? "dark" : "default",
+    themeVariables: {
+      fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+    }
   });
 </script>
