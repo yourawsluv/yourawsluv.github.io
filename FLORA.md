@@ -175,15 +175,11 @@ layout: default
 
 ## 9. Результат и эффект
 
-* сокращение времени оформления сделки;
-* снижение ошибок резервирования;
-* единый контроль заказов и оплат.
-* меньше ручных операций;
-* прозрачные статусы;
-* предсказуемый рабочий процесс.
-
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/e13bfee4-219e-4da5-87ca-6d02616c41ab" />
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/341516ed-67bf-466f-8664-533d11097137" />
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/761ed158-f3c9-4b1f-bd26-9fafb0323c35" />
+* сокращение времени оформления заказа клиента
+* снижение ошибок при оформлении
+* единый контроль заказов и оплат
+* автоматизация ручных операций
+* прозрачные статусы
+* предсказуемый рабочий процесс
 
 ---
