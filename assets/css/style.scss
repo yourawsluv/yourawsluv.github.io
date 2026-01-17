@@ -3,16 +3,8 @@
 
 @import "{{ site.theme }}";
 
-/* ===== Font override ===== */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-body {
-  font-family: -apple-system, BlinkMacSystemFont,
-               "Inter", "Segoe UI", Roboto,
-               Helvetica, Arial, sans-serif;
-}
-
 /* =====================
-   CSS Variables
+   GitHub Dark (dimmed)
    ===================== */
 :root {
   --bg: #ffffff;
@@ -34,9 +26,6 @@ body {
   }
 }
 
-/* =====================
-   Theme override
-   ===================== */
 body {
   background-color: var(--bg);
   color: var(--text);
@@ -46,13 +35,27 @@ a {
   color: var(--link);
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+p, li {
+  color: var(--text);
+}
+
+small, .muted {
+  color: var(--muted);
+}
+
 hr {
   border-color: var(--border);
 }
 
+/* Code */
 pre, code {
   background-color: var(--code-bg);
   color: var(--text);
+  border-radius: 6px;
 }
 
 /* Tables */
@@ -60,7 +63,25 @@ table {
   border-color: var(--border);
 }
 
-/* Mermaid (important) */
+th, td {
+  border-color: var(--border);
+}
+
+/* Blockquote */
+blockquote {
+  color: var(--muted);
+  border-left-color: var(--border);
+}
+
+/* Mermaid container */
 .mermaid {
   background: transparent;
+}
+
+/* ===== Font override ===== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body {
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Inter", "Segoe UI", Roboto,
+               Helvetica, Arial, sans-serif;
 }
