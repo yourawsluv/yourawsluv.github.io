@@ -10,3 +10,57 @@ body {
                "Inter", "Segoe UI", Roboto,
                Helvetica, Arial, sans-serif;
 }
+
+/* =====================
+   CSS Variables
+   ===================== */
+:root {
+  --bg: #ffffff;
+  --text: #24292f;
+  --muted: #57606a;
+  --link: #0969da;
+  --border: #d0d7de;
+  --code-bg: #f6f8fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --text: #c9d1d9;
+    --muted: #8b949e;
+    --link: #58a6ff;
+    --border: #30363d;
+    --code-bg: #161b22;
+  }
+}
+
+/* =====================
+   Theme override
+   ===================== */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+}
+
+hr {
+  border-color: var(--border);
+}
+
+pre, code {
+  background-color: var(--code-bg);
+  color: var(--text);
+}
+
+/* Tables */
+table {
+  border-color: var(--border);
+}
+
+/* Mermaid (important) */
+.mermaid {
+  background: transparent;
+}
