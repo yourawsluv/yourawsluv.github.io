@@ -4,86 +4,98 @@
 @import "{{ site.theme }}";
 
 /* =====================
-   Palette: OpenAI-style
+   Base Colors
    ===================== */
 
 /* Light theme */
 :root {
-  --color-bg: #FAFAFA;
-  --color-text: #242526;
-  --color-muted: #E6E6E6;
-  --color-accent: #3A86FF;
-  --color-accent-alt: #95D5B2;
-  --color-link: #FFD166;
+  --bg: #FFFFFF;            /* чистый светлый фон */
+  --text: #111827;          /* почти чёрный текст */
+  --text-muted: #6B7280;    /* мягкий серый */
+  --accent: #1A73E8;        /* насыщенный синий */
+  --link: #1A73E8;          /* ссылка такой же синий */
+  --border: #E5E7EB;        /* тонкая светлая линия */
+  --section-bg: #F9FAFB;    /* чуть выделенный блок */
 }
 
-/* Dark theme */
+/* Dark theme (prefers-color-scheme) */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #121212;
-    --color-text: #C9D1D9;
-    --color-muted: #8B949E;
-    --color-accent: #3A86FF;
-    --color-accent-alt: #95D5B2;
-    --color-link: #FFD166;
+    --bg: #0F1115;            /* тёмный фон (почти чёрный) */
+    --text: #E5E7EB;          /* светлый текст */
+    --text-muted: #9CA3AF;    /* мягкая тёмно-серая */
+    --accent: #5AB0F5;        /* мягкий синий */
+    --link: #5AB0F5;          /* ссылка */
+    --border: #30343B;        /* тёмная линия */
+    --section-bg: #181A1F;    /* блок чуть светлее фона */
   }
 }
 
-/* Apply to minimal elements */
+/* =====================
+   Apply Theme
+   ===================== */
+
 body {
-  background-color: var(--color-bg);
-  color: var(--color-text);
+  background-color: var(--bg);
+  color: var(--text);
 }
 
+/* Headings */
+h1, h2, h3, h4 {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* Paragraphs */
+p, li {
+  color: var(--text);
+}
+
+/* Muted text */
+small, .muted, .subtitle {
+  color: var(--text-muted);
+}
+
+/* Links */
 a {
-  color: var(--color-link);
+  color: var(--link);
 }
-
 a:hover {
   text-decoration: underline;
 }
 
-p, li {
-  color: var(--color-text);
+/* Sections / cards */
+section {
+  background: var(--section-bg);
+  border-radius: 8px;
+  padding: 1.2em;
 }
 
-small, .muted {
-  color: var(--color-muted);
-}
-
+/* Borders and horizontal rules */
 hr {
-  border-color: var(--color-muted);
-}
-
-/* Code blocks */
-pre, code {
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  border-radius: 6px;
+  border-color: var(--border);
 }
 
 /* Tables */
 table {
-  border-color: var(--color-muted);
+  border-color: var(--border);
 }
-
-th, td {
-  border-color: var(--color-muted);
-}
-
 th, td {
   border-color: var(--border);
 }
 
-/* Blockquote */
-blockquote {
-  color: var(--muted);
-  border-left-color: var(--border);
+/* Code blocks */
+pre, code {
+  background-color: var(--section-bg);
+  color: var(--text);
+  padding: 0.6em;
+  border-radius: 6px;
 }
 
-/* Mermaid container */
-.mermaid {
-  background: transparent;
+/* Images (optional nicer effect) */
+img {
+  max-width: 100%;
+  border-radius: 6px;
 }
 
 /* ===== Font override ===== */
