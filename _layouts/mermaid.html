@@ -8,17 +8,14 @@ layout: default
 
 <script>
   const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
   mermaid.initialize({
     startOnLoad: true,
     theme: isDark ? "dark" : "default",
     themeVariables: {
-      fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
-      primaryColor: "var(--color-accent)",
-      secondaryColor: "var(--color-accent-alt)",
+      primaryColor: "var(--accent)",
+      secondaryColor: "var(--section-bg)",
       background: "transparent",
-      textColor: "var(--color-text)",
-      lineColor: "var(--color-muted)"
+      textColor: "var(--text)"
     }
   });
 </script>
