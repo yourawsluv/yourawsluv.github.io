@@ -41,9 +41,17 @@ body {
 }
 
 /* Headings */
-h1, h2, h3, h4 {
-  color: var(--text);
-  font-weight: 600;
+:root[data-theme="dark"] {
+  --heading: #f9fafb;
+}
+
+header h1,
+header h1 a,
+section h1,
+section h2,
+section h3,
+section h4 {
+  color: var(--heading, var(--text));
 }
 
 /* Paragraphs */
