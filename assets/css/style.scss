@@ -4,35 +4,39 @@
 @import "{{ site.theme }}";
 
 /* =====================
-   GitHub Dark (dimmed)
+   Palette: OpenAI-style
    ===================== */
+
+/* Light theme */
 :root {
-  --bg: #ffffff;
-  --text: #24292f;
-  --muted: #57606a;
-  --link: #0969da;
-  --border: #d0d7de;
-  --code-bg: #f6f8fa;
+  --color-bg: #FAFAFA;
+  --color-text: #242526;
+  --color-muted: #E6E6E6;
+  --color-accent: #3A86FF;
+  --color-accent-alt: #95D5B2;
+  --color-link: #FFD166;
 }
 
+/* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0d1117;
-    --text: #c9d1d9;
-    --muted: #8b949e;
-    --link: #58a6ff;
-    --border: #30363d;
-    --code-bg: #161b22;
+    --color-bg: #121212;
+    --color-text: #C9D1D9;
+    --color-muted: #8B949E;
+    --color-accent: #3A86FF;
+    --color-accent-alt: #95D5B2;
+    --color-link: #FFD166;
   }
 }
 
+/* Apply to minimal elements */
 body {
-  background-color: var(--bg);
-  color: var(--text);
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 a {
-  color: var(--link);
+  color: var(--color-link);
 }
 
 a:hover {
@@ -40,27 +44,31 @@ a:hover {
 }
 
 p, li {
-  color: var(--text);
+  color: var(--color-text);
 }
 
 small, .muted {
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 hr {
-  border-color: var(--border);
+  border-color: var(--color-muted);
 }
 
-/* Code */
+/* Code blocks */
 pre, code {
-  background-color: var(--code-bg);
-  color: var(--text);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   border-radius: 6px;
 }
 
 /* Tables */
 table {
-  border-color: var(--border);
+  border-color: var(--color-muted);
+}
+
+th, td {
+  border-color: var(--color-muted);
 }
 
 th, td {
