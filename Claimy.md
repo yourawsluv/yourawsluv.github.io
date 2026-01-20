@@ -29,7 +29,7 @@ tags:
 
 ## Процесс 
 
-```mermaid
+<div class="mermaid">
 graph TD;
     A[Research and Planning] --> B[Concept Development];
     B --> C[Prototyping];
@@ -38,7 +38,7 @@ graph TD;
     E --> F[Testing];
     F --> G[Launch];
     G --> H[Post-Launch and Iteration];
-```
+</div>
 
 ### Этапы
 1. **Исследование и Планирование**
@@ -95,36 +95,32 @@ graph TD;
 
 ### Механика
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     subgraph Ecosystem
         Users[Users]
         $TIGER[Token $TIGER]
         NFTs[NFT Collection - Tigers]
     end
-
     Users --> |Earn Rewards| $TIGER
     Users --> |Claim NFTs| NFTs
     $TIGER --> |Stake Tokens| Staking
     NFTs --> |Gamification| Rewards
-
     Staking --> |Yield Rewards| $TIGER
     $TIGER --> |Governance Voting| Platform
-    
     subgraph Community Engagement
         Events[Partnership Events]
         Contests[Contests and Airdrops]
         Rewards[Community Rewards]
     end
-    
     Events --> Rewards
     Contests --> Rewards
     Rewards --> Users
-```
+</div>
 
 ### Core Actions
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     Start[Start: Access Claimy Tigers]
     Register[Register Account]
@@ -134,24 +130,23 @@ flowchart TD
     Participate[Participate in Events and Contests]
     EarnRewards[Earn Rewards]
     Governance[Vote on Platform Governance]
-    
     Start --> Register --> Wallet
     Wallet --> ClaimNFT --> Stake
     Stake --> EarnRewards
     Participate --> EarnRewards
     EarnRewards --> Governance
     Governance --> Stake
-```
+</div>
 
 ### UserStory
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     A[Login/Connect Wallet] --> B[Browse Available Tigers]
     B --> C[Claim Selected Tiger]
     C --> D[View Claimed Assets]
     D --> E[Access Transaction History]
-```
+</div>
 
 1. **Login/Connect Wallet** – Users authenticate and connect their TON wallet.
 2. **Browse & Claim NFTs** – Users browse available Tigers and initiate the claim.
