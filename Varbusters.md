@@ -3,16 +3,7 @@ layout: mermaid
 ---
 
 ---
-tags:
-  - Telegram
-  - Game
-  - Crypto
-  - Desktop
-  - Mobile
-Год: 2024
-Статус: true
-Описание: TWA Mobile Game on Whitechain
-Ссылка: https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=R9Car2W65R0WF5F7-1)
+https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters?node-id=0-1&t=wn2wJT6j8yenfwup-1
 ---
 
 
