@@ -50,12 +50,12 @@ layout: default
 
 ## 1. Сегментация
 
-Одинаковый бонус для всех → снижает ценность для каждого.
+Одинаковый бонус для всех снижает ценность для каждого.
 
 * онбординг
 * Сегменты формируются динамически.
-* UI и промо-механики адаптируются под паттерны поведения.
-* Один и тот же продукт → разные точки входа.
+* UI и промомеханики адаптируются под паттерны поведения.
+* Один и тот же продукт разные точки входа.
 
 <img width="600" height="auto" alt="Снимок экрана 2026-01-14 в 17 28 38" src="https://github.com/user-attachments/assets/068c102e-b335-414e-87af-cb3bf00a6df7" />
 
@@ -88,6 +88,8 @@ layout: default
 * Seasonal events with clear start/end.
 * Event-specific UI layers (visual + copy).
 * Limited mechanics without core UX disruption.
+
+![photo_2026-01-20 11 16 17](https://github.com/user-attachments/assets/9801b87b-ba72-4dd1-8843-8a432b30a318)
 
 ---
 
