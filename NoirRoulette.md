@@ -1,4 +1,8 @@
 ---
+layout: mermaid
+---
+
+---
 tags:
   - Telegram
   - Game
