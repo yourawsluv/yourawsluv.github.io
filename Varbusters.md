@@ -19,18 +19,19 @@ tags:
 
 ## Gameplay
 
-```mermaid
+<div class="mermaid">
 journey
     title Gameplay VarBusters
     section Gameplay
       Управление тапом: 5: Игрок
       Прохождение препятствий: 4: Игрок
       Сбор $GHOSTY: 4: Игрок
-```
+</div>
 
 ## Game Mechanics
 
-```mermaid
+
+<div class="mermaid">
 journey
     title Game Mechanics VarBusters
     section Health and Strategy
@@ -40,24 +41,24 @@ journey
       Статические препятствия: 2: Игрок
       Динамические препятствия: 3: Игрок
       Увеличение сложности уровня: 3: Игрок
-```
+</div>
 
 
 ## Earn
 
-```mermaid
+<div class="mermaid">
 journey
     title Earn VarBusters
     section Rewards
       Получение лутбоксов: 5: Игрок
       Заработок токенов GHOSTY: 4: Игрок
       Использование валюты GHOSTY: 4: Игрок
-```
+</div>
 
 
 ## Referral
 
-```mermaid
+<div class="mermaid">
 journey
     title Referral and Monetization VarBusters
     section Social Integration
@@ -66,5 +67,5 @@ journey
     section Monetization
       Возможность получения наград через рекламу: 3: Игрок
       Интеграция с блокчейном: 4: Игрок
-```
+</div>
 
