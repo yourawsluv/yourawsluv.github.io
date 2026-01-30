@@ -5,11 +5,10 @@ layout: default
 # Привет, я Ярослав 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-2B7FF0?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yaroslavkorotkikh) [![Telegram](https://img.shields.io/badge/Telegram-29A7E1?style=flat&logo=telegram&logoColor=white)](https://t.me/yourawsluv) [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yaroslawkorotkih@yandex.ru)
 
----
+
 
 ## Кейсы
 
----
 
 ### [**CRM-система для операторов контактного центра**](https://yourawsluv.github.io/CRM.html)
 #CRM
@@ -21,7 +20,6 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9914075c-3594-4186-a029-cdd46d263647" />
 
----
 
 ### [**ERP-система для управления оптовой торговлей**](https://yourawsluv.github.io/FLORA.html)
 #ERP
@@ -32,7 +30,6 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
 
----
 
 ### [**Платформа для управления цифровыми активами бизнеса**](https://yourawsluv.github.io/Kanoe.html)
 #Blockchain
@@ -44,7 +41,6 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9a41a2a3-6e24-4765-9f88-5696f0a8706b" />
 
----
 
 ### [**Платформа для управления бизнес-процессами**](https://yourawsluv.github.io/MirrorCFA.html)
 #DAO
@@ -55,7 +51,6 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2668c88d-e31d-486a-9961-0d0a111a57b4" />
 
----
 
 ### [**CRM-система для персонала медицинского центра**](https://yourawsluv.github.io/MedClinicApp.html)
 #B2C
@@ -65,7 +60,6 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/bb16952b-c40b-44ad-acfa-76f3b6fb03d5" />
 
----
 
 ### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/Claimy.html)
 #Telegram
@@ -76,7 +70,6 @@ layout: default
 
 <img src="https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1" width="600" height="auto">
 
----
 
 ### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/Varbusters.html)
 #Telegram
@@ -87,7 +80,6 @@ layout: default
 
 <img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="auto">
 
----
 
 ### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/NoirRoulette.html)
 #Telegram
@@ -98,7 +90,6 @@ layout: default
 
 <img src="https://github.com/user-attachments/assets/7a7dfeb2-24c9-4577-999b-9fee473df015" width="600" height="auto">
 
----
 
 ### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/DM.html)
 #iGaming
@@ -110,11 +101,9 @@ layout: default
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9d716887-06d5-4a10-b57d-572398818979" />
 
 
----
 
 ## Опыт работы
 
----
 
 ### Senior Product Designer
 **[DDX](https://www.ddxfitness.ru/) | Moscow, Russia | (2025 — present)**
@@ -129,7 +118,6 @@ layout: default
 - Ускорил TTD, через рефакторинг дизайн-системы (300+ компонентов) и перенос библиотеки в Storybook для тестового стенда
 - Проводил демо перед бизнесом и бенчмарк сценариев на фокус-группе пользователей
 
----
 
 ### Senior Product Designer
 **[ROLF](https://www.rolftech.ru/) | Moscow, Russia | (2024 — 2025)**
@@ -142,7 +130,6 @@ layout: default
 - коммуницировал с командой продукта (PO, BA, SA и Frontend) и приоритезировал бэклог для пилота
 - проводил кросс-ревью и планирование с командой продуктовых дизайнеров
 
----
 
 ### Product Designer
 **[NeuroCity™](https://www.neuro-city.ru/) | Voronezh, Russia | (2022 – 2024)**
@@ -156,7 +143,6 @@ layout: default
 - создавал и поддерживал дизайн-систему
 - проводил ревью, тестировал сборки и координировал работу других дизайнеров.
 
----
 
 ### Communication Designer
 **[Expedition](https://explip.ru/) | Voronezh, Russia | (2021 — 2022)**
@@ -168,7 +154,6 @@ layout: default
 - Брендирование и копирайтинг.
 - Менторинг младших сотрудников.
 
----
 
 ### Web Designer/Developer
 **Freelance | Voronezh, Russia | (2019 — 2021)**
@@ -180,16 +165,15 @@ layout: default
 - Брендирование и создание документации. Создание UI-kit и библиотеки шаблонов.
 - Создание векторной и 3D графики (моделирование, создание текстур, настройка сцен и света, настройка вывода рендера), ретушь фото, анимация(3D, 2D).
 
----
 
 
 ## Навыки
 
----
 
 ### Харды
 - **Проектирование:** Проектирование (UI), Прототипирование (UX), Визуальный и Коммуникационный дизайн, Дизайн-системы
 - **Исследования:** Интервью/опросы, Юзабилити-тестирование, Конкурентный анализ, User Flow, CJM, A/B-тестирование, Empathy Map, Heatmap
+
 
 ### Тулзы
 - **Проектирование:** Figma, Sketch, Miro
@@ -200,10 +184,11 @@ layout: default
 - **3D/Motion:** Blender, Spline, Adobe After Effect
 - **AI Tools:** Figma Make, GPT, Dall-E, Relume
 
+
 ### Софты
 Agile/Scrum, Презентация решения, Работа в команде, Понимание бизнес-логики, Адаптивность, Самообучение, Организация и приоритеты**
 
----
+
 <!--
 **yourawsluv/yourawsluv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
