@@ -28,7 +28,7 @@ layout: default
 #B2B
 #Enterprise
 
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-%D0%9A%D0%A6-%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8?node-id=0-1&t=bLbmOHoYSl3m8Jh4-1)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/21R86MVZweDzlv8BJHWbRJ/FDSGN-654-Created-Order?node-id=104-128907&t=IYwny6lKhwCoTlrE-1)
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
 
@@ -94,7 +94,7 @@ layout: default
 #Game
 #Blockchain
 
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters-Game-(Copy)?node-id=0-1&t=KfgssFNvIRH9Xib8-1)
+[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/DNg0ol4k4HDhpwu4nur3l8/NoirRoulette?node-id=2091-11178&t=SUfSIMNIwIQL0N87-1)
 
 <img src="https://github.com/user-attachments/assets/7a7dfeb2-24c9-4577-999b-9fee473df015" width="600" height="auto">
 
