@@ -91,16 +91,6 @@ layout: default
 <img src="https://github.com/user-attachments/assets/7a7dfeb2-24c9-4577-999b-9fee473df015" width="600" height="auto">
 
 
-### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/DM.html)
-#iGaming
-#Mobile Game
-#Blockchain
-
-[![Figma](https://img.shields.io/badge/Project-Link-blue?style=flat&logo=figma)](https://www.figma.com/design/375VqZRulCNipLXFd8Ey2g/DM---Trading-List--?node-id=0-1&t=brJPtXWwzfw50Kz7-1)
-
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9d716887-06d5-4a10-b57d-572398818979" />
-
-
 
 ## Опыт работы
 
