@@ -20,6 +20,7 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9914075c-3594-4186-a029-cdd46d263647" />
 
+---
 
 ### [**ERP-система для управления оптовой торговлей**](https://yourawsluv.github.io/FLORA.html)
 #ERP
@@ -30,6 +31,7 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
 
+---
 
 ### [**Платформа для управления цифровыми активами бизнеса**](https://yourawsluv.github.io/Kanoe.html)
 #Blockchain
@@ -41,6 +43,7 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9a41a2a3-6e24-4765-9f88-5696f0a8706b" />
 
+---
 
 ### [**Платформа для управления бизнес-процессами**](https://yourawsluv.github.io/MirrorCFA.html)
 #DAO
@@ -51,6 +54,7 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2668c88d-e31d-486a-9961-0d0a111a57b4" />
 
+---
 
 ### [**CRM-система для персонала медицинского центра**](https://yourawsluv.github.io/MedClinicApp.html)
 #B2C
@@ -60,6 +64,7 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/bb16952b-c40b-44ad-acfa-76f3b6fb03d5" />
 
+---
 
 ### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/Claimy.html)
 #Telegram
@@ -70,6 +75,7 @@ layout: default
 
 <img src="https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1" width="600" height="auto">
 
+---
 
 ### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/Varbusters.html)
 #Telegram
@@ -80,6 +86,7 @@ layout: default
 
 <img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="auto">
 
+---
 
 ### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/NoirRoulette.html)
 #Telegram
