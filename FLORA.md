@@ -127,6 +127,7 @@ https://www.figma.com/design/z80HmcWsxWKwcXZmTofyfH/Flora-_-%D0%94%D0%9A%D0%9F%D
 * действия сгруппированы по этапам (поиск, резерв, выдача).
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/ae3b4593-764c-4f16-94cb-1ca0e1fbcefb" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/b0f9dcd8-0690-4486-9157-e3f7d3f37a41" />
 
 ---
 
