@@ -13,9 +13,6 @@ event-driven, очереди задач, SLA система, работающи�
 
 <img width="600" height="auto" alt="Снимок экрана 2026-02-24 в 23 18 32" src="https://github.com/user-attachments/assets/a7ddbc25-3ebb-4f3d-a298-be88330f9ce3" />
 
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/a269eb49-a822-428e-864d-425679128977" />
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/e58bbd39-ac53-4d62-a3d5-29dcb5bb6007" />
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2c98814c-2d3e-4af4-81c0-10caa1de4d1c" />
 
 
 **3 воронки**
@@ -70,6 +67,9 @@ event-driven, очереди задач, SLA система, работающи�
 - **Чат-платформа (сервис)**
 - **Дашборд (продажи)**
 
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/a269eb49-a822-428e-864d-425679128977" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/e58bbd39-ac53-4d62-a3d5-29dcb5bb6007" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2c98814c-2d3e-4af4-81c0-10caa1de4d1c" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2bf92755-69f7-4d50-a0f8-d2a4c3f1b615" />
 
 
