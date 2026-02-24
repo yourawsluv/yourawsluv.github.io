@@ -10,28 +10,28 @@ layout: default
 ---
 
 ### [**CRM-система для операторов контактного центра**](https://yourawsluv.github.io/CRM.html)
-#CRM
 #B2B
-#SaaS
-#Enterprise
+#CRM
+#ERP
+#Fintech
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9914075c-3594-4186-a029-cdd46d263647" />
 
 ---
 
 ### [**ERP-система для управления оптовой торговлей**](https://yourawsluv.github.io/FLORA.html)
-#ERP
 #B2B
-#Enterprise
+#ERP
+#CRM
+#Fintech
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
 
 ---
 
 ### [**Платформа для управления цифровыми активами бизнеса**](https://yourawsluv.github.io/Kanoe.html)
-#Blockchain
-#dApp
 #B2B
+#Web3
 #Fintech
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9a41a2a3-6e24-4765-9f88-5696f0a8706b" />
@@ -39,48 +39,23 @@ layout: default
 ---
 
 ### [**Платформа для управления бизнес-процессами**](https://yourawsluv.github.io/MirrorCFA.html)
-#DAO
-#dApp
 #B2B
+#Web3
+#DAO
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2668c88d-e31d-486a-9961-0d0a111a57b4" />
 
 ---
 
 ### [**CRM-система для персонала медицинского центра**](https://yourawsluv.github.io/MedClinicApp.html)
-#B2C
+#B2B
 #MedTech
+#CRM
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/bb16952b-c40b-44ad-acfa-76f3b6fb03d5" />
 
 ---
 
-### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/Claimy.html)
-#Telegram
-#Game
-#Blockchain
-
-<img src="https://github.com/user-attachments/assets/e99889da-7d5b-4e0f-be98-f7184ad075a1" width="600" height="auto">
-
----
-
-### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/Varbusters.html)
-#Telegram
-#Game
-#Blockchain
-
-<img src="https://github.com/user-attachments/assets/286271a8-3daa-4809-92e9-9d6408708288" width="600" height="auto">
-
----
-
-### [**Telegram Mini App (Blockchain)**](https://yourawsluv.github.io/NoirRoulette.html)
-#Telegram
-#Game
-#Blockchain
-
-<img src="https://github.com/user-attachments/assets/7a7dfeb2-24c9-4577-999b-9fee473df015" width="600" height="auto">
-
----
 <!--
 **yourawsluv/yourawsluv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
