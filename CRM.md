@@ -10,11 +10,8 @@ event-driven, очереди задач, SLA система, работающи�
 
 
 ## **Пару слов о продукте**
-- 50,000+ клиентов
-- 1000+ сотрудников
-- 3 воронки
-- 100+ уникальных сценариев использования
-- Интеграция с 6 внешними системами
+
+<img width="600" height="auto" alt="Снимок экрана 2026-02-24 в 23 18 32" src="https://github.com/user-attachments/assets/a7ddbc25-3ebb-4f3d-a298-be88330f9ce3" />
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/a269eb49-a822-428e-864d-425679128977" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/e58bbd39-ac53-4d62-a3d5-29dcb5bb6007" />
