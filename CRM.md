@@ -77,22 +77,28 @@ layout: default
 
 **Rule-based сквозная логика**
 - **роль пользователя** - оператор видит тактические данные, руководитель — стратегические
-- **дирекция** - продажи/пролонгация/[сервис (Figma link)](https://www.figma.com/board/cY218lyIESBQobpPePJLFJ/CRM-Journey-Mapping?node-id=80-4044&t=C7BvMpqAQOmAoTdQ-1)
+- **дирекция** - продажи/пролонгация/сервис
 - **этап воронки** - определяет доступные действия и приоритеты
 
 
 **Чат-платформа**
+[Board link](https://miro.com/app/board/uXjVJnx_KKI=/?moveToWidget=3458764649200616714&cot=14)
+
 Чат-платформа для коммуникации поддержки клиентов из мобильного приложения и мессенджеров
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/d6fd423c-a59f-4f5c-aa9d-aebc3f2adbad" />
 
 
 **Автоматизация AI**
+[Figma link](https://www.figma.com/design/ebrj9YxbgcLZjzFtsY5Cz2/CRM-CallCenter-Prolongation?node-id=117-7842&t=YKJjQrPeL2lE4apR-1)
+
 Интеграция с TargetAI для сбора и интерпретации ответа клиента 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/6374e26e-d373-4b40-9f9a-44dd271ffbb5" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/c84a1af2-51d6-4278-ac37-ca466392398c" />
 
 
 **Дата-виз дашборд**
+[Figma link](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-CallCenter-Sales?node-id=10427-695537&t=a21yYLmUKUP7QfQt-1)
+
 Интеграция собственного решения предполагала сбор и визуализацию ключевых метрик для каждой роли и каждой воронки
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/17d595fa-48ec-42a6-9bbe-2bad058c3a0b" />
