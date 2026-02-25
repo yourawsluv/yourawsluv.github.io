@@ -4,7 +4,7 @@ layout: default
 
 [back](./)
 
-# **Трансформация опыта сотрудников контакт-центра и внедрение AI в бизнес-процессы CRM**
+# **Трансформация опыта сотрудника и внедрение AI в бизнес-процессы CRM**
 Продукт представляет собой насыщенную информацией и функциями CRM-систему - event-driven, очереди задач, SLA система. Через нее операторы обрабатывают тысячи взаимодействий с клиентами и решают ключевые задачи бизнеса.
 
 <img width="600" height="auto" alt="Снимок экрана 2026-02-24 в 23 18 32" src="https://github.com/user-attachments/assets/a7ddbc25-3ebb-4f3d-a298-be88330f9ce3" />
@@ -56,6 +56,7 @@ layout: default
 - Создал CJM для каждой роли пользователя
 - Разработал стратегию автоматизации операций
 
+![DDX CRM Team - USM Воронок](https://github.com/user-attachments/assets/74ac0846-0803-4fe5-a6a3-8d08f2befaa7)
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/8e9f6acf-6576-40c7-92c5-ef3affc351bc" />
 
 
