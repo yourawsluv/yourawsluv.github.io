@@ -106,6 +106,7 @@ layout: default
 ## 7. UX‑решения и экраны
 
 [Созданный заказ флоу](https://www.figma.com/design/21R86MVZweDzlv8BJHWbRJ/FDSGN-654-Created-Order?node-id=104-128907&t=wGxpfvfeSIl79Kr6-1)
+
 [Создание потребности юр. лица флоу](https://www.figma.com/design/z80HmcWsxWKwcXZmTofyfH/Flora-_-%D0%94%D0%9A%D0%9F%D0%97?node-id=481-101328&t=ibMzWgezsfSMXzJx-1)
 
 ### 7.1 Список заказов покупателей
