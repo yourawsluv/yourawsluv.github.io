@@ -47,10 +47,10 @@ layout: default
 
 ---
 
-### [**CRM-система для персонала медицинского центра**](https://yourawsluv.github.io/MedClinicApp.html)
-#B2B
+### [**Регистратура для медицинского центра**](https://yourawsluv.github.io/MedClinicApp.html)
+#B2C
 #MedTech
-#CRM
+#Mobile
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/bb16952b-c40b-44ad-acfa-76f3b6fb03d5" />
 
