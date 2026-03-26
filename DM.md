@@ -6,9 +6,12 @@ layout: default
 
 ## Кейс
 
-**Driving Retention and Monetization Through Gamification, Live-Ops and Player Segmentation**
+[Project link](https://duckmyduck.ru/)
+[Figma link](https://www.figma.com/design/375VqZRulCNipLXFd8Ey2g/DM?node-id=2086-3308&t=htFVy4uuJRBUXXmJ-1)
 
-**Product:** Casino-first, Live + Slots
+**Работа с удержанием, монетизацией и Live-Ops - запуск нового режима**
+
+**Product:** P2E, Casino-first, Live + Slots
 **Platform:** TMA
 
 ---
@@ -77,6 +80,8 @@ layout: default
 * Награды объяснимы.
 * Нет наказаний за паузы.
 
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/b73e61ef-f384-480d-8b73-b4e260d18332" />
+
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/936bbb76-efc5-41dd-8933-275509911b10" />
 
 ---
@@ -111,7 +116,7 @@ layout: default
 
 ---
 
-## 5. Retention Without Dark Patterns
+## 5. Ретеншен без темных паттернов
 
 Я спроектировал **систему**, на паттернах игровой экономики, поведения и мотивации. Сбалансировал growth и UX, работая на долгосрочную ценность продукта. Геймификация работает только при честной экономике, и доверие юзера напрямую коррелирует с LTV
 
@@ -126,9 +131,11 @@ layout: default
 
 ---
 
-## 6. Monetization Through Value, Not Pressure
+## 6. Монетизация
 
 Игрок платит охотнее, когда чувствует контроль.
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/e703fe09-7b90-4f21-9494-bf7737f8f756" />
+
 
 ### UX Decisions
 
