@@ -2,7 +2,10 @@
 layout: mermaid
 ---
 
-Ссылка: https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Ambersoft-%2F-Medical-Clinic-App?node-id=34-5255&t=XYx5L8Yk2IpRVfhx-1
+[Figma project](https://www.figma.com/design/YbUYgjHSbdNDqSPotkTkY4/Hadassah?node-id=34-5255&t=H05RWn9FKx875VYa-1)
+
+Продукт для сети медицинских клиник Hadassah - комплексное решение клиентского и административного приложений.
+Продолжительность проекта разработки от пресейла до запуска MVP - 6 месяцев. Работали в команде с продактом и аналитиком. Моя роль дизайнера продукта заключалась в сборе и анализе требований на интерфейс для клиентов и сотрудников, написании документации совместно с Product Owner и подготовка к деливери в разработку.
 
 # Клиентское приложение
 
