@@ -167,6 +167,10 @@ layout: default
 * прозрачное отображение задолженностей
 * возврат инициируется строго из ДКПЗ, чтобы сохранить финансовую целостность
 
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/fa8fa562-2b34-4b4a-a0c9-f30a93d3c152" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/a6b19963-44d1-4576-b337-d4a2b902a24c" />
+
+
 ---
 
 ## 9. Результат и эффект
