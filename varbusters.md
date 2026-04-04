@@ -2,13 +2,11 @@
 layout: mermaid
 ---
 
----
-https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters?node-id=0-1&t=wn2wJT6j8yenfwup-1
----
-
+[Figma project](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters?node-id=0-1&t=gcldfpLBiesBeHiT-1)
 
 ![image](https://github.com/user-attachments/assets/ce2406eb-e4c1-4cea-97ff-6e1c8d47d254)
 
+Продукт p2e продукт на платформе [Telegram Mini-Apps](https://top.co/) для экосистемы [Vara Network](https://vara.network/)
 
 # User Journey 
 
@@ -40,6 +38,9 @@ journey
 
 
 ## Earn
+
+<img width="4480" height="3826" alt="image" src="https://github.com/user-attachments/assets/505fdc3d-909a-4971-8a17-1dbce8b90699" />
+
 
 <div class="mermaid">
 journey
