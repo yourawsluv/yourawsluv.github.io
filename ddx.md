@@ -4,6 +4,8 @@ layout: default
 
 [back](./)
 
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/0ef730b8-479f-4125-8f65-f6da6d842293" />
+
 # **Трансформация опыта сотрудника и внедрение AI в бизнес-процессы CRM**
 Продукт представляет собой насыщенную информацией и функциями CRM-систему - event-driven, очереди задач, SLA система. Через нее операторы обрабатывают тысячи взаимодействий с клиентами и решают ключевые задачи бизнеса.
 
@@ -51,6 +53,8 @@ layout: default
 ## **Исследования**
 [CRM Journey Mapping](https://www.figma.com/board/cY218lyIESBQobpPePJLFJ/CRM-Journey-Mapping?node-id=0-1&t=XfCMt60ihjJN0Lu6-1)
 В запуске экспериментов использовали методологию HADI, раскатывали на фокус-группе в Москве (весь основной штат операторов находится в Ярославле). 
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/ee01c1c8-5fa5-413f-958d-95a3d050220b" />
+
 
 - Провел 9 глубинных интервью с операторами, менеджерами и руководителями
 - Организовал гембу в контакт-центре в Ярославле
