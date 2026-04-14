@@ -13,13 +13,18 @@ layout: default
 
 Когда клиент или тренер фитнес-клуба обращается в поддержку, операторы решают их вопросы с помощью CRM - смотрят информацию в карточке задачи, карточке клиента, карточке клуба.
 
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/a9cd8335-2b0d-4d49-af97-89407e4149cb" />
+
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/46e4cf8f-f24a-4d8d-8358-7e8f710211e0" />
+
+
 ### Функционал
 
 1. CRM - лиды, телефония, расписание
 2. ERP - учет, администрирование, СКУД
 3. FinTech - рекуррентные и единоразовые платежи, фискализация
 
-### **Воронки выполняющие операционку**
+### **Воронки тикетов**
 - [**Продажи (Figma link)**](https://www.figma.com/design/mPmRLoOHm15smFCwSIVbpX/CRM-%D0%9A%D0%A6-%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B8?node-id=0-1&t=c7cIeS2AoqkCv3kh-1) - получение новых лидов и входящих продаж
 - [**Пролонгация (Figma link)**](https://www.figma.com/design/ebrj9YxbgcLZjzFtsY5Cz2/CRM-%D0%9A%D0%A6-%D0%9F%D1%80%D0%BE%D0%BB%D0%BE%D0%BD%D0%B3%D0%B0%D1%86%D0%B8%D1%8F?node-id=20-69060&t=oLoVebAQgxLIi00x-1) - удержание и продление подписки клиента
 - [**Сервисная служба (Figma link)**](https://www.figma.com/design/RseesDUeoBL7gllE5iImDN/CRM-%D0%9A%D0%A6-%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%BD%D0%B0%D1%8F-%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0?node-id=27-142486&t=E4znCuhjwnbQAKL6-1) - обслуживание и решение проблем клиента
@@ -37,6 +42,7 @@ layout: default
 - Производительность операторов
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/8adf34af-d7d5-49db-a862-6807bc5d59b1" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/b398672c-1033-4158-b336-eab4e562d27e" />
 
 ![DDX CRM Team - Метрики](https://github.com/user-attachments/assets/6f9c3e2d-5096-4977-bf88-50a43980894b)
 
@@ -48,12 +54,15 @@ layout: default
 Мы проектируем не под реальные задачи пользователей, а под абстрактные «сущности» CRM (контакты, этапы, статусы).
 Чтобы изменить ситуацию, необходимо перейти к проектированию от задач (Jobs To Be Done).
 
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/247b488c-8d5a-47b5-9452-326b1ee50f19" />
+
 ---
 
 ## **Исследования**
 [CRM Journey Mapping](https://www.figma.com/board/cY218lyIESBQobpPePJLFJ/CRM-Journey-Mapping?node-id=0-1&t=XfCMt60ihjJN0Lu6-1)
 В запуске экспериментов использовали методологию HADI, раскатывали на фокус-группе в Москве (весь основной штат операторов находится в Ярославле). 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/ee01c1c8-5fa5-413f-958d-95a3d050220b" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/35eb19fc-090a-4669-9e61-82b626a5dc21" />
 
 
 - Провел 9 глубинных интервью с операторами, менеджерами и руководителями
