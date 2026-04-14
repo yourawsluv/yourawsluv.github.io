@@ -41,10 +41,8 @@ layout: default
 - NPS клиентов
 - Производительность операторов
 
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/8adf34af-d7d5-49db-a862-6807bc5d59b1" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/247b488c-8d5a-47b5-9452-326b1ee50f19" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/b398672c-1033-4158-b336-eab4e562d27e" />
-
-![DDX CRM Team - Метрики](https://github.com/user-attachments/assets/6f9c3e2d-5096-4977-bf88-50a43980894b)
 
 **Проблема**
 
@@ -54,7 +52,6 @@ layout: default
 Мы проектируем не под реальные задачи пользователей, а под абстрактные «сущности» CRM (контакты, этапы, статусы).
 Чтобы изменить ситуацию, необходимо перейти к проектированию от задач (Jobs To Be Done).
 
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/247b488c-8d5a-47b5-9452-326b1ee50f19" />
 
 ---
 
