@@ -30,7 +30,7 @@ layout: default
 
 
 ## **Дерево метрик**
-Каждое дизайн-решение привязано к росту операционной эффективности. Ключевая UX-метрика 
+Каждое дизайн-решение привязано к росту операционной эффективности.
 
 Бизнесовые метрики контакт-центра:
 - Конверсия звонков в продажу
@@ -42,21 +42,16 @@ layout: default
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/247b488c-8d5a-47b5-9452-326b1ee50f19" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/b398672c-1033-4158-b336-eab4e562d27e" />
-
-**Проблема**
-
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/7c86dfa6-5649-4b77-a94f-ebbb99b39241" />
 Ключевая цель продукта - развитие внутренней платформы коммуникаций, которая обеспечивает стабильную и эффективную работу контактных центров. Продукт развивался функционально, но UX не масштабировался - росла сложность интерфейса, увеличивалось время обработки задач и количество ошибок.
-
-**Гипотеза**
-Мы проектируем не под реальные задачи пользователей, а под абстрактные «сущности» CRM (контакты, этапы, статусы).
-Чтобы изменить ситуацию, необходимо перейти к проектированию от задач (Jobs To Be Done).
 
 
 ---
 
 ## **Исследования**
 [CRM Journey Mapping](https://www.figma.com/board/cY218lyIESBQobpPePJLFJ/CRM-Journey-Mapping?node-id=0-1&t=XfCMt60ihjJN0Lu6-1)
-В запуске экспериментов использовали методологию HADI, раскатывали на фокус-группе в Москве (весь основной штат операторов находится в Ярославле). 
+В запуске экспериментов использовали методологию HADI, раскатывали на фокус-группе в Москве (весь основной штат операторов находится в Ярославле).
+
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/ee01c1c8-5fa5-413f-958d-95a3d050220b" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/35eb19fc-090a-4669-9e61-82b626a5dc21" />
 
@@ -68,10 +63,12 @@ layout: default
 - Разработали стратегию автоматизации операций 
 
 ![DDX CRM Team - USM Воронок](https://github.com/user-attachments/assets/74ac0846-0803-4fe5-a6a3-8d08f2befaa7)
+
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/8e9f6acf-6576-40c7-92c5-ef3affc351bc" />
 
 
 ## **Проектирование и доставка в код**
+
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2bf92755-69f7-4d50-a0f8-d2a4c3f1b615" />
 
 - **Спроектировал универсальные карточки клиента и задачи:** 2 роли пользователей (оператор, руководитель), 3 воронки (продажи, пролонгация, сервис), 2 типа данных клиента (клиенты с подписками, контакты без подписки)
@@ -79,6 +76,7 @@ layout: default
 - **TargetAI** результат коммуникации с клиентом, рекомендаций по коммуникации, прогнозирование оттока
 - **Чат-платформа**
 - **Дашборд**
+
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/a269eb49-a822-428e-864d-425679128977" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/e58bbd39-ac53-4d62-a3d5-29dcb5bb6007" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/2c98814c-2d3e-4af4-81c0-10caa1de4d1c" />
@@ -100,7 +98,7 @@ layout: default
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/d6fd423c-a59f-4f5c-aa9d-aebc3f2adbad" />
 
 
-**Автоматизация AI**
+**Задания на обработку базы через LLM**
 [Figma link](https://www.figma.com/design/ebrj9YxbgcLZjzFtsY5Cz2/CRM-CallCenter-Prolongation?node-id=117-7842&t=YKJjQrPeL2lE4apR-1)
 
 Интеграция с TargetAI для сбора и интерпретации ответа клиента 
