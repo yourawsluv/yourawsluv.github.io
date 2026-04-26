@@ -1,9 +1,9 @@
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/1dd62181-1a43-498e-afdf-c5d3a3f54a02" />
 
 
-Cтраница продукта [https://simpleai.llc/]
+(Cтраница продукта) [https://simpleai.llc/]
 
-Релиз продукта [https://chatbot.simpleai.llc/]
+(Релиз продукта) [https://chatbot.simpleai.llc/]
 
 #Продукт
 SimpleAI - продукт B2B для разворачивания, мониторинга и тестирования LLM-агентов для роста эффективности бизнес-процессов SMB.
