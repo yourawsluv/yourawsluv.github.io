@@ -9,7 +9,7 @@ layout: default
 
 ---
 
-### [**CRM-система для операторов контактного центра**](https://yourawsluv.github.io/ddx.html)
+### [**Интеграция LLM-агентов в CRM-систему контакт-центра**](https://yourawsluv.github.io/ddx.html)
 #B2B
 #CRM
 #ERP
@@ -38,7 +38,7 @@ layout: default
 
 ---
 
-### [**Платформа для управления цифровыми активами бизнеса**](https://yourawsluv.github.io/kanoe.html)
+### [**SaaS для управления цифровыми активами бизнеса**](https://yourawsluv.github.io/kanoe.html)
 #B2B
 #Web3
 #Fintech
@@ -56,7 +56,7 @@ layout: default
 
 ---
 
-### [**Регистратура для медицинского центра**](https://yourawsluv.github.io/hadassah.html)
+### [**Цифровая регистратура для медицинского центра**](https://yourawsluv.github.io/hadassah.html)
 #B2C
 #MedTech
 #Mobile
