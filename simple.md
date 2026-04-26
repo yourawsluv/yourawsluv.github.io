@@ -126,4 +126,4 @@ Job Story:
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/8dd81fe9-0cd1-41be-87e2-9465f8e6d3fb" />
 
 
-/back
+./
