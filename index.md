@@ -19,6 +19,15 @@ layout: default
 
 ---
 
+### [**PaaS для управления LLM-агентами**](https://yourawsluv.github.io/simple.html)
+#B2B
+#B2E
+#LLM
+
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/52765ac6-3a01-45c8-b5bd-5cf72661954a" />
+
+---
+
 ### [**ERP-система для управления оптовой торговлей**](https://yourawsluv.github.io/rolf.html)
 #B2B
 #ERP
