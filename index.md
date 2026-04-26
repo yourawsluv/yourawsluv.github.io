@@ -24,7 +24,7 @@ layout: default
 #B2E
 #LLM
 
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/52765ac6-3a01-45c8-b5bd-5cf72661954a" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/f32ae8fa-9549-4186-b152-4f41db2bbb3e" />
 
 ---
 
