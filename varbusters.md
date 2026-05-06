@@ -25,7 +25,7 @@ journey
 
 ### Онбординг
 
-<img width="4964" height="1396" alt="image" src="https://github.com/user-attachments/assets/3dd5da56-8074-41af-8616-9c779a385bf9" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/3dd5da56-8074-41af-8616-9c779a385bf9" />
 
 ## Game Mechanics
 
@@ -41,9 +41,15 @@ journey
       Увеличение сложности уровня: 3: Игрок
 </div>
 
+### Лутбоксы
+
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/0f26a23a-149b-4427-9d91-c6061c9d514b" />
+
+
 ### Claim
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/24ba4dd6-936f-4458-9de0-0d83a6b72a9f" />
+
 
 ### Магазин
 
@@ -53,7 +59,6 @@ journey
 ## Earn
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/505fdc3d-909a-4971-8a17-1dbce8b90699" />
-
 
 <div class="mermaid">
 journey
@@ -66,6 +71,8 @@ journey
 
 
 ## Referral
+
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/e7fcb3cc-41df-4278-b755-22e3068c34fe" />
 
 <div class="mermaid">
 journey
