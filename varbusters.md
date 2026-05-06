@@ -12,6 +12,8 @@ layout: mermaid
 
 ## Gameplay
 
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/286600b5-a93f-4b8d-81a4-d466446f9d9b" />
+
 <div class="mermaid">
 journey
     title Gameplay VarBusters
@@ -21,8 +23,11 @@ journey
       Сбор $GHOSTY: 4: Игрок
 </div>
 
-## Game Mechanics
+### Онбординг
 
+<img width="4964" height="1396" alt="image" src="https://github.com/user-attachments/assets/3dd5da56-8074-41af-8616-9c779a385bf9" />
+
+## Game Mechanics
 
 <div class="mermaid">
 journey
@@ -36,10 +41,18 @@ journey
       Увеличение сложности уровня: 3: Игрок
 </div>
 
+### Claim
+
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/24ba4dd6-936f-4458-9de0-0d83a6b72a9f" />
+
+### Магазин
+
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/6e73d2eb-75ca-41af-a888-bf1559350db7" />
+
 
 ## Earn
 
-<img width="4480" height="3826" alt="image" src="https://github.com/user-attachments/assets/505fdc3d-909a-4971-8a17-1dbce8b90699" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/505fdc3d-909a-4971-8a17-1dbce8b90699" />
 
 
 <div class="mermaid">
