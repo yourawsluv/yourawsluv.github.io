@@ -28,7 +28,7 @@ layout: default
 
 ---
 
-### [**ERP-система для управления оптовой торговлей**](https://yourawsluv.github.io/rolf.html)
+### [**ERP-система для управления оптовой торговлей**](https://yourawsluv.github.io/roolf.html)
 #B2B
 #ERP
 #CRM
