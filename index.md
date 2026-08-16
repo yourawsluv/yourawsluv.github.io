@@ -9,6 +9,15 @@ layout: default
 
 ---
 
+### [**PaaS для управления LLM-агентами**](https://yourawsluv.github.io/simple.html)
+#B2B
+#B2E
+#LLM
+
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/f32ae8fa-9549-4186-b152-4f41db2bbb3e" />
+
+---
+
 ### [**Интеграция LLM-агентов в CRM-систему контакт-центра**](https://yourawsluv.github.io/ddx.html)
 #B2B
 #CRM
@@ -16,15 +25,6 @@ layout: default
 #Fintech
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/9914075c-3594-4186-a029-cdd46d263647" />
-
----
-
-### [**PaaS для управления LLM-агентами**](https://yourawsluv.github.io/simple.html)
-#B2B
-#B2E
-#LLM
-
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/f32ae8fa-9549-4186-b152-4f41db2bbb3e" />
 
 ---
 
