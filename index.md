@@ -9,9 +9,9 @@ layout: default
 
 ---
 
-### [**PaaS для управления LLM-агентами**](https://yourawsluv.github.io/simple.html)
+### [**SaaS для управления LLM-агентами**](https://yourawsluv.github.io/simple.html)
 #B2B
-#B2E
+#SaaS
 #LLM
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/f32ae8fa-9549-4186-b152-4f41db2bbb3e" />
