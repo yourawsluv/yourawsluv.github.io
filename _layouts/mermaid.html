@@ -4,18 +4,71 @@ layout: default
 
 {{ content }}
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-
+<!-- Mermaid is loaded deferred and diagrams are rendered on demand as they
+     scroll into view. Case pages can contain a dozen large diagrams; rendering
+     them all on load blocks the main thread and delays first paint. -->
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
 <script>
-  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  mermaid.initialize({
-    startOnLoad: true,
-    theme: isDark ? "dark" : "default",
-    themeVariables: {
-      primaryColor: "var(--accent)",
-      secondaryColor: "var(--section-bg)",
-      background: "transparent",
-      textColor: "var(--text)"
+  (function () {
+    function collectBlocks() {
+      // Support GitHub-style ```mermaid fenced blocks in addition to
+      // <div class="mermaid"> so authors can use either syntax. On GitHub Pages
+      // fenced blocks render as <pre><code class="language-mermaid">, which
+      // Mermaid does not pick up on its own.
+      var fenced = document.querySelectorAll("pre > code.language-mermaid");
+      for (var i = 0; i < fenced.length; i++) {
+        var code = fenced[i];
+        var div = document.createElement("div");
+        div.className = "mermaid";
+        div.textContent = code.textContent;
+        var pre = code.parentNode;
+        pre.parentNode.replaceChild(div, pre);
+      }
+      return Array.prototype.slice.call(document.querySelectorAll(".mermaid"));
     }
-  });
+
+    function start() {
+      if (typeof mermaid === "undefined") {
+        return void setTimeout(start, 50);
+      }
+      var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: dark ? "dark" : "neutral",
+        securityLevel: "loose",
+        fontFamily: "inherit"
+      });
+
+      var blocks = collectBlocks();
+      if (!blocks.length) return;
+
+      function render(el) {
+        try {
+          mermaid.run({ nodes: [el] });
+        } catch (e) {
+          /* leave the source text visible if a diagram fails to parse */
+        }
+      }
+
+      if (!("IntersectionObserver" in window)) {
+        for (var i = 0; i < blocks.length; i++) render(blocks[i]);
+        return;
+      }
+      var observer = new IntersectionObserver(function (entries, obs) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            obs.unobserve(entry.target);
+            render(entry.target);
+          }
+        });
+      }, { rootMargin: "300px 0px" });
+      blocks.forEach(function (b) { observer.observe(b); });
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", start);
+    } else {
+      start();
+    }
+  })();
 </script>
