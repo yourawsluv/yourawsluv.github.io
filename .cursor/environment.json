@@ -1,0 +1,11 @@
+{
+  "name": "yourawsluv.github.io (Jekyll / GitHub Pages)",
+  "install": "sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y ruby-full build-essential zlib1g-dev libssl-dev libffi-dev && sudo gem install bundler --no-document && bundle config set --local path vendor/bundle && bundle install",
+  "terminals": [
+    {
+      "name": "jekyll serve",
+      "command": "bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload"
+    }
+  ],
+  "ports": [4000, 35729]
+}
