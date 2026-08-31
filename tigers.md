@@ -3,71 +3,42 @@ layout: mermaid
 noindex: true
 ---
 
-[Figma project](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy?node-id=18-24946&t=75b7YgB2Eyd8o9Mn-1)
+<img width="600" loading="eager" fetchpriority="high" decoding="async" alt="Claimy (TON Tigers): обложка P2E-кликера на TON" src="https://github.com/user-attachments/assets/3a42ef28-49b9-4af1-9b23-fa03b47d3552" />
 
-![IMG_20241031_121728_500.jpg](https://github.com/user-attachments/assets/3a42ef28-49b9-4af1-9b23-fa03b47d3552)
+## Claimy (TON Tigers): запуск P2E-кликера на TON
 
-# Claimy
+[Проект](https://tontiger.io) · [Сообщество](https://t.me/tontiger_tg) · [Бот](https://t.me/Claimybot) · [Figma](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy?node-id=18-24946&t=75b7YgB2Eyd8o9Mn-1)
 
-[Страница проекта](https://tontiger.io) |
-[Сообщество](https://t.me/tontiger_tg) |
-[Приложение](https://t.me/Claimybot)
+**Роль:** единственный продуктовый дизайнер команды запуска.
+**Команда:** Ambersoft, аутсорс продуктовой разработки: доводили игру до MVP и релиза.
+**Мой этап:** запуск, первые ~3 месяца.
+**Платформа:** Telegram Mini Apps (TON).
 
-## контекст
-Claimy — это P2E проект на платформе Telegram. Игра сочетает элементы стратегии и коллекционирования, позволяя пользователям майнить токены $Tigers.
+Claimy (в комьюнити известна как TON Tigers) это P2E-кликер на TON, где основной ресурс это мем-токен $TIGER. Игрок ставит своего тигра, майнит внутриигровую валюту notTIGER, выполняет задания, зовёт рефералов и обменивает notTIGER на реальный $TIGER.
 
-## мои задачи
-- Разработать интерфейс пользователя для приложения TMA
-- Совместно с геймдизайнером и продактом создать механики вовлечения
-- Сайт проекта
-- Создавать контент для сообщества игроков в контексте блокчейн-технологий
+## Что я делал
 
-## процесс
-1. **Исследование и Планирование**
-- Анализ рынка
-- Исследование пользователей
-- Определение концепции P2E и функций
-2. **Разработка Концепции**
-- Мозговой штурм механики игры и визуала
-- Сюжетное наполнение и персонажи
-3. **Прототипирование**
-- Создание каркасов UI и графики
-- Разработка прототипа
-- Сессии обратной связи от оунеров для уточнения идей
-4. **Проектирование**
-- Финализация UI на основе отзывов
-- Создание графических ресурсов (NFT, фоны, элементы)
-- UX-копирайтинг
-5. **Разработка**
-- Интеграция в TON
-- Бэк/фронт приложения
-- Смарт-контракты
-6. **Тестирование**
-- Альфа-тестирование
-- Бета-тестирование с выбранными пользователями
-- Фикс на основе отзывов
-7. **Запуск**
-- Официальный релиз игры на платформе Telegram
-- Маркетинговая кампания для привлечения игроков и коллекционеров NFT
-- Взаимодействие с сообществом и поддержка в ТГ канале
-8. **Сопровождение и Итерация**
-- Мониторинг производительности и отзывов пользователей
-- Реализы обновлений на основе запросов сообщества и роадмапу
-- Добавление новых NFT и тем
+Проектировал интерфейс под ограничения Telegram Mini App: маленький вьюпорт, веб-вью, короткие сессии и высокая частота возвратов. Ключевые экраны и механики:
 
-## дизайн продукта
+- онбординг и первая постановка тигра;
+- экран майнинга и клейма notTIGER;
+- задания и ачивки за действия (поставить тигра, майнить, позвать реферала);
+- сезонный лидерборд по $TIGER;
+- реферальная программа;
+- магазин бустов: «рыба» сокращает время майнинга, «мясо» увеличивает клейм notTIGER.
 
 ### Wireframes
-![image](https://github.com/user-attachments/assets/b2230559-e940-4bc4-b044-608257c9ca56)
+<img width="600" loading="lazy" decoding="async" alt="Wireframes ключевых экранов Claimy" src="https://github.com/user-attachments/assets/b2230559-e940-4bc4-b044-608257c9ca56" />
 
-### Screens
-![image](https://github.com/user-attachments/assets/187f4f12-f4f9-4a8b-982b-08c4c498c7d7)
+### Экраны
+<img width="600" loading="lazy" decoding="async" alt="Финальные экраны интерфейса Claimy" src="https://github.com/user-attachments/assets/187f4f12-f4f9-4a8b-982b-08c4c498c7d7" />
 
-### Project page
+### Лендинг проекта
+<img width="600" loading="lazy" decoding="async" alt="Страница проекта Claimy" src="https://github.com/user-attachments/assets/043c873c-4e58-4e1b-99b6-f08e23061469" />
 
-![image](https://github.com/user-attachments/assets/043c873c-4e58-4e1b-99b6-f08e23061469)
+## Экономика и флоу
 
-## механики
+Токеномику и вывод завязал на понятный игроку цикл: намайнил notTIGER, выполнил задание, обменял на $TIGER. Ниже как это устроено на уровне экосистемы и основных действий игрока.
 
 <div class="mermaid">
 flowchart TD
@@ -92,7 +63,7 @@ flowchart TD
     Rewards --> Users
 </div>
 
-### Core Actions
+### Основные действия
 
 <div class="mermaid">
 flowchart TD
@@ -112,7 +83,7 @@ flowchart TD
     Governance --> Stake
 </div>
 
-### UserStory
+### Пользовательская история
 
 <div class="mermaid">
 flowchart TD
@@ -122,7 +93,8 @@ flowchart TD
     D --> E[Access Transaction History]
 </div>
 
-1. **Login/Connect Wallet** – Users authenticate and connect their TON wallet.
-2. **Browse & Claim NFTs** – Users browse available Tigers and initiate the claim.
-3. **View Claimed Assets** – Claimed Tigers display in the asset view.
-4. **Transaction History** – Users access past transactions to track claims.
+## Результат
+
+К концу моего этапа игра вышла в закрытый бета-тест, её показали инвесторам (китам и активному ядру комьюнити), собрали живой фидбек и отработали баги. Дальше проект продолжил расти уже без меня.
+
+По публичным данным проект вырос до **500k+ участников комьюнити** и собрал **более $700k на Token Fairlaunch**.
