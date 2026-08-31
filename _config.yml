@@ -1,6 +1,8 @@
 # Site identity — used by jekyll-seo-tag for <title>, meta description,
-# Open Graph and Twitter cards (link previews on job boards and in chats).
-title: Ярослав Коротких — продуктовый дизайнер и UX-исследователь
+# Open Graph and Twitter cards (link previews shared directly with recruiters).
+# The visible header stays minimal (just the name) by design — visitors already
+# know who this is and come only to read the detailed cases.
+title: Ярослав Коротких
 description: >-
   Увеличиваю ценность продукта через исследования. Создаю масштабируемые
   дизайн-системы. Выстраиваю процессы DesignOps.
