@@ -30,7 +30,11 @@ The site uses the remote theme `pages-themes/minimal` (see `_config.yml`).
 Cases are two kinds:
 
 - **Featured** — linked from `index.md` (`simple`, `ddx`, `flora`, `kanoe`, `mirrordao`, `hadassah`).
-- **Direct-link only** — reachable only via URL (`duck`, `tigers`, `noirroulette`, `varbusters`).
+- **Unlisted** — reachable only via a direct URL and marked `noindex: true`
+  (`duck`, `tigers`, `noirroulette`, `varbusters`). These are gambling / betting /
+  casino cases kept out of the public B2B/B2E image on purpose and shared privately
+  with recruiters from those industries. Do not add them to `index.md` and do not
+  remove `noindex` unless explicitly asked.
 
 ## Run locally
 
@@ -93,8 +97,10 @@ should make the reader quickly understand:
 - **Solution** — key UX decisions and why, tied to screens.
 - **Impact** — outcomes and metrics (even directional/qualitative).
 
-Prefer concrete, specific, proofreadable Russian prose. Fix typos. Do not invent
-metrics or facts — if a number is unknown, describe the effect qualitatively.
+Voice matters most: write like a human (think a good Habr article), not a
+template. `ddx.md` is the tone reference. Avoid AI "slop" and the em dash (—).
+Fix typos. Do not invent metrics or facts; if a number is unknown, describe the
+effect qualitatively.
 
 ## Conventions
 

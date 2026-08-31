@@ -5,32 +5,43 @@ globs: *.md
 
 # Writing case studies
 
-Audience: **hiring design managers** skimming quickly. Optimize for credibility
-and scannability. Write in clear, correct Russian (match the file's language).
+Audience: **hiring design managers** who already know the author and come only to
+read the detailed cases. Write in clear, correct Russian.
 
-## Structure each case should cover
+## Voice — this matters most
 
-1. **Контекст** — продукт, платформа, компания/домен, **твоя роль**, сроки, размер команды.
-2. **Проблема** — бизнес/пользовательская проблема в 1–2 точных предложениях.
-3. **Процесс** — что ты делал: исследования, ключевые решения и **компромиссы**
-   (не просто список этапов «проанализировал → спроектировал → запустил»).
-4. **Решение** — ключевые UX-решения и **почему** именно так, привязанные к экранам.
-5. **Результат** — эффект и метрики (даже качественные/директивные, если точных нет).
+Write like a human telling the story of the work — closer to a good Habr article
+than a case-study template. **`ddx.md` is the reference for tone**: first person,
+specific, opinionated, no filler.
 
-## Style
+Avoid AI-generated "slop":
+- No templated scaffolding or padding. Every sentence should earn its place.
+- Do **not** use the em dash (—) as a stylistic tic; prefer a comma, colon, or a
+  new sentence. (The author actively removes them.)
+- No hollow superlatives ("надёжный", "инновационный", "бесшовный") without proof.
+- Prefer concrete detail over generic process lists. "Проанализировал 1000+ задач
+  в Bitrix" beats "провёл анализ".
+- Keep the author's wording when improving; fix real errors, don't rewrite into a
+  different voice unless asked.
 
-- Начинай с сильного одно-двух-предложного резюме: что за продукт и твой вклад.
-- Конкретика вместо общих слов: «сократил оформление заказа на 30%» вместо «улучшил UX».
-- Единообразие: одинаковые заголовки уровней, единый регистр, единая терминология.
-- Каждая картинка сопровождается подписью-контекстом (что на ней и зачем).
-- Вычитывай орфографию и опечатки. Убирай оборванные предложения.
-- Заканчивай явным CTA/ссылками (Figma, лендинг, приложение) и ссылкой «назад».
+Note: `duck.md` reads smoothly but is template-y and was AI-generated; do not use
+it as a style model.
+
+## What a strong case covers (guide, not a rigid form)
+
+- **Контекст** — продукт, платформа, домен, роль автора, сроки, размер команды.
+- **Проблема** — бизнес/пользовательская проблема в 1–2 точных предложениях.
+- **Процесс** — ключевые решения и компромиссы, а не перечень этапов.
+- **Решение** — конкретные UX-решения и почему так, привязанные к экранам.
+- **Результат** — эффект и метрики (качественные, если точных нет).
 
 ## Hard rules
 
-- **Не выдумывай** метрики, факты, названия или результаты. Если числа нет —
-  опиши эффект качественно.
-- Сохраняй авторский голос и смысл; правь реальные ошибки, а не переписывай всё,
-  если об этом не просили.
-- Не раскрывай конфиденциальные данные сверх того, что уже опубликовано.
+- **Не выдумывай** метрики, факты, названия или результаты. Нет числа — опиши
+  эффект качественно.
+- Каждое изображение сопровождай осмысленной подписью (не `alt="image"`).
+- Вычитывай орфографию; убирай оборванные предложения.
 - Проверяй, что имя файла кейса совпадает со ссылкой из `index.md` (иначе 404).
+- «Непубличные» кейсы (гемблинг/беттинг/казино) намеренно не выводятся на главную
+  и помечены `noindex: true` во front matter. Не добавляй их в `index.md` и не
+  снимай `noindex` без явной просьбы.
