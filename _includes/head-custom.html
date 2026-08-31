@@ -1,3 +1,10 @@
+<!-- Keep "unlisted" cases (front matter `noindex: true`) out of search engines.
+     They stay reachable via a direct link so they can be shared privately, but
+     are not linked from the landing page and are not indexed. -->
+{% if page.noindex %}
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
+
 <!-- Preconnect to the origins that serve remote content, so the browser can
      open TLS connections in parallel with HTML parsing. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
