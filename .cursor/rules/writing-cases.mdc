@@ -1,0 +1,47 @@
+---
+description: Standard for writing and improving portfolio case studies (audience: hiring design managers).
+globs: *.md
+---
+
+# Writing case studies
+
+Audience: **hiring design managers** who already know the author and come only to
+read the detailed cases. Write in clear, correct Russian.
+
+## Voice — this matters most
+
+Write like a human telling the story of the work — closer to a good Habr article
+than a case-study template. **`ddx.md` is the reference for tone**: first person,
+specific, opinionated, no filler.
+
+Avoid AI-generated "slop":
+- No templated scaffolding or padding. Every sentence should earn its place.
+- Do **not** use the em dash (—) as a stylistic tic; prefer a comma, colon, or a
+  new sentence. (The author actively removes them.)
+- No hollow superlatives ("надёжный", "инновационный", "бесшовный") without proof.
+- Prefer concrete detail over generic process lists. "Проанализировал 1000+ задач
+  в Bitrix" beats "провёл анализ".
+- Keep the author's wording when improving; fix real errors, don't rewrite into a
+  different voice unless asked.
+
+Note: `duck.md` reads smoothly but is template-y and was AI-generated; do not use
+it as a style model.
+
+## What a strong case covers (guide, not a rigid form)
+
+- **Контекст** — продукт, платформа, домен, роль автора, сроки, размер команды.
+- **Проблема** — бизнес/пользовательская проблема в 1–2 точных предложениях.
+- **Процесс** — ключевые решения и компромиссы, а не перечень этапов.
+- **Решение** — конкретные UX-решения и почему так, привязанные к экранам.
+- **Результат** — эффект и метрики (качественные, если точных нет).
+
+## Hard rules
+
+- **Не выдумывай** метрики, факты, названия или результаты. Нет числа — опиши
+  эффект качественно.
+- Каждое изображение сопровождай осмысленной подписью (не `alt="image"`).
+- Вычитывай орфографию; убирай оборванные предложения.
+- Проверяй, что имя файла кейса совпадает со ссылкой из `index.md` (иначе 404).
+- «Непубличные» кейсы (гемблинг/беттинг/казино) намеренно не выводятся на главную
+  и помечены `noindex: true` во front matter. Не добавляй их в `index.md` и не
+  снимай `noindex` без явной просьбы.

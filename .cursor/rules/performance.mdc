@@ -1,0 +1,38 @@
+---
+description: Keep image-heavy case pages and Mermaid diagrams fast to load.
+globs: *.md,_layouts/*.html,_includes/*.html,assets/css/*.scss
+---
+
+# Performance conventions
+
+Case pages carry many large screenshots hot-linked from GitHub. Loading them all
+at once is the main performance risk. Follow these patterns.
+
+## Images
+
+- Author images as `<img loading="lazy" decoding="async" width="…" src="…" alt="…">`.
+  - `_includes/head-custom.html` adds `loading`/`decoding` automatically as a
+    fallback, but setting them in the source is better (the preload scanner sees them).
+  - Keep the **first** image of a page eager — it is the Largest Contentful Paint.
+- Set `width` (and let CSS `height: auto` preserve the ratio) to avoid layout shift.
+  Do **not** use `height="auto"` as an HTML attribute — it is invalid; omit height.
+- Prefer meaningful `alt` text over `alt="image"`.
+- For new assets, prefer optimized/compressed files (WebP or compressed PNG),
+  ideally committed under `assets/img/`.
+
+## Mermaid diagrams
+
+- Use the `mermaid` layout for any case containing diagrams.
+- Write diagrams as a fenced ```mermaid block **or** `<div class="mermaid">…</div>`.
+  `_layouts/mermaid.html` converts fenced blocks and renders lazily via
+  IntersectionObserver.
+- Do **not** add a Mermaid `<script>` tag or `mermaid.initialize` call to a page —
+  the layout owns that. Do not pin a different Mermaid version per page.
+
+## CSS / head
+
+- Load fonts non-blockingly (see `head-custom.html`); never re-introduce a
+  render-blocking `@import url(...)` for web fonts in `style.scss`.
+- Keep third-party origins in the `preconnect`/`dns-prefetch` list when adding
+  new remote resources.
+- Respect the light/dark tokens in `style.scss`; test both color schemes.

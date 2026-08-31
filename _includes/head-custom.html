@@ -1,0 +1,64 @@
+<!-- Keep "unlisted" cases (front matter `noindex: true`) out of search engines.
+     They stay reachable via a direct link so they can be shared privately, but
+     are not linked from the landing page and are not indexed. -->
+{% if page.noindex %}
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
+
+<!-- Preconnect to the origins that serve remote content, so the browser can
+     open TLS connections in parallel with HTML parsing. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://github.com">
+<link rel="preconnect" href="https://user-images.githubusercontent.com">
+<link rel="preconnect" href="https://private-user-images.githubusercontent.com">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+<!-- Load Inter without blocking rendering. The stylesheet is fetched with a
+     low priority and applied once ready; the CSS keeps a system-font fallback. -->
+<link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" media="print" onload="this.media='all'"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<noscript>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</noscript>
+
+<!-- Content images on this site are large screenshots hot-linked from GitHub.
+     Loading them all eagerly makes case pages slow. This observer marks every
+     content image as lazy/async as soon as it is parsed (before the preload
+     scanner fetches it), while keeping the first image eager for a fast LCP.
+     Authoring tip for agents: prefer writing <img loading="lazy" decoding="async">
+     directly in Markdown so the attributes exist without JavaScript. -->
+<script>
+  (function () {
+    function optimize(img) {
+      if (!img.hasAttribute("loading")) img.setAttribute("loading", "lazy");
+      if (!img.hasAttribute("decoding")) img.setAttribute("decoding", "async");
+    }
+    if ("MutationObserver" in window) {
+      new MutationObserver(function (mutations) {
+        for (var i = 0; i < mutations.length; i++) {
+          var nodes = mutations[i].addedNodes;
+          for (var j = 0; j < nodes.length; j++) {
+            var node = nodes[j];
+            if (node.tagName === "IMG") {
+              optimize(node);
+            } else if (node.querySelectorAll) {
+              var imgs = node.querySelectorAll("img");
+              for (var k = 0; k < imgs.length; k++) optimize(imgs[k]);
+            }
+          }
+        }
+      }).observe(document.documentElement, { childList: true, subtree: true });
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      var first = document.querySelector("section img");
+      if (first) {
+        first.setAttribute("loading", "eager");
+        first.setAttribute("fetchpriority", "high");
+      }
+    });
+  })();
+</script>

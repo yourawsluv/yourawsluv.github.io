@@ -1,5 +1,37 @@
+# Site identity — used by jekyll-seo-tag for <title>, meta description,
+# Open Graph and Twitter cards (link previews shared directly with recruiters).
+# The visible header stays minimal (just the name) by design — visitors already
+# know who this is and come only to read the detailed cases.
+title: Ярослав Коротких
+description: >-
+  Увеличиваю ценность продукта через исследования. Создаю масштабируемые
+  дизайн-системы. Выстраиваю процессы DesignOps.
+lang: ru-RU
+
+author:
+  name: Ярослав Коротких
+
+# Default social preview image for pages that don't set their own.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/logo.png
+
 logo: /assets/img/logo.png
 favicon: /assets/img/favicon.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-seo-tag
+
+# Keep tooling, docs and templates out of the built site.
+exclude:
+- AGENTS.md
+- README.md
+- _templates/
+- Gemfile
+- Gemfile.lock
+- vendor/
+- .bundle/
+- .cursor/
