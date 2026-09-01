@@ -54,9 +54,16 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont,
-               "Inter", "Segoe UI", Roboto,
-               Helvetica, Arial, sans-serif;
+  font-family: "Golos Text", system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* Larger, calmer base for long-form reading. */
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1;
 }
 
 header h1,
@@ -162,4 +169,80 @@ section img {
 .mermaid svg {
   max-width: 100%;
   height: auto;
+}
+
+/* =====================
+   Typography & rhythm
+   =====================
+   Minimalist by intent: one grotesque (Golos Text), a clear modular scale,
+   a comfortable measure, and generous vertical spacing so the case content
+   is easy and pleasant to read. */
+
+/* Headings: confident grotesque with tight tracking and a clear scale.
+   The generous top margin is what gives each section room to breathe. */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+}
+
+section h1 { font-size: 2rem;    line-height: 1.15; margin: 0 0 0.7em; }
+section h2 { font-size: 1.5rem;  margin: 2.1em 0 0.6em; }
+section h3 { font-size: 1.2rem;  margin: 1.7em 0 0.5em; }
+section h4 { font-size: 1.02rem; margin: 1.5em 0 0.4em; letter-spacing: -0.01em; }
+
+/* Don't push the first heading away from the top of the content. */
+section > h1:first-child,
+section > h2:first-child,
+section > h3:first-child { margin-top: 0; }
+
+/* Body blocks: even vertical rhythm, roomier paragraphs and lists. */
+section p  { margin: 0 0 1.25em; text-wrap: pretty; }
+section ul,
+section ol { margin: 0 0 1.35em; padding-left: 1.35em; }
+section li { margin-bottom: 0.45em; line-height: 1.65; }
+section li::marker { color: var(--text-muted); }
+
+/* Emphasis reads as part of the type system, not a different color. */
+strong, b { font-weight: 600; color: var(--heading); }
+
+/* Links: quiet by default, clearly interactive on hover. */
+a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+
+/* Rules become quiet spacers that add air between large sections. */
+hr { height: 1px; border: 0; background: var(--border); margin: 2.4em 0; }
+
+/* Images: keep clear separation from surrounding text and each other. */
+section img { border-radius: 8px; margin: 0.3em 0 0.5em; }
+
+/* Blockquotes: a calm accent line, not a boxed callout. */
+blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 1.4em 0;
+  padding: 0.15em 0 0.15em 1.1em;
+  color: var(--text-muted);
+  font-style: normal;
+}
+
+/* Sidebar (name + tagline) shares the same type system. */
+header h1 { font-size: 1.6rem; line-height: 1.2; margin-bottom: 0.5em; letter-spacing: -0.02em; }
+header p  { color: var(--text-muted); line-height: 1.55; }
+
+/* Tables and code inherit the larger base but stay compact. */
+th, td   { padding: 0.5em 0.8em; }
+code     { font-size: 0.92em; }
+pre code { font-size: 0.9em; }
+small    { font-size: 0.8rem; }
+
+/* Two-column (desktop) only: a slightly narrower sidebar and a wider content
+   column give a better reading measure and more breathing room, without
+   touching the responsive single-column layout below 960px. */
+@media (min-width: 961px) {
+  header, footer { width: 240px; }
+  section {
+    width: 560px;
+    padding: 2em 2.2em;
+  }
 }
