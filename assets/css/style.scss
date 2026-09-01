@@ -19,7 +19,8 @@
   --code-bg: #f3f4f6;
   --font-body: "Golos Text", system-ui, -apple-system, BlinkMacSystemFont,
                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-heading: "Unbounded", "Golos Text", system-ui, sans-serif;
+  --font-heading: "Source Serif 4", "Iowan Old Style", "Palatino Linotype",
+                  Palatino, "Times New Roman", serif;
   color-scheme: light;
 }
 
@@ -179,24 +180,23 @@ section img {
 /* =====================
    Typography & rhythm
    =====================
-   Pair: Unbounded (display grotesque, headings) + Golos Text (body).
-   Unbounded is clearly not Inter: wider stance, sharper cuts, Cyrillic.
-   Rhythm and measure stay print-like so long cases are easy to read. */
+   Pair: Source Serif 4 (headings) + Golos Text (body). Quiet book pairing:
+   an antique for titles, a grotesque for long reading. Not a display face. */
 
 h1, h2, h3, h4, h5, h6,
 header h1 {
   font-family: var(--font-heading);
   color: var(--heading);
   font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  line-height: 1.28;
+  letter-spacing: -0.012em;
   text-wrap: balance;
 }
 
-section h1 { font-size: 2rem;    line-height: 1.15; margin: 0 0 0.7em; }
+section h1 { font-size: 2rem;    line-height: 1.22; margin: 0 0 0.7em; }
 section h2 { font-size: 1.5rem;  margin: 2.1em 0 0.6em; }
 section h3 { font-size: 1.2rem;  margin: 1.7em 0 0.5em; }
-section h4 { font-size: 1.02rem; margin: 1.5em 0 0.4em; letter-spacing: -0.01em; }
+section h4 { font-size: 1.02rem; margin: 1.5em 0 0.4em; letter-spacing: 0; }
 
 /* Don't push the first heading away from the top of the content. */
 section > h1:first-child,
@@ -210,8 +210,22 @@ section ol { margin: 0 0 1.35em; padding-left: 1.35em; }
 section li { margin-bottom: 0.45em; line-height: 1.65; }
 section li::marker { color: var(--text-muted); }
 
-/* Emphasis reads as part of the type system, not a different color. */
-strong, b { font-weight: 600; color: var(--heading); }
+/* Emphasis is the same colour as the surrounding text, only heavier.
+   The theme hard-codes strong { color: #222 }, which disappears in dark mode. */
+strong, b {
+  font-weight: 600;
+  color: inherit;
+  -webkit-text-fill-color: currentColor;
+}
+body strong,
+body b,
+section strong,
+section b,
+p strong,
+li strong {
+  color: inherit;
+  -webkit-text-fill-color: currentColor;
+}
 
 /* Links: quiet by default, clearly interactive on hover. */
 a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
@@ -232,7 +246,7 @@ blockquote {
 }
 
 /* Sidebar (name + tagline) shares the same type system. */
-header h1 { font-size: 1.6rem; line-height: 1.2; margin-bottom: 0.5em; letter-spacing: -0.02em; }
+header h1 { font-size: 1.6rem; line-height: 1.25; margin-bottom: 0.5em; letter-spacing: -0.015em; }
 header p  { color: var(--text-muted); line-height: 1.55; }
 
 /* Tables and code inherit the larger base but stay compact. */
