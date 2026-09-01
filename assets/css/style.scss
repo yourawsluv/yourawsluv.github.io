@@ -17,6 +17,10 @@
   --border: #e5e7eb;        /* тонкая светлая линия */
   --section-bg: #f9fafb;    /* чуть выделенный блок */
   --code-bg: #f3f4f6;
+  --font-body: "Golos Text", system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: "Unbounded", "Golos Text", system-ui, sans-serif;
+  color-scheme: light;
 }
 
 /* Dark theme follows the OS setting. Manual override is possible via
@@ -32,6 +36,7 @@
     --border: #2a313c;
     --section-bg: #161b22;
     --code-bg: #12171d;
+    color-scheme: dark;
   }
 }
 
@@ -45,6 +50,7 @@
   --border: #2a313c;
   --section-bg: #161b22;
   --code-bg: #12171d;
+  color-scheme: dark;
 }
 
 /* =====================
@@ -54,8 +60,7 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-  font-family: "Golos Text", system-ui, -apple-system, BlinkMacSystemFont,
-               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-body);
   /* Larger, calmer base for long-form reading. */
   font-size: 17px;
   line-height: 1.7;
@@ -174,17 +179,17 @@ section img {
 /* =====================
    Typography & rhythm
    =====================
-   Minimalist by intent: one grotesque (Golos Text), a clear modular scale,
-   a comfortable measure, and generous vertical spacing so the case content
-   is easy and pleasant to read. */
+   Pair: Unbounded (display grotesque, headings) + Golos Text (body).
+   Unbounded is clearly not Inter: wider stance, sharper cuts, Cyrillic.
+   Rhythm and measure stay print-like so long cases are easy to read. */
 
-/* Headings: confident grotesque with tight tracking and a clear scale.
-   The generous top margin is what gives each section room to breathe. */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+header h1 {
+  font-family: var(--font-heading);
   color: var(--heading);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
-  letter-spacing: -0.018em;
+  letter-spacing: -0.02em;
   text-wrap: balance;
 }
 
@@ -245,4 +250,84 @@ small    { font-size: 0.8rem; }
     width: 560px;
     padding: 2em 2.2em;
   }
+}
+
+/* =====================
+   Contact badges (landing)
+   =====================
+   One chip language: dark ground, white mark + label. In dark theme a
+   hairline keeps the chips from melting into the page background. */
+
+.contact-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0 0 1.6em;
+}
+
+.contact-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.45em 0.8em 0.45em 0.65em;
+  background: #111827;
+  color: #fff;
+  border: 1px solid #111827;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-text-fill-color: #fff;
+}
+
+.contact-badge:hover,
+.contact-badge:focus {
+  background: #0b1220;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  text-decoration: none;
+}
+
+.contact-badge svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .contact-badge {
+    border-color: rgba(255, 255, 255, 0.14);
+  }
+}
+
+:root[data-theme="dark"] .contact-badge {
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* =====================
+   Theme toggle (footer)
+   ===================== */
+
+.theme-toggle {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  padding: 0.4em 0.75em;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+  color: var(--heading);
+  border-color: var(--text-muted);
+  outline: none;
 }
