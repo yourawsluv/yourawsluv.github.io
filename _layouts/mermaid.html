@@ -31,7 +31,9 @@ layout: default
       if (typeof mermaid === "undefined") {
         return void setTimeout(start, 50);
       }
-      var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var stored = document.documentElement.getAttribute("data-theme");
+      var dark = stored === "dark" ||
+        (stored !== "light" && window.matchMedia("(prefers-color-scheme: dark)").matches);
       mermaid.initialize({
         startOnLoad: false,
         theme: dark ? "dark" : "neutral",
