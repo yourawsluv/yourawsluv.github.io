@@ -209,21 +209,34 @@ section ol { margin: 0 0 1.35em; padding-left: 1.35em; }
 section li { margin-bottom: 0.45em; line-height: 1.65; }
 section li::marker { color: var(--text-muted); }
 
-/* Emphasis is the same colour as the surrounding text, only heavier.
-   The theme hard-codes strong { color: #222 }, which disappears in dark mode. */
-strong, b {
-  font-weight: 600;
-  color: inherit;
-  -webkit-text-fill-color: currentColor;
-}
+/* Emphasis is the same colour as body copy, only heavier.
+   The remote theme hard-codes strong { color: #222 }, which is invisible
+   on the dark background. Bind to the text token (not inherit) so it
+   cannot fall back to that black. */
+strong, b,
 body strong,
 body b,
 section strong,
 section b,
 p strong,
 li strong {
-  color: inherit;
-  -webkit-text-fill-color: currentColor;
+  font-weight: 600;
+  color: var(--text);
+  -webkit-text-fill-color: var(--text);
+}
+
+:root[data-theme="dark"] strong,
+:root[data-theme="dark"] b {
+  color: var(--text);
+  -webkit-text-fill-color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) strong,
+  :root:not([data-theme="light"]) b {
+    color: var(--text);
+    -webkit-text-fill-color: var(--text);
+  }
 }
 
 /* Links: quiet by default, clearly interactive on hover. */
