@@ -2,54 +2,33 @@
 layout: mermaid
 ---
 
+[back](./)
+
 # Kanoe Wallet dApp
 
-[Project link](https://kanoewallet.com/) 
-[Figma link](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe?node-id=0-1&t=an5moLHc5JynOE5D-1)
+[Проект](https://kanoewallet.com/) · [Figma](https://www.figma.com/design/larczXzN5oQlcRHiUXW2LZ/Kanoe?node-id=0-1&t=an5moLHc5JynOE5D-1)
 
+## О продукте
 
-## Описание
- 
-**Kanoe** — это платформа для управления и наследования цифровых активов. Приложение предоставляет пользователям возможность защищать свои цифровые активы, планировать их наследование и управлять ими в одной экосистеме. Главная цель продукта — запустить на рынок интуитивно понятный и безопасный инструмент для управления токенами криптовалют и NFT.
+**Kanoe** это платформа для управления и наследования цифровых активов. Пользователь защищает свои активы, планирует их наследование и управляет ими в одной экосистеме. Задача продукта была вывести на рынок понятный инструмент для управления токенами криптовалют и NFT, в котором самое сложное, передача активов по наследству, не пугает пользователя.
 
-![image](https://github.com/user-attachments/assets/51f6b37a-e8e5-42f8-9f3e-f7313e27eae4) 
+<img width="600" loading="eager" fetchpriority="high" decoding="async" alt="Обложка Kanoe Wallet: управление и наследование цифровых активов" src="https://github.com/user-attachments/assets/51f6b37a-e8e5-42f8-9f3e-f7313e27eae4" />
 
----
-
-![image](https://github.com/user-attachments/assets/5656c921-4755-4408-853c-8eb2b4496df3)
+<img width="600" loading="lazy" decoding="async" alt="Ключевые экраны Kanoe Wallet dApp" src="https://github.com/user-attachments/assets/5656c921-4755-4408-853c-8eb2b4496df3" />
 
 ## Процесс
 
-1. **Анализ**
-   - Конкурентный анализ, Персона, CustDev, Брейншторм.
-   - UserStory, CJM, Структура и фичи.
-
-2. **Прототипирование**
-   - Карта функционала, UserFLow, Экраны.
-   - Wireframes, Прототипы, Интерактив, UX-копирайтинг.
-
-3. **Проектирование**
-   - Анализ рефов, сборка UI экранов, Структура и стили.
-   - Анализ токенов (states/components/variables), генерация Design System.
-   - Настройка интерактива Figma, Кликабельный прототип, Микро-анимации.
-   - Презентация заказчику через Figma-линк.
-
-4. **Тестирование**
-   - А/B тесты для фич, Сценарии.
-   - Оценка стейками, Коридорное тестирование.
-   - Фикс на основе обратной связи.
-
-5. **Релиз**
-   - Публикация лендинга, Публикация dApp.
-   - Сопровождение контентом Social Media.
-   - Первая лидогенерация, Мониторинг.
-   - Фикс/обновление на основе активности.
+1. **Анализ:** конкурентный анализ, персоны, CustDev, брейншторм; UserStory, CJM, структура и фичи.
+2. **Прототипирование:** карта функционала, UserFlow, экраны; вайрфреймы, прототипы, интерактив, UX-копирайтинг.
+3. **Проектирование:** анализ рефов и сборка UI; анализ токенов (states/components/variables) и генерация дизайн-системы; интерактив в Figma, кликабельный прототип, микро-анимации; презентация заказчику через Figma-линк.
+4. **Тестирование:** A/B-тесты фич и сценарии; оценка стейкхолдерами, коридорное тестирование; фиксы по обратной связи.
+5. **Релиз:** публикация лендинга и dApp; сопровождение контентом в соцсетях; первая лидогенерация и мониторинг; фиксы и обновления по активности.
 
 ## UX
 
-### Механика
+### Механика наследования
 
-dApp Crypto Inheritance 
+dApp Crypto Inheritance:
 
 <div class="mermaid">
 flowchart TD
@@ -81,7 +60,7 @@ flowchart TD
 
 ## UI
 
-### WalletConnect 
+### WalletConnect
 
 <div class="mermaid">
 flowchart TD
@@ -102,9 +81,9 @@ flowchart TD
     O --> P[Complete dApp Interaction]
 </div>
 
-![image](https://github.com/user-attachments/assets/a2e09fee-9f11-4289-b497-69aa2966dd53)
+<img width="600" loading="lazy" decoding="async" alt="Экран подключения кошелька через WalletConnect" src="https://github.com/user-attachments/assets/a2e09fee-9f11-4289-b497-69aa2966dd53" />
 
-### Select Heir
+### Выбор наследника
 
 <div class="mermaid">
 flowchart TD
@@ -127,8 +106,7 @@ flowchart TD
     ViewHeirs --> Dashboard
 </div>
 
-![image](https://github.com/user-attachments/assets/9ecddbea-edd8-4d00-b9ab-4fc79bfddd6c)
-
+<img width="600" loading="lazy" decoding="async" alt="Экран выбора наследника и распределения долей активов" src="https://github.com/user-attachments/assets/9ecddbea-edd8-4d00-b9ab-4fc79bfddd6c" />
 
 <div class="mermaid">
 flowchart TD
@@ -155,8 +133,7 @@ flowchart TD
     TransferAssets --> Confirmation
 </div>
 
-![image](https://github.com/user-attachments/assets/5cb5083d-e97b-44e1-87ac-67f7e493963d)
-
+<img width="600" loading="lazy" decoding="async" alt="Флоу активации наследования по таймеру и проверке отсутствия" src="https://github.com/user-attachments/assets/5cb5083d-e97b-44e1-87ac-67f7e493963d" />
 
 <div class="mermaid">
 flowchart TD
@@ -194,9 +171,9 @@ flowchart TD
     ModifySettings --> LegalCompliance
 </div>
 
-![image](https://github.com/user-attachments/assets/b09c4f5c-0f2f-4583-a2ca-beae45e1884d)
-![image](https://github.com/user-attachments/assets/d3ecb590-b033-4b3e-b54a-cc0d97c7c875)
-![image](https://github.com/user-attachments/assets/74f38645-e073-4ff5-a3e6-76a5e727a685)
+<img width="600" loading="lazy" decoding="async" alt="Управление наследованием: настройки, наследники и условия активации" src="https://github.com/user-attachments/assets/b09c4f5c-0f2f-4583-a2ca-beae45e1884d" />
+<img width="600" loading="lazy" decoding="async" alt="Экраны управления наследованием, вид 2" src="https://github.com/user-attachments/assets/d3ecb590-b033-4b3e-b54a-cc0d97c7c875" />
+<img width="600" loading="lazy" decoding="async" alt="Экраны управления наследованием, вид 3" src="https://github.com/user-attachments/assets/74f38645-e073-4ff5-a3e6-76a5e727a685" />
 
 <div class="mermaid">
 flowchart TD
@@ -217,16 +194,14 @@ flowchart TD
     ViewHeirs --> Dashboard
 </div>
 
-![image](https://github.com/user-attachments/assets/536e0ad8-c160-4ec2-99eb-e1640f25d66f)
-![image](https://github.com/user-attachments/assets/644ddff9-b67d-4a4f-8391-546f4b57f783)
-
+<img width="600" loading="lazy" decoding="async" alt="Добавление нового наследника и подтверждение долей" src="https://github.com/user-attachments/assets/536e0ad8-c160-4ec2-99eb-e1640f25d66f" />
+<img width="600" loading="lazy" decoding="async" alt="Список наследников после сохранения в блокчейн" src="https://github.com/user-attachments/assets/644ddff9-b67d-4a4f-8391-546f4b57f783" />
 
 ## Релиз
 
-- **Запуск и активные пользователей:** За первый месяц после запуска DAU 1000+.
-- **Положительная обратная связь:** Стейкхолдеры отметили удобство интерфейса и интересный контент.
-- **Положительный рейтинг:** Приложение получило высокие оценки и положительные отзывы.
-
+- **Запуск и активные пользователи:** за первый месяц после запуска DAU 1000+.
+- **Обратная связь:** стейкхолдеры отметили удобство интерфейса и интересный контент.
+- **Оценки:** приложение получило высокие оценки и положительные отзывы.
 
 ## Инструменты
 
@@ -234,4 +209,4 @@ flowchart TD
 - **Miro**
 - **Webflow** (HTML / CSS / JS)
 
----
+[back](./)
