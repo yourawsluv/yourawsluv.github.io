@@ -42,6 +42,11 @@
 
       </section>
       <footer>
+        <p>
+          <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">
+            Тёмная тема
+          </button>
+        </p>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
@@ -49,5 +54,35 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      (function () {
+        var btn = document.getElementById("theme-toggle");
+        if (!btn) return;
+
+        function effectiveTheme() {
+          var t = document.documentElement.getAttribute("data-theme");
+          if (t === "dark" || t === "light") return t;
+          return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        function sync() {
+          var dark = effectiveTheme() === "dark";
+          btn.setAttribute("aria-pressed", dark ? "true" : "false");
+          btn.textContent = dark ? "Светлая тема" : "Тёмная тема";
+        }
+
+        btn.addEventListener("click", function () {
+          var next = effectiveTheme() === "dark" ? "light" : "dark";
+          document.documentElement.setAttribute("data-theme", next);
+          try { localStorage.setItem("theme", next); } catch (e) {}
+          sync();
+          try {
+            document.dispatchEvent(new CustomEvent("themechange", { detail: next }));
+          } catch (e) {}
+        });
+
+        sync();
+      })();
+    </script>
   </body>
 </html>
