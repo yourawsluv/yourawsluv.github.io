@@ -294,13 +294,27 @@ code     { font-size: 0.92em; }
 pre code { font-size: 0.9em; }
 small    { font-size: 0.8rem; }
 
-/* Two-column (desktop) only: a slightly narrower sidebar and a wider content
-   column give a better reading measure and more breathing room, without
-   touching the responsive single-column layout below 960px. */
+/* Two-column (desktop) only. The theme wrapper is 860px and uses
+   content-box sizing, so `section { width: 560px; padding: 2em 2.2em }`
+   grew past the wrapper and the fixed sidebar painted over the content.
+   Keep padding inside the widths and leave a real gutter. Stacked
+   layout below 960px is unchanged. */
 @media (min-width: 961px) {
-  header, footer { width: 240px; }
+  header,
+  footer,
   section {
-    width: 560px;
+    box-sizing: border-box;
+  }
+
+  header,
+  footer {
+    width: 240px;
+    padding-right: 1em;
+  }
+
+  section {
+    /* 860 − 240 sidebar − 80 gutter; padding is inside this width. */
+    width: 540px;
     padding: 2em 2.2em;
   }
 }
