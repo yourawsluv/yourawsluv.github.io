@@ -72,6 +72,33 @@ p, li {
   color: var(--text);
 }
 
+/* The remote theme pins strong { color: #222 }, which disappears on the
+   dark background (PoC, MVP, role titles). Bind emphasis to the text token. */
+strong, b,
+body strong,
+body b,
+section strong,
+section b,
+p strong,
+li strong {
+  color: var(--text);
+  -webkit-text-fill-color: var(--text);
+}
+
+:root[data-theme="dark"] strong,
+:root[data-theme="dark"] b {
+  color: var(--text);
+  -webkit-text-fill-color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) strong,
+  :root:not([data-theme="light"]) b {
+    color: var(--text);
+    -webkit-text-fill-color: var(--text);
+  }
+}
+
 small, .muted, .subtitle {
   color: var(--text-muted);
 }
