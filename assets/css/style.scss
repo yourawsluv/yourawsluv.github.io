@@ -324,16 +324,31 @@ small    { font-size: 0.8rem; }
 }
 
 /* =====================
-   Contact badges (landing)
+   Contact badges (sidebar)
    =====================
    One chip language: dark ground, white mark + label. In dark theme a
-   hairline keeps the chips from melting into the page background. */
+   hairline keeps the chips from melting into the page background.
+   On desktop they stack in the 240px sidebar; below 960px they wrap
+   in a row under the bio. */
 
 .contact-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  margin: 0 0 1.6em;
+  margin: 1em 0 0;
+}
+
+@media (min-width: 961px) {
+  header .contact-badges {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 0.4em;
+  }
+
+  header .contact-badge {
+    justify-content: flex-start;
+  }
 }
 
 .contact-badge {
