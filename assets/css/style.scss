@@ -349,6 +349,15 @@ small    { font-size: 0.8rem; }
   }
 }
 
+/* Stacked (tablet and phone): header sits above the cases, so the
+   gap between the two boxes is vertical. Keep it larger than the
+   section's 1.2em inner padding. */
+@media (max-width: 960px) {
+  header {
+    margin-bottom: 2em;
+  }
+}
+
 /* =====================
    Contact badges (sidebar)
    =====================
