@@ -558,6 +558,111 @@ section:has(.home-feed) {
   box-sizing: border-box;
 }
 
+/* Reveal on scroll: the card rises, then chrome, title, tags, image
+   follow with a short stagger. First card stays opaque so the LCP
+   preview is not delayed; it only eases up. No JS → no hide. */
+$case-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+@keyframes case-rise {
+  from { transform: translateY(1.15rem); }
+  to   { transform: none; }
+}
+
+@keyframes case-fade-up {
+  from { opacity: 0; transform: translateY(0.7rem); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes case-fade-up-tags {
+  from { opacity: 0; transform: translateY(0.7rem); }
+  to   { opacity: 0.6; transform: none; }
+}
+
+.has-js .home-feed .case-card:not(:first-of-type) {
+  opacity: 0;
+  transform: translateY(1.25rem);
+  transition:
+    opacity 0.7s $case-ease var(--card-delay, 0s),
+    transform 0.7s $case-ease var(--card-delay, 0s);
+}
+
+.has-js .home-feed .case-card:not(:first-of-type).is-in {
+  opacity: 1;
+  transform: none;
+}
+
+.has-js .home-feed .case-card:not(:first-of-type)::before,
+.has-js .home-feed .case-card:not(:first-of-type) h3,
+.has-js .home-feed .case-card:not(:first-of-type) .case-tags,
+.has-js .home-feed .case-card:not(:first-of-type) img {
+  opacity: 0;
+  transform: translateY(0.7rem);
+  transition:
+    opacity 0.55s $case-ease,
+    transform 0.55s $case-ease;
+}
+
+.has-js .home-feed .case-card:not(:first-of-type).is-in::before {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(var(--card-delay, 0s) + 0.06s);
+}
+
+.has-js .home-feed .case-card:not(:first-of-type).is-in h3 {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(var(--card-delay, 0s) + 0.14s);
+}
+
+.has-js .home-feed .case-card:not(:first-of-type).is-in .case-tags {
+  opacity: 0.6;
+  transform: none;
+  transition-delay: calc(var(--card-delay, 0s) + 0.22s);
+}
+
+.has-js .home-feed .case-card:not(:first-of-type).is-in img {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(var(--card-delay, 0s) + 0.32s);
+}
+
+.has-js .home-feed > article.case-card:first-of-type {
+  animation: case-rise 0.75s $case-ease both;
+}
+
+.has-js .home-feed > article.case-card:first-of-type::before {
+  animation: case-fade-up 0.55s $case-ease 0.08s both;
+}
+
+.has-js .home-feed > article.case-card:first-of-type h3 {
+  animation: case-fade-up 0.55s $case-ease 0.16s both;
+}
+
+.has-js .home-feed > article.case-card:first-of-type .case-tags {
+  animation: case-fade-up-tags 0.55s $case-ease 0.24s both;
+}
+
+.has-js .home-feed > article.case-card:first-of-type img {
+  animation: case-rise 0.7s $case-ease 0.28s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .has-js .home-feed .case-card,
+  .has-js .home-feed .case-card::before,
+  .has-js .home-feed .case-card h3,
+  .has-js .home-feed .case-card .case-tags,
+  .has-js .home-feed .case-card img {
+    opacity: 1;
+    transform: none;
+    animation: none;
+    transition: none;
+  }
+
+  .has-js .home-feed .case-card .case-tags {
+    opacity: 0.6;
+  }
+}
+
 /* Traffic-light chrome, macOS window style. Decorative only. */
 .case-card::before {
   content: "";
