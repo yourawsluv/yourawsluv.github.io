@@ -334,16 +334,24 @@ header p {
   line-height: 1.55;
 }
 
-/* Bio under the avatar: slightly smaller than body 17px so the 280px
-   sidebar can keep the compound «дизайн-системы» on one line. nowrap
-   blocks the default wrap-after-hyphen; the span must still fit. */
-header .header-bio {
-  font-size: 0.94em;
-  line-height: 1.5;
+/* Bio under the avatar. Regular U+002D is a wrap opportunity; the
+   compound uses U+2011 in the markup. nowrap is a second lock.
+   15px keeps «масштабируемые дизайн-системы.» inside 280px. */
+header p.header-bio {
+  font-size: 15px;
+  line-height: 1.45;
+  overflow-wrap: normal;
+  word-break: normal;
+  -webkit-hyphens: none;
+  hyphens: none;
 }
 
-.nowrap {
+header p.header-bio .nowrap {
   white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  -webkit-hyphens: none;
+  hyphens: none;
 }
 
 /* Tables and code inherit the larger base but stay compact. */
