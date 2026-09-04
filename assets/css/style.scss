@@ -285,12 +285,40 @@ blockquote {
 }
 
 /* Sidebar (name + tagline) shares the same type system. */
-header h1 { font-size: 1.6rem; line-height: 1.2; margin-bottom: 0.5em; letter-spacing: -0.025em; }
+header {
+  padding: 0;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 0.1em;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+  text-wrap: nowrap;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+header .header-handle {
+  margin: 0 0 0.85em;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  letter-spacing: 0.01em;
+}
+
 header img {
   display: block;
   margin: 0 0 1em;
 }
-header p  { color: var(--text-muted); line-height: 1.55; }
+
+header p {
+  color: var(--text-muted);
+  line-height: 1.55;
+}
 
 /* Tables and code inherit the larger base but stay compact. */
 th, td   { padding: 0.5em 0.8em; }
@@ -298,11 +326,10 @@ code     { font-size: 0.92em; }
 pre code { font-size: 0.9em; }
 small    { font-size: 0.8rem; }
 
-/* Two-column (desktop) only. The theme wrapper is 860px and uses
-   content-box sizing, so `section { width: 560px; padding: 2em 2.2em }`
-   grew past the wrapper and the fixed sidebar painted over the content.
-   Keep padding inside the widths and leave a real gutter. Stacked
-   layout below 960px is unchanged. */
+/* Two-column (desktop) only. The theme wrapper is 860px.
+   Header has no padding and is wide enough for the name on one line.
+   Gutter (header edge → section edge) must stay larger than the
+   section's inner padding. 280 + 64 + 516 = 860; 64 > 34 (2em). */
 @media (min-width: 961px) {
   header,
   footer,
@@ -312,28 +339,27 @@ small    { font-size: 0.8rem; }
 
   header,
   footer {
-    width: 240px;
-    padding-right: 1em;
+    width: 280px;
+    padding: 0;
   }
 
   section {
-    /* 860 − 240 sidebar − 80 gutter; padding is inside this width. */
-    width: 540px;
-    padding: 2em 2.2em;
+    width: 516px;
+    padding: 2em;
   }
 }
 
 /* =====================
    Contact badges (sidebar)
    =====================
-   One chip language: dark ground, white mark + label. In dark theme a
-   hairline keeps the chips from melting into the page background.
-   On desktop they stack in the 240px sidebar; below 960px they wrap
-   in a row under the bio. */
+   Pills hug their label, follow --section-bg / --text / --border so
+   light and dark both stay readable. On desktop they stack under the
+   bio; below 960px they wrap in a row. */
 
 .contact-badges {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   gap: 0.5em;
   margin: 1em 0 0;
 }
@@ -342,37 +368,34 @@ small    { font-size: 0.8rem; }
   header .contact-badges {
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: stretch;
+    align-items: flex-start;
     gap: 0.4em;
-  }
-
-  header .contact-badge {
-    justify-content: flex-start;
   }
 }
 
 .contact-badge {
   display: inline-flex;
   align-items: center;
+  width: max-content;
   gap: 0.45em;
-  padding: 0.45em 0.8em 0.45em 0.65em;
-  background: #111827;
-  color: #fff;
-  border: 1px solid #111827;
-  border-radius: 6px;
+  padding: 0.45em 0.9em 0.45em 0.7em;
+  background: var(--section-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 999px;
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.01em;
   line-height: 1;
   text-decoration: none;
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: var(--text);
 }
 
 .contact-badge:hover,
 .contact-badge:focus {
-  background: #0b1220;
-  color: #fff;
-  -webkit-text-fill-color: #fff;
+  color: var(--heading);
+  -webkit-text-fill-color: var(--heading);
+  border-color: var(--text-muted);
   text-decoration: none;
 }
 
@@ -383,32 +406,23 @@ small    { font-size: 0.8rem; }
   flex-shrink: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .contact-badge {
-    border-color: rgba(255, 255, 255, 0.14);
-  }
-}
-
-:root[data-theme="dark"] .contact-badge {
-  border-color: rgba(255, 255, 255, 0.14);
-}
-
 /* =====================
    Theme toggle (footer)
    ===================== */
 
 .theme-toggle {
   appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25em;
+  height: 2.25em;
+  padding: 0;
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-muted);
-  font: inherit;
-  font-size: 0.78rem;
-  letter-spacing: 0.01em;
-  padding: 0.4em 0.75em;
   border-radius: 999px;
   cursor: pointer;
-  line-height: 1.2;
 }
 
 .theme-toggle:hover,
@@ -417,3 +431,17 @@ small    { font-size: 0.8rem; }
   border-color: var(--text-muted);
   outline: none;
 }
+
+.theme-toggle svg {
+  width: 1.05em;
+  height: 1.05em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-icon-sun { display: none; }
+.theme-toggle.is-dark .theme-icon-moon { display: none; }
+.theme-toggle.is-dark .theme-icon-sun { display: block; }
