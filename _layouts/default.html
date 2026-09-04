@@ -26,7 +26,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p class="header-bio">{{ site.description | default: site.github.project_tagline | replace: "дизайн-системы", '<span class="nowrap">дизайн-системы</span>' }}</p>
 
         {% include contact-badges.html %}
 
