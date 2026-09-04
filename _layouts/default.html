@@ -23,7 +23,7 @@
         <p class="header-handle">@yourawsluv</p>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          {% include logo-dots.html %}
         {% endif %}
         
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -51,6 +51,7 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/logo-dots.js" | relative_url }}" defer></script>
     <script>
       (function () {
         var btn = document.getElementById("theme-toggle");

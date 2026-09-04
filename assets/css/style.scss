@@ -8,15 +8,15 @@
    ===================== */
 
 :root {
-  --bg: #ffffff;            /* чистый светлый фон */
+  --bg: #ffffff;            /* Vercel light canvas */
   --text: #111827;          /* почти чёрный текст */
   --heading: #0b1220;       /* заголовки чуть контрастнее */
   --text-muted: #6b7280;    /* мягкий серый */
   --accent: #1a73e8;        /* насыщенный синий */
   --link: #1a73e8;          /* ссылка такой же синий */
-  --border: #e5e7eb;        /* тонкая светлая линия */
-  --section-bg: #f9fafb;    /* чуть выделенный блок */
-  --code-bg: #f3f4f6;
+  --border: #eaeaea;        /* Vercel light hairline */
+  --section-bg: #fafafa;    /* elevated surface */
+  --code-bg: #f2f2f2;
   --font-body: "Golos Text", system-ui, -apple-system, BlinkMacSystemFont,
                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-heading: "Geist", "Golos Text", system-ui, -apple-system, sans-serif;
@@ -33,16 +33,16 @@
    <html data-theme="dark"> / data-theme="light". */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0d1117;
-    --text: #e6edf3;
-    --heading: #f3f6fb;
-    --text-muted: #9198a1;
+    --bg: #000000;
+    --text: #ededed;
+    --heading: #ededed;
+    --text-muted: #888888;
     --accent: #4b9bff;
     --link: #6cb0ff;
-    --border: #2a313c;
-    --section-bg: #161b22;
-    --code-bg: #12171d;
-    --card-shadow: 0 10px 28px rgba(0, 0, 0, 0.38), 0 1px 2px rgba(0, 0, 0, 0.4);
+    --border: rgba(255, 255, 255, 0.08);
+    --section-bg: #0a0a0a;
+    --code-bg: #111111;
+    --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
     --tok-fn: #d2a8ff;
     --tok-str: #a5d6ff;
     --tok-punct: #8b949e;
@@ -51,16 +51,16 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #0d1117;
-  --text: #e6edf3;
-  --heading: #f3f6fb;
-  --text-muted: #9198a1;
+  --bg: #000000;
+  --text: #ededed;
+  --heading: #ededed;
+  --text-muted: #888888;
   --accent: #4b9bff;
   --link: #6cb0ff;
-  --border: #2a313c;
-  --section-bg: #161b22;
-  --code-bg: #12171d;
-  --card-shadow: 0 10px 28px rgba(0, 0, 0, 0.38), 0 1px 2px rgba(0, 0, 0, 0.4);
+  --border: rgba(255, 255, 255, 0.08);
+  --section-bg: #0a0a0a;
+  --code-bg: #111111;
+  --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
   --tok-fn: #d2a8ff;
   --tok-str: #a5d6ff;
   --tok-punct: #8b949e;
@@ -166,6 +166,7 @@ section h4 a:hover strong {
 /* Sections / cards */
 section {
   background: var(--section-bg);
+  border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.2em;
 }
@@ -324,9 +325,37 @@ header .header-handle {
   letter-spacing: 0.01em;
 }
 
-header img {
+.logo-dots {
+  position: relative;
   display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   margin: 0 0 1em;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.logo-dots img,
+.logo-dots canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.logo-dots.is-ready img {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-dots {
+    pointer-events: none;
+  }
 }
 
 header p {
@@ -540,6 +569,7 @@ section:has(.home-feed) {
   padding: 0.9em 1.2em 0.95em 1.15em;
   background: var(--section-bg);
   color: var(--text);
+  border: 1px solid var(--border);
   border-radius: 22px 22px 22px 8px;
   box-shadow: var(--card-shadow);
 }
@@ -551,6 +581,7 @@ section:has(.home-feed) {
 .case-card {
   position: relative;
   background: var(--section-bg);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 0.85em 1.2em 1.2em;
   margin: 0 0 4rem;
