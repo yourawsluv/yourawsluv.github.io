@@ -647,18 +647,24 @@ $case-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .has-js .home-feed .case-card,
-  .has-js .home-feed .case-card::before,
-  .has-js .home-feed .case-card h3,
-  .has-js .home-feed .case-card .case-tags,
-  .has-js .home-feed .case-card img {
+  .has-js .home-feed > article.case-card:first-of-type,
+  .has-js .home-feed > article.case-card:first-of-type::before,
+  .has-js .home-feed > article.case-card:first-of-type h3,
+  .has-js .home-feed > article.case-card:first-of-type .case-tags,
+  .has-js .home-feed > article.case-card:first-of-type img,
+  .has-js .home-feed .case-card:not(:first-of-type),
+  .has-js .home-feed .case-card:not(:first-of-type)::before,
+  .has-js .home-feed .case-card:not(:first-of-type) h3,
+  .has-js .home-feed .case-card:not(:first-of-type) .case-tags,
+  .has-js .home-feed .case-card:not(:first-of-type) img {
     opacity: 1;
     transform: none;
     animation: none;
     transition: none;
   }
 
-  .has-js .home-feed .case-card .case-tags {
+  .has-js .home-feed .case-card .case-tags,
+  .has-js .home-feed > article.case-card:first-of-type .case-tags {
     opacity: 0.6;
   }
 }
