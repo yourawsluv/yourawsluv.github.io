@@ -372,10 +372,10 @@ small    { font-size: 0.8rem; }
   }
 
   /* Theme sets footer to position: static here (and bottom is ignored).
-     Keep it fixed at 4rem from the viewport, same as desktop. */
+     Keep it fixed at 3rem from the viewport, same as desktop. */
   div.wrapper > footer {
     position: fixed;
-    bottom: 4rem;
+    bottom: 3rem;
     width: auto;
     float: none;
   }
@@ -383,7 +383,7 @@ small    { font-size: 0.8rem; }
   /* If the theme still unfixed the footer, pin the button itself. */
   .theme-toggle {
     position: fixed;
-    bottom: 4rem;
+    bottom: 3rem;
     z-index: 30;
   }
 }
@@ -440,14 +440,14 @@ small    { font-size: 0.8rem; }
 /* =====================
    Theme toggle
    =====================
-   Stick the control 4rem above the viewport bottom. The theme pins
+   Stick the control 3rem above the viewport bottom. The theme pins
    footer to bottom: 50px and, below 960px, to position: static.
    div.wrapper > footer beats those rules without !important.
    Theme p { margin: 0 0 20px } would add extra offset; zero it. */
 
 div.wrapper > footer {
   position: fixed;
-  bottom: 4rem;
+  bottom: 3rem;
   z-index: 20;
 }
 
