@@ -370,6 +370,13 @@ small    { font-size: 0.8rem; }
   header {
     margin-bottom: 2em;
   }
+
+  footer {
+    position: fixed;
+    bottom: 4rem;
+    width: auto;
+    float: none;
+  }
 }
 
 /* =====================
@@ -430,8 +437,21 @@ small    { font-size: 0.8rem; }
 }
 
 /* =====================
-   Theme toggle (footer)
-   ===================== */
+   Theme toggle
+   =====================
+   Stick the control 4rem above the viewport bottom on every breakpoint.
+   The theme pins footer to bottom: 50px on desktop and unfixes it below
+   960px; both would leave the button in the wrong place. */
+
+footer {
+  position: fixed;
+  bottom: 4rem;
+  z-index: 20;
+}
+
+footer p:has(#theme-toggle) {
+  margin: 0;
+}
 
 .theme-toggle {
   appearance: none;
@@ -441,7 +461,7 @@ small    { font-size: 0.8rem; }
   width: 2.25em;
   height: 2.25em;
   padding: 0;
-  background: transparent;
+  background: var(--bg);
   border: 1px solid var(--border);
   color: var(--text-muted);
   border-radius: 999px;
@@ -468,6 +488,12 @@ small    { font-size: 0.8rem; }
 .theme-icon-sun { display: none; }
 .theme-toggle.is-dark .theme-icon-moon { display: none; }
 .theme-toggle.is-dark .theme-icon-sun { display: block; }
+
+@media print {
+  footer {
+    position: static;
+  }
+}
 
 /* =====================
    Home feed (landing)
