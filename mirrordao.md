@@ -1,4 +1,5 @@
 ---
+layout: mermaid
 tags:
 - CFA
 - DAO

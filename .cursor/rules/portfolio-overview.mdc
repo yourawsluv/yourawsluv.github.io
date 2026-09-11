@@ -1,0 +1,24 @@
+---
+description: Project context for this Jekyll/GitHub Pages portfolio and where key files live.
+alwaysApply: true
+---
+
+# Portfolio project overview
+
+This is a **personal portfolio** (product designer / UX researcher) built with
+**Jekyll** + **GitHub Pages**, remote theme `pages-themes/minimal`. It is shared
+on job boards and with hiring managers, so **content clarity** and **page speed**
+are the top priorities.
+
+- Each `*.md` at the repo root is one case study, built to `<name>.html`.
+- `index.md` is the landing page with featured case cards.
+- Layouts: `_layouts/default.html`; `_layouts/mermaid.html` adds diagram rendering.
+- `_includes/head-custom.html` holds performance `<head>` additions.
+- Styles/tokens (incl. light/dark theme): `assets/css/style.scss`.
+
+Run locally: `bundle exec jekyll serve --livereload` (http://127.0.0.1:4000/).
+Full guidance is in `AGENTS.md`.
+
+When editing a case, follow `writing-cases.mdc`. When touching images, diagrams,
+layouts, or CSS, follow `performance.mdc`. Never invent metrics or facts about the
+work; keep the author's voice and fix only real errors unless asked to rewrite.

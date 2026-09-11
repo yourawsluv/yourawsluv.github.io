@@ -4,32 +4,59 @@
 @import "{{ site.theme }}";
 
 /* =====================
-   Base Colors
+   Design tokens
    ===================== */
 
-/* Light theme */
 :root {
-  --bg: #FFFFFF;            /* чистый светлый фон */
+  --bg: #ffffff;            /* чистый светлый фон */
   --text: #111827;          /* почти чёрный текст */
-  --text-muted: #6B7280;    /* мягкий серый */
-  --accent: #1A73E8;        /* насыщенный синий */
-  --link: #1A73E8;          /* ссылка такой же синий */
-  --border: #E5E7EB;        /* тонкая светлая линия */
-  --section-bg: #F9FAFB;    /* чуть выделенный блок */
+  --heading: #0b1220;       /* заголовки чуть контрастнее */
+  --text-muted: #6b7280;    /* мягкий серый */
+  --accent: #1a73e8;        /* насыщенный синий */
+  --link: #1a73e8;          /* ссылка такой же синий */
+  --border: #e5e7eb;        /* тонкая светлая линия */
+  --section-bg: #f9fafb;    /* чуть выделенный блок */
+  --code-bg: #f3f4f6;
+}
+
+/* Dark theme follows the OS setting. Manual override is possible via
+   <html data-theme="dark"> / data-theme="light". */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1117;
+    --text: #e6edf3;
+    --heading: #f3f6fb;
+    --text-muted: #9198a1;
+    --accent: #4b9bff;
+    --link: #6cb0ff;
+    --border: #2a313c;
+    --section-bg: #161b22;
+    --code-bg: #12171d;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0d1117;
+  --text: #e6edf3;
+  --heading: #f3f6fb;
+  --text-muted: #9198a1;
+  --accent: #4b9bff;
+  --link: #6cb0ff;
+  --border: #2a313c;
+  --section-bg: #161b22;
+  --code-bg: #12171d;
 }
 
 /* =====================
-   Apply Theme
+   Base
    ===================== */
 
 body {
   background-color: var(--bg);
   color: var(--text);
-}
-
-/* Headings */
-:root[data-theme="dark"] {
-  --heading: #f9fafb;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Inter", "Segoe UI", Roboto,
+               Helvetica, Arial, sans-serif;
 }
 
 header h1,
@@ -38,25 +65,49 @@ section h1,
 section h2,
 section h3,
 section h4 {
-  color: var(--heading, var(--text));
+  color: var(--heading);
 }
 
-/* Paragraphs */
 p, li {
   color: var(--text);
 }
 
-/* Muted text */
 small, .muted, .subtitle {
   color: var(--text-muted);
 }
 
-/* Links */
 a {
   color: var(--link);
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* Links that act as section headings (e.g. case titles on the landing page)
+   should read as headings and follow the theme, not stay a fixed dark color
+   that becomes invisible in dark mode. The bold text lives in a nested <strong>,
+   so it must be targeted explicitly (it otherwise keeps the theme's #222). */
+section h1 a,
+section h2 a,
+section h3 a,
+section h4 a,
+section h1 a strong,
+section h2 a strong,
+section h3 a strong,
+section h4 a strong {
+  color: var(--heading);
+  -webkit-text-fill-color: var(--heading);
+}
+section h1 a:hover,
+section h2 a:hover,
+section h3 a:hover,
+section h4 a:hover,
+section h1 a:hover strong,
+section h2 a:hover strong,
+section h3 a:hover strong,
+section h4 a:hover strong {
+  color: var(--accent);
+  -webkit-text-fill-color: var(--accent);
 }
 
 /* Sections / cards */
@@ -66,12 +117,10 @@ section {
   padding: 1.2em;
 }
 
-/* Borders and horizontal rules */
 hr {
   border-color: var(--border);
 }
 
-/* Tables */
 table {
   border-color: var(--border);
 }
@@ -79,24 +128,38 @@ th, td {
   border-color: var(--border);
 }
 
-/* Code blocks */
 pre, code {
-  background-color: var(--section-bg);
+  background-color: var(--code-bg);
   color: var(--text);
   padding: 0.6em;
   border-radius: 6px;
 }
 
-/* Images (optional nicer effect) */
+/* =====================
+   Media
+   ===================== */
+
+/* Keep the intrinsic aspect ratio (source markup uses height="auto") and
+   render offscreen images cheaply so long, image-heavy case pages stay smooth. */
 img {
   max-width: 100%;
+  height: auto;
   border-radius: 6px;
 }
 
-/* ===== Font override ===== */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-body {
-  font-family: -apple-system, BlinkMacSystemFont,
-               "Inter", "Segoe UI", Roboto,
-               Helvetica, Arial, sans-serif;
+section img {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 400px;
+}
+
+/* Mermaid diagrams: transparent canvas, centered, no code-block styling while
+   the source is still visible before rendering. */
+.mermaid {
+  background: transparent;
+  text-align: center;
+  overflow-x: auto;
+}
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
 }

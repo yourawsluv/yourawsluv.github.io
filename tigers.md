@@ -1,5 +1,6 @@
 ---
 layout: mermaid
+noindex: true
 ---
 
 [Figma project](https://www.figma.com/design/mZq6FqGmvr4eLyLuvayZQ5/Claimy?node-id=18-24946&t=75b7YgB2Eyd8o9Mn-1)

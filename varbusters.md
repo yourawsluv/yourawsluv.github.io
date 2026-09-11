@@ -1,5 +1,6 @@
 ---
 layout: mermaid
+noindex: true
 ---
 
 [Figma project](https://www.figma.com/design/l2E5DBMhhp6L2z6ksEqjp2/Varbusters?node-id=0-1&t=gcldfpLBiesBeHiT-1)
