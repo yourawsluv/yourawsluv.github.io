@@ -205,6 +205,82 @@ section img {
   contain-intrinsic-size: auto 400px;
 }
 
+/* Quiet loader while GitHub-hosted screenshots arrive. JS wraps each
+   content image in .media-frame (a span, so it stays valid inside <p>).
+   The first image is never pending: it is the LCP candidate. */
+.media-frame {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 0.3em 0 0.5em;
+}
+
+.case-card .media-frame {
+  margin: 0;
+}
+
+.media-frame img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.media-frame.is-pending {
+  min-height: 11rem;
+  background: var(--border);
+}
+
+.media-frame.is-pending img {
+  opacity: 0;
+}
+
+.media-frame.is-loaded img {
+  opacity: 1;
+  transition: opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.media-loader {
+  display: none;
+}
+
+.media-frame.is-pending .media-loader {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.media-frame.is-pending .media-loader::before {
+  content: "";
+  width: 1.15rem;
+  height: 1.15rem;
+  box-sizing: border-box;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: media-spin 0.7s linear infinite;
+}
+
+@keyframes media-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .media-frame.is-pending .media-loader::before {
+    animation: none;
+  }
+
+  .media-frame.is-loaded img {
+    transition: none;
+  }
+}
+
 /* Mermaid diagrams: transparent canvas, centered, no code-block styling while
    the source is still visible before rendering. */
 .mermaid {
@@ -288,6 +364,8 @@ hr { height: 1px; border: 0; background: var(--border); margin: 2.4em 0; }
 
 /* Images: keep clear separation from surrounding text and each other. */
 section img { border-radius: 8px; margin: 0.3em 0 0.5em; }
+section .media-frame { margin: 0.3em 0 0.5em; }
+section .media-frame img { margin: 0; }
 
 /* Blockquotes: a calm accent line, not a boxed callout. */
 blockquote {
@@ -352,6 +430,17 @@ header p.header-bio .nowrap {
   overflow-wrap: normal;
   -webkit-hyphens: none;
   hyphens: none;
+}
+
+/* Torph pins [torph-root] { white-space: nowrap }. The 280px sidebar
+   cannot hold a sentence on one line, so wrap and reserve three lines
+   while the three phrases cycle. */
+header .header-bio .bio-morph[torph-root] {
+  display: block;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
+  min-height: 4.4em;
 }
 
 /* Tables and code inherit the larger base but stay compact. */
@@ -568,6 +657,11 @@ section:has(.home-feed) {
 .cases-hello .tok-str { color: var(--tok-str); }
 .cases-hello .tok-punct { color: var(--tok-punct); }
 
+.cases-hello .hello-morph {
+  display: inline-block;
+  min-height: 1.55em;
+}
+
 .case-card {
   position: relative;
   background: var(--section-bg);
@@ -614,7 +708,8 @@ $case-ease: cubic-bezier(0.22, 1, 0.36, 1);
 .has-js .home-feed .case-card:not(:first-of-type)::before,
 .has-js .home-feed .case-card:not(:first-of-type) h3,
 .has-js .home-feed .case-card:not(:first-of-type) .case-tags,
-.has-js .home-feed .case-card:not(:first-of-type) img {
+.has-js .home-feed .case-card:not(:first-of-type) .media-frame,
+.has-js .home-feed .case-card:not(:first-of-type) > img {
   opacity: 0;
   transform: translateY(0.7rem);
   transition:
@@ -640,7 +735,8 @@ $case-ease: cubic-bezier(0.22, 1, 0.36, 1);
   transition-delay: calc(var(--card-delay, 0s) + 0.22s);
 }
 
-.has-js .home-feed .case-card:not(:first-of-type).is-in img {
+.has-js .home-feed .case-card:not(:first-of-type).is-in .media-frame,
+.has-js .home-feed .case-card:not(:first-of-type).is-in > img {
   opacity: 1;
   transform: none;
   transition-delay: calc(var(--card-delay, 0s) + 0.32s);
@@ -662,7 +758,8 @@ $case-ease: cubic-bezier(0.22, 1, 0.36, 1);
   animation: case-fade-up-tags 0.55s $case-ease 0.24s both;
 }
 
-.has-js .home-feed > article.case-card:first-of-type img {
+.has-js .home-feed > article.case-card:first-of-type .media-frame,
+.has-js .home-feed > article.case-card:first-of-type > img {
   animation: case-rise 0.7s $case-ease 0.28s both;
 }
 
@@ -671,12 +768,14 @@ $case-ease: cubic-bezier(0.22, 1, 0.36, 1);
   .has-js .home-feed > article.case-card:first-of-type::before,
   .has-js .home-feed > article.case-card:first-of-type h3,
   .has-js .home-feed > article.case-card:first-of-type .case-tags,
-  .has-js .home-feed > article.case-card:first-of-type img,
+  .has-js .home-feed > article.case-card:first-of-type .media-frame,
+  .has-js .home-feed > article.case-card:first-of-type > img,
   .has-js .home-feed .case-card:not(:first-of-type),
   .has-js .home-feed .case-card:not(:first-of-type)::before,
   .has-js .home-feed .case-card:not(:first-of-type) h3,
   .has-js .home-feed .case-card:not(:first-of-type) .case-tags,
-  .has-js .home-feed .case-card:not(:first-of-type) img {
+  .has-js .home-feed .case-card:not(:first-of-type) .media-frame,
+  .has-js .home-feed .case-card:not(:first-of-type) > img {
     opacity: 1;
     transform: none;
     animation: none;

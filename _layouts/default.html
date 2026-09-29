@@ -26,7 +26,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         
-        <p class="header-bio">Увеличиваю ценность продукта через исследования. Создаю масштабируемые <span class="nowrap">дизайн&#8209;системы</span>. Выстраиваю процессы DesignOps.</p>
+        <p class="header-bio"><span class="bio-morph">Увеличиваю ценность продукта через исследования.</span></p>
 
         {% include contact-badges.html %}
 
@@ -51,7 +51,9 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/image-loader.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/case-reveal.js" | relative_url }}"></script>
+    <script type="module" src="{{ "/assets/js/text-morph.js" | relative_url }}"></script>
     <script>
       (function () {
         var btn = document.getElementById("theme-toggle");
