@@ -5,8 +5,7 @@ layout: default
 <div class="home-feed">
 
 <p class="cases-hello" lang="ru">
-  <span class="tok-fn">привет</span><span class="tok-punct">,</span>
-  <span class="tok-str">а вот и кейсы</span><span class="tok-punct">!</span>
+  <span class="hello-morph tok-fn">привет</span>
 </p>
 
 <article class="case-card">
