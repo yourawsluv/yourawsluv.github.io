@@ -293,6 +293,22 @@ section img {
   height: auto;
 }
 
+/* Rutube (and similar) embeds in case write-ups. */
+.video-embed {
+  max-width: 600px;
+  margin: 0.3em 0 1.25em;
+}
+
+.video-embed iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
 /* =====================
    Typography & rhythm
    =====================
