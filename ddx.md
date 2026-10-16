@@ -7,6 +7,9 @@ layout: default
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/0ef730b8-479f-4125-8f65-f6da6d842293" />
 
 # **Трансформация опыта сотрудника и внедрение AI в бизнес-процессы CRM**
+
+[Кейс вендора TargetAI](https://targetai.ai/ddx-sales-automation) · [видео ML2Business 2025](https://rutube.ru/video/a309c3768b1e1649cf58b7154ed83bfa/)
+
 Продукт представляет собой насыщенную информацией и функциями CRM-систему - event-driven, очереди задач, SLA система. Через нее операторы обрабатывают тысячи взаимодействий с клиентами и решают ключевые задачи бизнеса.
 
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/c2543e98-1798-4e17-8022-35a0b00d2267" />
@@ -42,6 +45,8 @@ layout: default
 - NPS клиентов
 - Производительность операторов
 
+По исходящей пролонгации TargetAI опубликовал свои цифры: 47% конверсия в продление, 71% контактность базы, +25% к средней производительности сотрудника на одного LLM-агента. Источник: [кейс вендора](https://targetai.ai/ddx-sales-automation).
+
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/247b488c-8d5a-47b5-9452-326b1ee50f19" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/b398672c-1033-4158-b336-eab4e562d27e" />
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/7c86dfa6-5649-4b77-a94f-ebbb99b39241" />
@@ -75,7 +80,7 @@ layout: default
 
 - **Спроектировал универсальные карточки клиента и задачи:** 2 роли пользователей (оператор, руководитель), 3 воронки (продажи, пролонгация, сервис), 2 типа данных клиента (клиенты с подписками, контакты без подписки)
 - **Разработал удобную систему фильтров:** сохранение состояния фильтрации, множественный выбор, контекстная логика отображения
-- **TargetAI** результат коммуникации с клиентом, рекомендаций по коммуникации, прогнозирование оттока
+- **TargetAI** результат коммуникации с клиентом, рекомендаций по коммуникации, прогнозирование оттока. [Кейс вендора](https://targetai.ai/ddx-sales-automation)
 - **Чат-платформа**
 - **Дашборд**
 
@@ -101,11 +106,23 @@ layout: default
 
 
 **Задания на обработку базы через LLM**
-[Figma link](https://www.figma.com/design/ebrj9YxbgcLZjzFtsY5Cz2/CRM-CallCenter-Prolongation?node-id=117-7842&t=YKJjQrPeL2lE4apR-1)
+[Figma link](https://www.figma.com/design/ebrj9YxbgcLZjzFtsY5Cz2/CRM-CallCenter-Prolongation?node-id=117-7842&t=YKJjQrPeL2lE4apR-1) · [кейс TargetAI](https://targetai.ai/ddx-sales-automation)
 
-Интеграция с TargetAI для сбора и интерпретации ответа клиента 
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/6374e26e-d373-4b40-9f9a-44dd271ffbb5" />
-<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/c84a1af2-51d6-4278-ac37-ca466392398c" />
+Интеграция с TargetAI для сбора и интерпретации ответа клиента. Агент вендора закрывал исходящую пролонгацию: звонил по базе, напоминал об оплате, отрабатывал возражения и при переезде предлагал другой клуб. На момент публикации кейса у сети 160 клубов и больше 900 тысяч клиентов, подписка ежемесячная.
+
+Цифры из [разбора TargetAI](https://targetai.ai/ddx-sales-automation):
+- 47% конверсия в продление после разговора с агентом
+- 71% контактность базы за счёт детекции автоответчиков и повторных дозвонов
+- +25% к средней производительности сотрудника на одного LLM-агента
+
+Видео с конференции, 14 минут: [DDX x target ai @ ML2Business 2025](https://rutube.ru/video/a309c3768b1e1649cf58b7154ed83bfa/)
+
+<div class="video-embed">
+<iframe src="https://rutube.ru/play/embed/a309c3768b1e1649cf58b7154ed83bfa/" title="DDX x target ai @ ML2Business 2025" loading="lazy" allow="clipboard-write; autoplay" allowfullscreen></iframe>
+</div>
+
+<img width="600" height="auto" alt="Интеграция TargetAI в карточку задачи пролонгации" src="https://github.com/user-attachments/assets/6374e26e-d373-4b40-9f9a-44dd271ffbb5" />
+<img width="600" height="auto" alt="Интерпретация ответа клиента после звонка LLM-агента" src="https://github.com/user-attachments/assets/c84a1af2-51d6-4278-ac37-ca466392398c" />
 
 
 **Дата-виз дашборд**
