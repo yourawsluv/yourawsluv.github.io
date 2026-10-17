@@ -149,7 +149,7 @@
   }
 
   function cleanAscii(text) {
-    return String(text).replace(/\s+$/, "");
+    return String(text).replace(/\n+$/, "");
   }
 
   function boot() {
