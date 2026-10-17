@@ -1,6 +1,7 @@
 ---
 layout: default
 noindex: true
+sitemap: false
 ---
 
 <img width="600" loading="eager" fetchpriority="high" decoding="async" alt="Обложка кейса DuckMyDuck: P2E-казино в Telegram" src="https://github.com/user-attachments/assets/fb40afff-7198-4ef1-92dd-f56bf4a696a6" />

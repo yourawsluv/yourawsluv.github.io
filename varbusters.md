@@ -1,6 +1,7 @@
 ---
 layout: mermaid
 noindex: true
+sitemap: false
 ---
 
 <img width="600" loading="eager" fetchpriority="high" decoding="async" alt="VarBusters: обложка P2E-игры для Vara Network" src="https://github.com/user-attachments/assets/ce2406eb-e4c1-4cea-97ff-6e1c8d47d254" />

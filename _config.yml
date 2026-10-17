@@ -1,15 +1,26 @@
-# Site identity — used by jekyll-seo-tag for <title>, meta description,
-# Open Graph and Twitter cards (link previews shared directly with recruiters).
-# The visible header stays minimal (just the name) by design — visitors already
-# know who this is and come only to read the detailed cases.
+# Site identity. The visible header stays the name. The document title adds
+# the tagline so a tab, a preview, and an agent can tell this is a
+# product-design portfolio without a second line in the sidebar.
 title: Ярослав Коротких
+tagline: Портфолио продуктового дизайнера
 description: >-
   Увеличиваю ценность продукта через исследования. Создаю масштабируемые
   дизайн-системы. Выстраиваю процессы DesignOps.
 lang: ru-RU
+url: https://yourawsluv.github.io
 
 author:
   name: Ярослав Коротких
+  job_title: продуктовый дизайнер
+  email: yaroslawkorotkih@yandex.ru
+
+# Public profiles already linked from the sidebar. Used in Person JSON-LD.
+social:
+  links:
+    - https://t.me/yourawsluv
+    - https://linkedin.com/in/yaroslavkorotkikh
+    - https://github.com/yourawsluv
+    - https://x.com/yourawsluv
 
 # Default social preview image for pages that don't set their own.
 defaults:
@@ -22,8 +33,7 @@ logo: /assets/img/logo.png
 favicon: /assets/img/favicon.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-- jekyll-seo-tag
+- jekyll-remote-theme
 
 # Keep tooling, docs and templates out of the built site.
 exclude:
@@ -35,3 +45,4 @@ exclude:
 - vendor/
 - .bundle/
 - .cursor/
+- test/

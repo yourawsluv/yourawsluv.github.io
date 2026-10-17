@@ -31,10 +31,11 @@ Cases are two kinds:
 
 - **Featured** — linked from `index.md` (`simple`, `ddx`, `flora`, `kanoe`, `mirrordao`, `hadassah`).
 - **Unlisted** — reachable only via a direct URL and marked `noindex: true`
-  (`duck`, `tigers`, `noirroulette`, `varbusters`). These are gambling / betting /
-  casino cases kept out of the public B2B/B2E image on purpose and shared privately
-  with recruiters from those industries. Do not add them to `index.md` and do not
-  remove `noindex` unless explicitly asked.
+ (`duck`, `tigers`, `noirroulette`, `varbusters`). These are gambling / betting /
+ casino cases kept out of the public B2B/B2E image on purpose and shared privately
+ with recruiters from those industries. Do not add them to `index.md`, `llms.txt`,
+ `sitemap.xml`, or other public agent surfaces, and do not remove `noindex`
+ unless explicitly asked.
 
 ## Run locally
 

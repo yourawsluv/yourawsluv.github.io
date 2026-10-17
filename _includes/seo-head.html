@@ -1,0 +1,36 @@
+{% comment %}
+  Document head tags previously emitted by jekyll-seo-tag, plus one JSON-LD
+  graph. The plugin's Person and Organization nodes cannot carry description,
+  jobTitle, sameAs, or contactPoint, and a second thin node would leave those
+  fields missing on the entity a scanner reads first.
+{% endcomment %}
+{% assign meta_description = page.description | default: site.description | normalize_whitespace %}
+{% assign social_title = site.title %}
+{% if page.url == "/" or page.url == "/index.html" %}
+  {% assign document_title = site.title | append: " | " | append: site.tagline %}
+{% elsif page.title %}
+  {% assign document_title = page.title | append: " | " | append: site.title %}
+  {% assign social_title = page.title %}
+{% elsif site.description %}
+  {% assign document_title = site.title | append: " | " | append: meta_description %}
+{% else %}
+  {% assign document_title = site.title %}
+{% endif %}
+{% assign canonical = page.url | absolute_url | strip_index %}
+{% assign social_image = page.image | default: site.logo | absolute_url %}
+<title>{{ document_title | escape }}</title>
+<meta name="author" content="{{ site.author.name | escape }}">
+<meta property="og:locale" content="{{ site.lang | replace: '-', '_' | escape }}">
+<meta name="description" content="{{ meta_description | escape }}">
+<meta property="og:description" content="{{ meta_description | escape }}">
+<link rel="canonical" href="{{ canonical | escape }}">
+<meta property="og:url" content="{{ canonical | escape }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ social_title | escape }}">
+<meta property="og:image" content="{{ social_image | escape }}">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="{{ social_image | escape }}">
+<meta property="twitter:title" content="{{ social_title | escape }}">
+<link rel="describedby" href="{{ '/llms.txt' | absolute_url }}" type="text/plain">
+{% include json-ld.html %}
