@@ -8,6 +8,8 @@ layout: default
   <span class="hello-morph tok-fn">привет</span>
 </p>
 
+<p class="home-lead">Портфолио продуктового дизайнера. Кейсы про исследования, дизайн-системы и DesignOps.</p>
+
 <article class="case-card">
   <h2><a href="{{ "/simple.html" | relative_url }}"><strong>SaaS для управления LLM-агентами</strong></a></h2>
   <p class="case-tags">#B2B #SaaS #LLM</p>

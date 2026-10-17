@@ -695,6 +695,15 @@ section:has(.home-feed) {
   min-height: 1.55em;
 }
 
+/* Same line as the llms.txt summary. It sits in the feed, not the sidebar:
+   the agent text count skips header, so the bio there does not add length. */
+.home-feed .home-lead {
+  margin: 0 0 1.2em;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
 .case-card {
   position: relative;
   background: var(--section-bg);
