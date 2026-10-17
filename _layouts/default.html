@@ -23,7 +23,10 @@
         <p class="header-handle">@yourawsluv</p>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <div class="avatar-slot">
+            <img src="{{ site.logo | relative_url }}" alt="Logo" width="460" height="460" loading="eager" fetchpriority="high" decoding="async" />
+            <pre class="avatar-ascii" hidden aria-hidden="true"></pre>
+          </div>
         {% endif %}
         
         <p class="header-bio"><span class="bio-morph">Увеличиваю ценность продукта через исследования.</span></p>
@@ -54,6 +57,7 @@
     <script src="{{ "/assets/js/image-loader.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/case-reveal.js" | relative_url }}"></script>
     <script type="module" src="{{ "/assets/js/text-morph.js" | relative_url }}"></script>
+    <script defer fetchpriority="low" src="{{ "/assets/js/ascii-portrait.js" | relative_url }}"></script>
     <script>
       (function () {
         var btn = document.getElementById("theme-toggle");
