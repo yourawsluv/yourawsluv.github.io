@@ -2,9 +2,9 @@ source "https://rubygems.org"
 
 # Run this site locally with the same dependencies GitHub Pages uses to
 # build it in production. The github-pages gem pins Jekyll and every
-# supported plugin (including jekyll-remote-theme and jekyll-seo-tag,
-# which this site relies on) to GitHub Pages' current versions, so it is
-# the only Jekyll dependency this site needs.
+# supported plugin (including jekyll-remote-theme, which this site relies
+# on) to GitHub Pages' current versions, so it is the only Jekyll
+# dependency this site needs. Head tags live in _includes/seo-head.html.
 gem "github-pages", group: :jekyll_plugins
 
 # Windows and JRuby do not include zoneinfo files, so bundle the tzinfo-data

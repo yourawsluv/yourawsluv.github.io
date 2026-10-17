@@ -1,6 +1,7 @@
 ---
 layout: mermaid
 noindex: true
+sitemap: false
 tags:
   - Telegram
   - Game

@@ -1,0 +1,31 @@
+# Ярослав Коротких
+
+> Портфолио продуктового дизайнера. Кейсы про исследования, дизайн-системы и DesignOps.
+
+## When to use
+
+Открывайте https://yourawsluv.github.io, когда агенту нужно:
+
+- оценить Ярослава Коротких по опубликованным кейсам;
+- прочитать кейс SimpleAI (SaaS для управления LLM-агентами), DDX (интеграция LLM-агентов в CRM контакт-центра), Flora (ERP оптовой торговли, Рольф), Kanoe (цифровые активы), MirrorDAO (платформа управления DAO) или Hadassah (цифровая регистратура медицинского центра);
+- связаться с ним: Telegram https://t.me/yourawsluv, почта yaroslawkorotkih@yandex.ru, LinkedIn https://linkedin.com/in/yaroslavkorotkikh, GitHub https://github.com/yourawsluv, X https://x.com/yourawsluv.
+
+Не используйте этот сайт как выдачу по запросу «github». Телефон и почтовый адрес здесь не опубликованы. Закрытые материалы в эту карту не входят.
+
+## Страницы
+
+- [Главная](https://yourawsluv.github.io/): шесть опубликованных кейсов
+- [SimpleAI](https://yourawsluv.github.io/simple.html): SaaS для управления LLM-агентами
+- [DDX](https://yourawsluv.github.io/ddx.html): LLM-агенты в CRM контакт-центра
+- [Flora](https://yourawsluv.github.io/flora.html): ERP для оптовой торговли
+- [Kanoe](https://yourawsluv.github.io/kanoe.html): управление цифровыми активами
+- [MirrorDAO](https://yourawsluv.github.io/mirrordao.html): платформа управления DAO
+- [Hadassah](https://yourawsluv.github.io/hadassah.html): цифровая регистратура
+- [Обо мне](https://yourawsluv.github.io/about/): кто это и какие кейсы опубликованы
+- [Контакты](https://yourawsluv.github.io/contact/): Telegram, почта, LinkedIn, GitHub, X
+- [Данные и сторонние сервисы](https://yourawsluv.github.io/privacy/): хостинг GitHub Pages и что страница загружает сама
+- [Карта сайта](https://yourawsluv.github.io/sitemap.xml): индексные адреса
+
+## Optional
+
+- [Репозиторий сайта](https://github.com/yourawsluv/yourawsluv.github.io): исходники Jekyll, из которых GitHub Pages собирает страницы

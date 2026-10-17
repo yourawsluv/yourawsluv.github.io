@@ -1,6 +1,7 @@
 ---
 layout: mermaid
 noindex: true
+sitemap: false
 ---
 
 <img width="600" loading="eager" fetchpriority="high" decoding="async" alt="Claimy (TON Tigers): обложка P2E-кликера на TON" src="https://github.com/user-attachments/assets/3a42ef28-49b9-4af1-9b23-fa03b47d3552" />

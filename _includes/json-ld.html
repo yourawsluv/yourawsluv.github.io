@@ -1,0 +1,52 @@
+{% comment %}
+  Person uses the published name, the site description, the homepage URL,
+  the role stated in the cases, and the sidebar profile links.
+  Organization is the same publisher the old SEO tag already named. It has
+  a contactPoint because the email is public. There is no phone and no
+  postal address on the site, so those properties are omitted.
+{% endcomment %}
+{% assign person_url = '/' | absolute_url %}
+{% assign logo_url = site.logo | absolute_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ person_url | append: "#website" | jsonify }},
+      "url": {{ person_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | normalize_whitespace | jsonify }},
+      "inLanguage": {{ site.lang | jsonify }},
+      "publisher": { "@id": {{ person_url | append: "#person" | jsonify }} }
+    },
+    {
+      "@type": "Person",
+      "@id": {{ person_url | append: "#person" | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "description": {{ site.description | normalize_whitespace | jsonify }},
+      "url": {{ person_url | jsonify }},
+      "jobTitle": {{ site.author.job_title | jsonify }},
+      "email": {{ site.author.email | jsonify }},
+      "sameAs": {{ site.social.links | jsonify }}
+    },
+    {
+      "@type": "Organization",
+      "@id": {{ person_url | append: "#organization" | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "url": {{ person_url | jsonify }},
+      "description": {{ site.description | normalize_whitespace | jsonify }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ logo_url | jsonify }}
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "personal",
+        "email": {{ site.author.email | jsonify }},
+        "url": "https://t.me/yourawsluv"
+      }
+    }
+  ]
+}
+</script>
