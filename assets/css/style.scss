@@ -440,6 +440,74 @@ header img {
   margin: 0 0 1em;
 }
 
+/* Circular avatar. The box size matches the old logo (full header width,
+   capped at the file's 460px, square). ASCII replaces the image in this
+   same box, so the sidebar does not move. */
+header .avatar-slot {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 460px;
+  aspect-ratio: 1 / 1;
+  margin: 0 0 1em;
+  border-radius: 50%;
+  overflow: hidden;
+  container-type: inline-size;
+  background: transparent;
+}
+
+header .avatar-slot img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+header .avatar-slot .avatar-ascii {
+  display: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--text);
+  -webkit-text-fill-color: var(--text);
+  overflow: hidden;
+  white-space: pre;
+  word-spacing: 0;
+  letter-spacing: 0;
+  font-family: ui-monospace, "Cascadia Mono", "Liberation Mono", "DejaVu Sans Mono", Menlo, Consolas, monospace;
+  font-weight: 400;
+  font-size: calc(100cqw / var(--ascii-rows, 53));
+  line-height: 1;
+  font-variant-ligatures: none;
+  text-align: center;
+  user-select: none;
+  pointer-events: none;
+}
+
+header .avatar-slot.is-ascii .avatar-ascii {
+  display: block;
+  position: absolute;
+  inset: 0;
+}
+
+header .avatar-slot.is-ascii img {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 header p {
   color: var(--text-muted);
   line-height: 1.55;
