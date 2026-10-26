@@ -205,6 +205,15 @@ section img {
   contain-intrinsic-size: auto 400px;
 }
 
+section video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.3em 0 0.5em;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
 /* Quiet loader while GitHub-hosted screenshots arrive. JS wraps each
    content image in .media-frame (a span, so it stays valid inside <p>).
    The first image is never pending: it is the LCP candidate. */
