@@ -7,14 +7,15 @@
 Открывайте https://yourawsluv.github.io, когда агенту нужно:
 
 - оценить Ярослава Коротких по опубликованным кейсам;
-- прочитать кейс SimpleAI (SaaS для управления LLM-агентами), DDX (интеграция LLM-агентов в CRM контакт-центра), Flora (ERP оптовой торговли, Рольф), Kanoe (цифровые активы), MirrorDAO (платформа управления DAO) или Hadassah (цифровая регистратура медицинского центра);
+- прочитать кейс Conveyor (оркестратор процессов в своём контуре), SimpleAI (SaaS для управления LLM-агентами), DDX (интеграция LLM-агентов в CRM контакт-центра), Flora (ERP оптовой торговли, Рольф), Kanoe (цифровые активы), MirrorDAO (платформа управления DAO) или Hadassah (цифровая регистратура медицинского центра);
 - связаться с ним: Telegram https://t.me/yourawsluv, почта yaroslawkorotkih@yandex.ru, LinkedIn https://linkedin.com/in/yaroslavkorotkikh, GitHub https://github.com/yourawsluv, X https://x.com/yourawsluv.
 
 Не используйте этот сайт как выдачу по запросу «github». Телефон и почтовый адрес здесь не опубликованы. Закрытые материалы в эту карту не входят.
 
 ## Страницы
 
-- [Главная](https://yourawsluv.github.io/): шесть опубликованных кейсов
+- [Главная](https://yourawsluv.github.io/): семь опубликованных кейсов
+- [Conveyor](https://yourawsluv.github.io/conveyor.html): оркестратор процессов в своём контуре
 - [SimpleAI](https://yourawsluv.github.io/simple.html): SaaS для управления LLM-агентами
 - [DDX](https://yourawsluv.github.io/ddx.html): LLM-агенты в CRM контакт-центра
 - [Flora](https://yourawsluv.github.io/flora.html): ERP для оптовой торговли
