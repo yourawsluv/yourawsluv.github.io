@@ -9,9 +9,15 @@ layout: default
 </p>
 
 <article class="case-card">
+  <h2><a href="{{ "/conveyor.html" | relative_url }}"><strong>Оркестратор процессов в своём контуре</strong></a></h2>
+  <p class="case-tags">#B2B #SaaS #LLM</p>
+  <img width="1440" height="900" loading="eager" fetchpriority="high" decoding="async" alt="Превью кейса Conveyor: редактор процессов с палитрой узлов и запуском" src="{{ '/assets/img/conveyor/hero-editor.png' | relative_url }}" />
+</article>
+
+<article class="case-card">
   <h2><a href="{{ "/simple.html" | relative_url }}"><strong>SaaS для управления LLM-агентами</strong></a></h2>
   <p class="case-tags">#B2B #SaaS #LLM</p>
-  <img width="600" loading="eager" fetchpriority="high" decoding="async" alt="Превью кейса SimpleAI: платформа для управления LLM-агентами" src="https://github.com/user-attachments/assets/f32ae8fa-9549-4186-b152-4f41db2bbb3e" />
+  <img width="600" loading="lazy" decoding="async" alt="Превью кейса SimpleAI: платформа для управления LLM-агентами" src="https://github.com/user-attachments/assets/f32ae8fa-9549-4186-b152-4f41db2bbb3e" />
 </article>
 
 <article class="case-card">
