@@ -11,7 +11,8 @@ layout: default
 <article class="case-card">
   <h2><a href="{{ "/conveyor.html" | relative_url }}"><strong>Оркестратор процессов в своём контуре</strong></a></h2>
   <p class="case-tags">#B2B #SaaS #LLM</p>
-  <img width="1440" height="900" loading="eager" fetchpriority="high" decoding="async" alt="Превью кейса Conveyor: редактор процессов с палитрой узлов и запуском" src="{{ '/assets/img/conveyor/hero-editor.png' | relative_url }}" />
+  <img class="theme-cover-light" width="1920" height="960" loading="eager" fetchpriority="high" decoding="async" alt="Обложка кейса Conveyor" src="{{ '/assets/img/conveyor/cover-light.png' | relative_url }}" />
+  <img class="theme-cover-dark" width="1920" height="960" loading="eager" decoding="async" alt="Обложка кейса Conveyor" src="{{ '/assets/img/conveyor/cover-dark.png' | relative_url }}" />
 </article>
 
 <article class="case-card">

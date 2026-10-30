@@ -2,72 +2,42 @@
 layout: default
 title: Conveyor
 description: Продуктовый дизайн Conveyor. Исследование задачи и интерфейс редактора, в котором процесс видно и можно остановить.
-image: /assets/img/conveyor/hero-editor.png
+image: /assets/img/conveyor/cover-light.png
 ---
 
 [back](./)
 
-<img width="1440" height="900" loading="eager" fetchpriority="high" decoding="async" alt="Редактор Conveyor на герое сайта: палитра узлов, граф на холсте, кнопки Сохранить и Запуск" src="{{ '/assets/img/conveyor/hero-editor.png' | relative_url }}" />
+<img class="theme-cover-light" width="1920" height="960" loading="eager" fetchpriority="high" decoding="async" alt="Обложка" src="{{ '/assets/img/conveyor/cover-light.png' | relative_url }}" />
+<img class="theme-cover-dark" width="1920" height="960" loading="eager" decoding="async" alt="Обложка" src="{{ '/assets/img/conveyor/cover-dark.png' | relative_url }}" />
 
-# Conveyor: процесс, который видно и можно остановить
+Обложка
 
-[Сайт](https://conveyor.digital/) · [Документация](https://conveyor.digital/docs) · [Тарифы](https://conveyor.digital/pricing)
+<img width="1440" height="900" loading="lazy" decoding="async" alt="Редактор" src="{{ '/assets/img/conveyor/hero-editor.png' | relative_url }}" />
 
-Я веду продукт и UX в Conveyor. Процесс здесь собирается графом: интеграции, шаг модели и пауза на человеке. Платформа исполняет этот граф в облаке или в контуре заказчика. Снаружи его вызывают по HTTP, webhook, cron или как инструмент агента.
-
-**Роль:** Product / UX
-**Команда:** ядро из трёх, дизайн внутри
-**Платформа:** сайт conveyor.digital и редактор
-**Продукт:** оркестратор процессов
-
-## До интерфейса
-
-Проблема видна в самой задаче. Когда в одном процессе встречаются чужая система, модель и человек, итог без следа ничего не объясняет. Владельцу нужен граф, который он собирает сам, запуск, который можно прочитать, и место, где процесс ждёт человека.
-
-На сайт приходят двое. Один собирает процесс сам и начинает без карты. Другому нельзя отдать данные в чужое облако: ему нужен тот же редактор в своём контуре. На главной я оставил «Начать бесплатно». На странице продукта отдельно «Обсудить пилот» и «Развернуть».
-
-До экранов зафиксировал единицу цены. Платят за выполнение процесса целиком, сколько бы шагов внутри ни было. Заявка, анализ моделью, проверка в CRM и задача в конце считаются одним запуском. На странице тарифов это Free без карты и 1 000 запусков, Pro 2 990 ₽, Организация 9 900 ₽, Enterprise индивидуально. Год считается как двенадцать месяцев по месячной цене. Модель в тариф не входит: на Pro и выше свой ключ.
-
-Редактор важнее полки коннекторов. Полосу маркетплейса на стартовый экран я не ставил. На публичной витрине по имени стоят 1С:Бухгалтерия и Мегаплан. Свой коннектор живёт плагином вне ядра. Контракт разработки: npm-пакет `@kosolapus/plugin-ts-sdk`.
-
-В герое скрин редактора. Завод спрятал бы холст, с которым человек работает.
-
-В питче остаётся строка «ИИ-агент в своем контуре». На экране модель остаётся шагом графа. «ИИ-сотрудника» туда не ставил.
-
-Пилот держится на четырёх кадрах. Пустой холст, где граф собирают руками. Ошибка, которая называет узел и говорит, что сделать. Одна модалка подтверждения: что подтвердить, что дальше, кто в очереди. История запуска для того, кто граф не рисовал. В историю я заложил статусы running, waiting, success, failed, cancelled.
-
-В запуск не брал генератор чатом на холсте, пейволл «Соло / Команда / Демо», хаб одной таблицей процессов и хром чужой IDE.
-
-## В интерфейсе
-
-Дальше эти решения читаются с экрана.
+Редактор
 
 <video width="1280" height="800" controls muted playsinline preload="metadata" src="{{ '/assets/img/conveyor/editor-run.mp4' | relative_url }}"></video>
 
-Редактор после импорта шаблона: граф из триггера и объекта, палитра «Система», панель «История запусков» со статусом FINISHED и кнопка «Запуск».
+Редактор
 
-<img width="1024" height="640" loading="lazy" decoding="async" alt="Пустой холст на лендинге: первый шаг вручную или сборка с ИИ, внизу Редактор, Настройки и История" src="{{ '/assets/img/conveyor/empty-canvas.png' | relative_url }}" />
+<img width="1024" height="640" loading="lazy" decoding="async" alt="Холст" src="{{ '/assets/img/conveyor/empty-canvas.png' | relative_url }}" />
 
-Пустой холст на лендинге: «Первый шаг» или «Собрать с ИИ». Снизу вкладки «Редактор», «Настройки» и «История».
+Холст
 
-<img width="1440" height="900" loading="lazy" decoding="async" alt="История запусков со статусом COMPLETED и модалка подтверждения шага поверх холста" src="{{ '/assets/img/conveyor/run-history-confirm.png' | relative_url }}" />
+<img width="1440" height="900" loading="lazy" decoding="async" alt="Подтверждение шага" src="{{ '/assets/img/conveyor/run-history-confirm.png' | relative_url }}" />
 
-На лендинге контроль собран в один кадр: список истории и модалка «Подтверждение шага» с входами, чекбоксом confirm и кнопками «Отмена» и «Подтвердить».
+Подтверждение шага
 
-<img width="1440" height="900" loading="lazy" decoding="async" alt="Панель истории запусков: статус COMPLETED, время начала и окончания, длительность 0 мс" src="{{ '/assets/img/conveyor/run-completed.png' | relative_url }}" />
+<img width="1440" height="900" loading="lazy" decoding="async" alt="История запусков" src="{{ '/assets/img/conveyor/run-completed.png' | relative_url }}" />
 
-Отдельный кадр истории на лендинге: панель «История запусков», один запуск со статусом COMPLETED и длительностью 0 мс.
+История запусков
 
-<img width="2068" height="1352" loading="lazy" decoding="async" alt="Документация: модалка подтверждения шага с id запуска, входами Message и Confirm и сырым JSON" src="{{ '/assets/img/conveyor/step-confirmation.png' | relative_url }}" />
+<img width="2068" height="1352" loading="lazy" decoding="async" alt="Подтверждение шага" src="{{ '/assets/img/conveyor/step-confirmation.png' | relative_url }}" />
 
-В документации модалка показывает id запуска, id шага и сырой JSON входов. Для человека в комнате я хотел вопрос и того, кто следующий.
+Подтверждение шага
 
-<img width="2068" height="1344" loading="lazy" decoding="async" alt="Узел CalDAV createEvent: обязательный порт calendarUrl отмечен красным, текста что сделать нет" src="{{ '/assets/img/conveyor/contract-mismatch.png' | relative_url }}" />
+<img width="2068" height="1344" loading="lazy" decoding="async" alt="Узел" src="{{ '/assets/img/conveyor/contract-mismatch.png' | relative_url }}" />
 
-На узле CalDAV обязательный `calendarUrl` отмечен красным портом. Ошибку я держал на узле, а не в тосте на три секунды.
-
-Пейволл и checkout я спроектировал так: после отказа запуска квота и две цены, 2 990 и 9 900, граф на месте, в форме места и сумма, для Организации компания, затем шлюз, а при неуспехе возврат на ту же форму.
-
-[Сайт](https://conveyor.digital/) · [Документация](https://conveyor.digital/docs) · [Тарифы](https://conveyor.digital/pricing) · [Плагины](https://conveyor.digital/docs/plugins)
+Узел
 
 [back](./)
