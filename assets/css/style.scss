@@ -229,6 +229,46 @@ section video {
   margin: 0;
 }
 
+/* One cover slot, two files. Visibility follows the same data-theme
+   and prefers-color-scheme rules as the palette above. */
+img.theme-cover-dark,
+.media-frame:has(img.theme-cover-dark) {
+  display: none;
+}
+
+:root[data-theme="dark"] img.theme-cover-light,
+:root[data-theme="dark"] .media-frame:has(img.theme-cover-light) {
+  display: none;
+}
+
+:root[data-theme="dark"] img.theme-cover-dark,
+:root[data-theme="dark"] .media-frame:has(img.theme-cover-dark) {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) img.theme-cover-light,
+  :root:not([data-theme="light"]) .media-frame:has(img.theme-cover-light) {
+    display: none;
+  }
+
+  :root:not([data-theme="light"]) img.theme-cover-dark,
+  :root:not([data-theme="light"]) .media-frame:has(img.theme-cover-dark) {
+    display: block;
+  }
+}
+
+.media-frame.is-pending:has(img.theme-cover-light),
+.media-frame.is-pending:has(img.theme-cover-dark) {
+  min-height: 0;
+  background: transparent;
+}
+
+.media-frame.is-pending:has(img.theme-cover-light) img,
+.media-frame.is-pending:has(img.theme-cover-dark) img {
+  opacity: 1;
+}
+
 .media-frame img {
   position: relative;
   z-index: 1;
