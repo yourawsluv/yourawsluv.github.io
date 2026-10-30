@@ -15,4 +15,4 @@ permalink: /contact/
 - [GitHub](https://github.com/yourawsluv), аккаунт yourawsluv. Здесь же лежит репозиторий сайта yourawsluv/yourawsluv.github.io.
 - [X](https://x.com/yourawsluv), тот же @yourawsluv. На бейдже в шапке ссылка подписана Twitter.
 
-Если пишете по конкретной работе, в сообщении достаточно названия кейса с главной: SimpleAI, DDX, Flora, Kanoe, MirrorDAO или Hadassah. Кто это и что опубликовано, собрано на странице [обо мне]({{ "/about/" | relative_url }}). Короткая карта для агента лежит в [llms.txt]({{ "/llms.txt" | relative_url }}).
+Если пишете по конкретной работе, в сообщении достаточно названия кейса с главной: DDX, Flora, SimpleAI, Conveyor, Kanoe, MirrorDAO или Hadassah. Кто это и что опубликовано, собрано на странице [обо мне]({{ "/about/" | relative_url }}). Короткая карта для агента лежит в [llms.txt]({{ "/llms.txt" | relative_url }}).
