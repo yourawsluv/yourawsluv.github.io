@@ -79,6 +79,62 @@ def read_html(path):
     return parser.headings, text
 
 
+# The content-without-JS check does not count the sidebar. On the live
+# homepage that leaves the document title plus the case feed: 446 characters
+# before this lead. Header text (the H1, the handle, the bio, the badges)
+# is outside that count, and so are alts, scripts, and JSON-LD.
+AUDIT_SKIP_TAGS = {"script", "style", "noscript", "svg", "template", "header"}
+VOID_TAGS = {
+    "area",
+    "base",
+    "br",
+    "col",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "link",
+    "meta",
+    "source",
+    "track",
+    "wbr",
+}
+HOME_LEAD = (
+    "Портфолио продуктового дизайнера. "
+    "Кейсы про исследования, дизайн-системы и DesignOps."
+)
+
+
+class AuditTextParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag, attrs):
+        if self.skip_depth:
+            if tag not in VOID_TAGS:
+                self.skip_depth += 1
+            return
+        if tag in AUDIT_SKIP_TAGS and tag not in VOID_TAGS:
+            self.skip_depth = 1
+
+    def handle_endtag(self, tag):
+        if self.skip_depth and tag not in VOID_TAGS:
+            self.skip_depth -= 1
+
+    def handle_data(self, data):
+        if self.skip_depth:
+            return
+        self.parts.append(data)
+
+
+def audit_homepage_text(html):
+    parser = AuditTextParser()
+    parser.feed(html)
+    return re.sub(r"\s+", " ", "".join(parser.parts)).strip()
+
+
 def section_text(path):
     html = path.read_text(encoding="utf-8")
     match = re.search(r"<section>(.*)</section>", html, re.S)
@@ -127,9 +183,18 @@ class AgentSurfacesTest(unittest.TestCase):
             raise unittest.SkipTest("build _site first: bundle exec jekyll build")
 
     def test_homepage_heading_order_and_content(self):
-        headings, text = read_html(SITE / "index.html")
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        headings, _ = read_html(SITE / "index.html")
         levels = [level for level, _ in headings]
-        self.assertGreaterEqual(len(text), 500)
+        counted = audit_homepage_text(html)
+        self.assertGreaterEqual(
+            len(counted),
+            500,
+            f"audit-style homepage text is {len(counted)} characters: {counted}",
+        )
+        self.assertIn(HOME_LEAD, counted)
+        self.assertIn(HOME_LEAD, section_text(SITE / "index.html"))
+        self.assertNotIn(HOME_LEAD, re.search(r"<header>.*</header>", html, re.S).group(0))
         self.assertTrue(levels, "homepage has no headings")
         self.assertEqual(levels[0], 1)
         self.assertIn("Ярослав Коротких", headings[0][1])
