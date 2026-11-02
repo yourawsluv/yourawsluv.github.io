@@ -13,10 +13,10 @@ permalink: /about/
 
 На главной семь опубликованных кейсов:
 
-- [Conveyor]({{ "/conveyor.html" | relative_url }}). Оркестратор процессов в своём контуре, метки B2B, SaaS, LLM.
-- [SimpleAI]({{ "/simple.html" | relative_url }}). SaaS для управления LLM-агентами, метки B2B, SaaS, LLM.
 - [DDX]({{ "/ddx.html" | relative_url }}). Интеграция LLM-агентов в CRM-систему контакт-центра, метки B2B, CRM, ERP, Fintech.
 - [Flora]({{ "/flora.html" | relative_url }}). ERP-система для управления оптовой торговлей, компания Рольф, метки B2B, ERP, CRM, Fintech.
+- [SimpleAI]({{ "/simple.html" | relative_url }}). SaaS для управления LLM-агентами, метки B2B, SaaS, LLM.
+- [Conveyor]({{ "/conveyor.html" | relative_url }}). Оркестратор процессов в своём контуре, метки B2B, SaaS, LLM.
 - [Kanoe]({{ "/kanoe.html" | relative_url }}). SaaS для управления цифровыми активами бизнеса, метки B2B, Web3, Fintech.
 - [MirrorDAO]({{ "/mirrordao.html" | relative_url }}). Платформа для управления бизнес-процессами, метки B2B, Web3, DAO.
 - [Hadassah]({{ "/hadassah.html" | relative_url }}). Цифровая регистратура для медицинского центра, метки B2C, MedTech, Mobile.

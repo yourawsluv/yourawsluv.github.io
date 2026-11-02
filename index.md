@@ -9,10 +9,15 @@ layout: default
 </p>
 
 <article class="case-card">
-  <h2><a href="{{ "/conveyor.html" | relative_url }}"><strong>Оркестратор процессов в своём контуре</strong></a></h2>
-  <p class="case-tags">#B2B #SaaS #LLM</p>
-  <img class="theme-cover-light" width="1920" height="960" loading="eager" fetchpriority="high" decoding="async" alt="Обложка кейса Conveyor" src="{{ '/assets/img/conveyor/cover-light.png' | relative_url }}" />
-  <img class="theme-cover-dark" width="1920" height="960" loading="eager" decoding="async" alt="Обложка кейса Conveyor" src="{{ '/assets/img/conveyor/cover-dark.png' | relative_url }}" />
+  <h2><a href="{{ "/ddx.html" | relative_url }}"><strong>Интеграция LLM-агентов в CRM-систему контакт-центра</strong></a></h2>
+  <p class="case-tags">#B2B #CRM #ERP #Fintech</p>
+  <img width="600" loading="eager" fetchpriority="high" decoding="async" alt="Превью кейса DDX: CRM контакт-центра с LLM-агентами" src="https://github.com/user-attachments/assets/9914075c-3594-4186-a029-cdd46d263647" />
+</article>
+
+<article class="case-card">
+  <h2><a href="{{ "/flora.html" | relative_url }}"><strong>ERP-система для управления оптовой торговлей</strong></a></h2>
+  <p class="case-tags">#B2B #ERP #CRM #Fintech</p>
+  <img width="600" loading="lazy" decoding="async" alt="Превью кейса Flora: ERP для оптовой торговли" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
 </article>
 
 <article class="case-card">
@@ -22,15 +27,10 @@ layout: default
 </article>
 
 <article class="case-card">
-  <h2><a href="{{ "/ddx.html" | relative_url }}"><strong>Интеграция LLM-агентов в CRM-систему контакт-центра</strong></a></h2>
-  <p class="case-tags">#B2B #CRM #ERP #Fintech</p>
-  <img width="600" loading="lazy" decoding="async" alt="Превью кейса DDX: CRM контакт-центра с LLM-агентами" src="https://github.com/user-attachments/assets/9914075c-3594-4186-a029-cdd46d263647" />
-</article>
-
-<article class="case-card">
-  <h2><a href="{{ "/flora.html" | relative_url }}"><strong>ERP-система для управления оптовой торговлей</strong></a></h2>
-  <p class="case-tags">#B2B #ERP #CRM #Fintech</p>
-  <img width="600" loading="lazy" decoding="async" alt="Превью кейса Flora: ERP для оптовой торговли" src="https://github.com/user-attachments/assets/1dc323e0-640a-4843-8f90-5e2496fdfefd" />
+  <h2><a href="{{ "/conveyor.html" | relative_url }}"><strong>Оркестратор процессов в своём контуре</strong></a></h2>
+  <p class="case-tags">#B2B #SaaS #LLM</p>
+  <img class="theme-cover-light" width="1920" height="960" loading="lazy" decoding="async" alt="Обложка кейса Conveyor" src="{{ '/assets/img/conveyor/cover-light.png' | relative_url }}" />
+  <img class="theme-cover-dark" width="1920" height="960" loading="lazy" decoding="async" alt="Обложка кейса Conveyor" src="{{ '/assets/img/conveyor/cover-dark.png' | relative_url }}" />
 </article>
 
 <article class="case-card">

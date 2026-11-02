@@ -4,8 +4,15 @@ sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- assign featured_urls = "/ddx.html,/flora.html,/simple.html,/conveyor.html,/kanoe.html,/mirrordao.html,/hadassah.html" | split: "," -%}
+{%- for path in featured_urls -%}
+  <url>
+    <loc>{{ path | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </url>
+{%- endfor -%}
 {%- for doc in site.html_pages -%}
-  {%- unless doc.sitemap == false or doc.noindex == true or doc.url == "/404.html" -%}
+  {%- unless doc.sitemap == false or doc.noindex == true or doc.url == "/404.html" or featured_urls contains doc.url -%}
   <url>
     <loc>{{ doc.url | strip_index | absolute_url | xml_escape }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
